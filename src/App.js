@@ -3,11 +3,12 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import { useState } from "react";
 import Teams from "./components/Teams";
+import NotFOund from "./components/NotFOund";
 
 function App() {
   const [navBar, setNavBar] = useState([1, 0, 0, 0, 0, 0]);
   return (
-    <div className="App home ">
+    <div className="App">
       <NavBar navBar={navBar} setNavBar={setNavBar} />
 
       <Routes>
@@ -31,7 +32,7 @@ function App() {
           path="*"
           element={
             <>
-              <h2 className=" text-2xl font-bold">Not Found</h2>
+              <NotFOund setNavBar={setNavBar} />
             </>
           }
         />

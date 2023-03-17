@@ -3,7 +3,6 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-
 .home {
   background-image: linear-gradient(
     to top right,
@@ -15,4 +14,10 @@
     rgba(255, 153, 111, 0.2),
     rgba(255, 153, 111, 0.4)
   );
+}
+.gradiant-button {
+  background: linear-gradient(97.69deg, #ff8b5b 1.32%, #ff655a 96.3%);
+  color: #fff;
+  height: 45px;
+  border-radius: 8px !important;
 }
