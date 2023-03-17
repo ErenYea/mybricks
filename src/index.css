@@ -21,3 +21,9 @@
   height: 45px;
   border-radius: 8px !important;
 }
+.teamAvatar {
+  transition: all 0.25s ease-in-out;
+}
+.special:hover {
+  transform: scale(1.15, 1.15);
+}
