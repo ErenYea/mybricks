@@ -7,7 +7,8 @@ const Home = ({ navBar, setNavBar }) => {
   return <>
   <div className="flex-col flex">
       <div className="flex justify-center items-center mr-[20rem] ml-[20rem] mt-10">
-        <div className="w-11/12 h-fit flex flex-row">
+        <div className="max-w-7xl h-fit flex flex-row">
+
           <div className="w-1/2 flex flex-col">
             <div className="mb-4">
               <span className="text-4xl font-bold text-[#002159] ">Making Property Investing Accessible For Everyone</span>                
@@ -19,11 +20,14 @@ const Home = ({ navBar, setNavBar }) => {
                 BRICKS Contract Address: <span className="underline"> 0x13e1070e3a388e53ec35480ff494538f9ffc5b8d</span>
             </p>
           </div>
-          <div className="w-1/2 h-full flex flex-col items-start justify-start ">
-              <video className="rounded-lg scale-[70%]" poster="https://mybricksfinance.com/assets/images/temp.jpg" preload="auto" controls crossOrigin  src="https://devmybricks.s3.eu-west-2.amazonaws.com/61fbbb10c1c29f00124ca8eb.mp4" >
 
-              </video>
-              <div className="rounded-lg scale-[70%] w-1/2 h-full border-black border-2 z-1"></div>              
+          <div className="w-1/2 h-full flex flex-col items-start justify-start">
+
+              <div className="scale-[70%] w-9/12 h-64">
+                <video className="rounded-lg relative z-40" poster="https://mybricksfinance.com/assets/images/temp.jpg" preload="auto" controls crossOrigin src="https://devmybricks.s3.eu-west-2.amazonaws.com/61fbbb10c1c29f00124ca8eb.mp4" />
+
+                <div className="ml-6 -mt-[48%] rounded-lg w-full h-full absolute z-20 bg-orange-200"></div>
+              </div>
           </div>
         </div>
       </div>
