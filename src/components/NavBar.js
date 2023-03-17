@@ -6,19 +6,20 @@ const NavBar = ({ navBar, setNavBar }) => {
 
   // })
   return (
-    <div className="h-[80px]  pr-[52px] pl-[52px] z-10 sticky  top-0 right-0 left-0  flex items-center justify-center">
-      <div id="logo " className="w-3/5  h-full flex items-end">
+    <>
+    <div className="h-[80px]  pr-[52px] pl-[52px] z-10 sticky  top-0 right-0 left-0  flex flex-row items-end justify-start">
+      <div id="logo " className="w-fit  h-full flex items-end">
         <Link to="/">
           <img
             src="https://mybricksfinance.com/assets/images/logo_full.svg"
             alt=""
-            className="h-[32px] w-[172px]"
+            className="h-[34px] w-[172px]"
           />
         </Link>
       </div>
       <div
         id="navbar"
-        className="w-2/5  h-full flex items-end justify-between text-xl text-[#627d98]"
+        className="w-full space-x-8  h-full flex flex-row items-end justify-end  text-md text-[#627d98] mr-12"
       >
         <Link to="/">
           <a className={navBar[0] == 1 ? "text-[#0552b5]" : ""}>Home</a>
@@ -42,6 +43,10 @@ const NavBar = ({ navBar, setNavBar }) => {
         </Link>
       </div>
     </div>
+    <div className="w-full h-fit bg-[#ff8b5b] mt-4 flex flex-col items-center justify-center text-white font-medium p-2">
+      <p>As part of the MyBricks 2.0 Launch, we're temporarily pausing new platform signups</p>
+    </div>
+    </>
   );
 };
 
