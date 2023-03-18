@@ -7,7 +7,7 @@ import Teams from "./components/Teams";
 import Footer from "./components/Footer"
 
 import NotFOund from "./components/NotFOund";
-
+import Portfolio from "./components/Portfolio";
 
 function App() {
   const [navBar, setNavBar] = useState([1, 0, 0, 0, 0, 0]);
@@ -21,6 +21,14 @@ function App() {
           element={
             <>
               <Home navBar={navBar} setNavBar={setNavBar} />
+            </>
+          }
+        />
+        <Route
+          path="/portfolio"
+          element={
+            <>
+              <Portfolio navBar={navBar} setNavBar={setNavBar} />
             </>
           }
         />
