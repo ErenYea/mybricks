@@ -45,7 +45,7 @@ ul li::before {
   font-weight: 900; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   font-size: 22px;
-  width: 1rem; /* Also needed for space (tweak if needed) */
+  width: 1.5rem; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 .MuiSvgIcon-root {
