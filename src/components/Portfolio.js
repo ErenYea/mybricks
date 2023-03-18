@@ -10,7 +10,7 @@ const Portfolio = ({ navBar, setNavBar }) => {
       <div className="h-fit w-full flex justify-center items-start">
         <div className="flex flex-col md:flex-row w-full md:w-5/6 md:h-1/2 justify-start items-start">
           <div className="md:w-1/2 md:h-full w-full flex justify-start md:justify-center pl-2 md:pl-0">
-            <h1 className="lg:text-4xl md:w-[60%] text-[#002159] font-bold text-2xl ">
+            <h1 className="lg:text-4xl md:w-[100%] text-[#002159] font-bold text-2xl ">
               Experience the cutting-edge technology and advanced systems that
               are shaping the future of property timeshare investment. Be a part
               of the innovative revolution
