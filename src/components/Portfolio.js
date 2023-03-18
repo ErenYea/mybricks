@@ -8,7 +8,7 @@ const Portfolio = ({ navBar, setNavBar }) => {
   return (
     <div id="portfolio" className="flex-col portfolio-background pt-40">
       <div className="h-fit w-full flex justify-center items-start">
-        <div className="flex flex-col md:flex-row w-full md:w-5/6 md:h-1/2 justify-start items-start">
+        <div className="flex flex-col md:flex-row w-full md:w-5/6 md:h-1/2 justify-start items-start pb-10">
           <div className="md:w-1/2 md:h-full w-full flex justify-start md:justify-center pl-2 md:pl-0">
             <h1 className="lg:text-4xl md:w-[100%] text-[#002159] font-bold text-2xl ">
               Experience the cutting-edge technology and advanced systems that
