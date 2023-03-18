@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import logo from '../asset/logo.png'
+import logo from "../asset/logo.png";
 
 import { Link, useNavigate } from "react-router-dom";
 import ListIcon from "@mui/icons-material/List";
@@ -29,23 +29,19 @@ const NavBar = ({ navBar, setNavBar }) => {
       <div
         className={
           colorChange
-
             ? "h-[80px] w-screen pt-[20px]  z-10 fixed  top-0 right-0 left-0  flex flex-col teamAvatar bg-white"
             : openMenu
             ? "h-full w-screen pt-[54px]  z-10 fixed  top-0 right-0 left-0  flex flex-col teamAvatar bg-white pb-0"
             : "h-[80px] w-screen pt-[54px]  z-10 fixed  top-0 right-0 left-0  flex flex-col teamAvatar"
-
         }
       >
         <div className="flex  lg:pr-[52px] lg:pl-[52px] md:pr-[52px] md:pl-[52px] flex-row items-end justify-start">
-          <div id="logo " className="w-fit  h-full flex items-end ">
+          <div
+            id="logo "
+            className="w-fit  h-full flex items-end lg:ml-0 ml-2 "
+          >
             <Link to="/">
-              <img
-                src={logo}
-                
-                alt=""
-                className="h-[50px] w-[182px]"
-              />
+              <img src={logo} alt="" className="h-[50px] w-[182px]" />
             </Link>
           </div>
           <div
@@ -58,6 +54,9 @@ const NavBar = ({ navBar, setNavBar }) => {
             <Link to="/learn">
               <a className={navBar[1] == 1 ? "text-[#0552b5]" : ""}>Learn</a>
             </Link>
+
+            <a href="https://mybricksstays.com/">Holiday Rentals</a>
+
             <Link to="/portfolio">
               <a className={navBar[2] == 1 ? "text-[#0552b5]" : ""}>
                 Portfolio
@@ -68,12 +67,10 @@ const NavBar = ({ navBar, setNavBar }) => {
                 Team & Partners
               </a>
             </Link>
-            <Link to="/docs">
-              <a className={navBar[4] == 1 ? "text-[#0552b5]" : ""}>Docs</a>
-            </Link>
-            <Link to="/login">
-              <a className={navBar[5] == 1 ? "text-[#0552b5]" : ""}>Login</a>
-            </Link>
+
+            <a href="https://docs.airbrick.finance/">Docs</a>
+
+            <a href="http://app.mybricksfinance.com/">Dashboard (beta)</a>
           </div>
           <div className="lg:hidden md:hidden xl:hidden flex right-0 w-full justify-end">
             {openMenu ? (
