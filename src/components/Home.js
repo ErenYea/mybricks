@@ -175,7 +175,6 @@ const Home = ({ navBar, setNavBar }) => {
           </div>
         </div>
       </div>
-
       <div className="flex-col flex pt-20 pb-20">
         <h1 className="text-4xl font-bold text-[#002159] text-center pb-12">
         Our Recent Property Purchases
@@ -184,7 +183,7 @@ const Home = ({ navBar, setNavBar }) => {
           <div className="w-full h-[100%] flex flex-row space-x-10 ">
             <div className="w-1/2 h-full flex flex-col items-center justify-start pb-4 rounded-xl  overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
-                <span className="text-4xl pl-4 font-bold text-[#002159]">MyBricks Callington</span>
+                <span className="text-4xl pl-4 pb-8 font-bold text-[#002159]">MyBricks Callington</span>
               </div>
               <OwlCarousel items={2}  
                 className="owl-theme mt-4 pl-4 "  
@@ -217,7 +216,7 @@ const Home = ({ navBar, setNavBar }) => {
             </div>
             <div className="w-1/2 h-full flex flex-col items-center justify-start pb-4 rounded-xl  overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
-                <span className="text-4xl pl-4 font-bold text-[#002159]">MyBricks Redruth</span>
+                <span className="text-4xl pl-4 pb-8 font-bold text-[#002159]">MyBricks Redruth</span>
               </div>
               <OwlCarousel items={2}  
                 className="owl-theme mt-4 pl-4"  
@@ -247,9 +246,76 @@ const Home = ({ navBar, setNavBar }) => {
             </div>
           </div>
         </div>
-      </div>      
+      </div> 
+      <div id="learn">
+        
+      </div>
+      <div className="flex-col flex pt-10 pb-20 home">
+        <h1 className="text-4xl font-semibold text-[#002159] text-center  pb-2">
+        All the benefit with zero hassle
+        </h1>
+        <div className="flex items-center justify-center w-full pb-12">
+          <p className="w-2/5 text-center text-lg">
+              By owning portfolio NFT contracts you will legally own the rights to the value and yield that the portfolio generates without all the paperwork and headaches involved with having your name on the deeds.
+          </p>
+        </div>
 
-      <div className="h-[100px]">footer</div>
+        <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
+          <div className="w-full h-[100%] flex flex-row ">
+              <div className="w-1/4  flex flex-col items-center justify-center ">
+                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/asset_value.svg"></img>
+                <h2 className="text-[#002159] text-lg font-semibold " >Asset appreciation value</h2>
+                <p className="text-sm text-center">The value of your NFTs increase as the market value of the assets increase.</p>
+              </div>
+              <div className="w-1/4  flex flex-col items-center justify-center ">
+                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/stable_yeild.svg"></img>
+                <h2 className="text-[#002159] text-lg font-semibold " >Stable yield generation</h2>
+                <p className="text-sm text-center">Generate passive income with rental yield paid to all wallets that hold NFTs.</p>
+              </div>
+              <div className="w-1/4  flex flex-col items-center justify-center ">
+                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/ownership_perk.svg"></img>
+                <h2 className="text-[#002159] text-lg font-semibold " >Ownership perks</h2>
+                <p className="text-sm text-center">Get additional perks like early access to portfolio launches and discounted nights accommodation.</p>
+              </div>
+              <div className="w-1/4  flex flex-col items-center justify-center ">
+                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/zero_hassle.svg"></img>
+                <h2 className="text-[#002159] text-lg font-semibold " >Zero hassle and minimal fees</h2>
+                <p className="text-sm text-center">Avoid all the headaches associated with ownership and gain all the value after our management fees.</p>
+              </div>
+          </div>
+        </div>
+      </div> 
+      <div className="flex-col flex pt-20 pb-20">
+        <h1 className="text-4xl font-semibold text-[#002159] text-center  pb-2">
+        Get started in a few minutes
+        </h1>
+        <div className="flex items-center justify-center w-full pb-12">
+          <p className="w-2/5 text-center text-lg">
+          Creating your MyBricks account is quick and free. Simply sign up below and get access to your MyBricks wallet address.
+          </p>
+        </div>
+
+        <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
+          <div className="w-full h-[100%] flex flex-row ">
+              <div className="w-1/3  flex flex-col items-center justify-center ">
+                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/create_account.svg"></img>
+                <h2 className="text-[#002159] text-lg font-semibold " >Create your account</h2>               
+              </div>
+
+              <div className="w-1/3  flex flex-col items-center justify-center ">
+                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/buy_bricks.svg"></img>
+                <h2 className="text-[#002159] text-lg font-semibold " >Buy BRICKS tokens</h2>
+               
+              </div>
+              <div className="w-1/3  flex flex-col items-center justify-center ">
+                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/participate.svg"></img>
+                <h2 className="text-[#002159] text-lg font-semibold" >Participate in NFT launches</h2>               
+              </div>
+
+          </div>
+        </div>
+      </div> 
+
     </div>
 
   );
