@@ -146,7 +146,7 @@ const NavBar = ({ navBar, setNavBar }) => {
               <a href="https://docs.airbrick.finance/">Docs</a>
             </div>
             <div className={"mt-4 cursor-pointer"}>
-              <a href="https://mybricksfinance.com/home">Dashboard (beta)</a>
+              <a href="https://mybricksinvestment.co.uk/">Dashboard (beta)</a>
             </div>
           </div>
         ) : (
