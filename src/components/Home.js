@@ -11,6 +11,7 @@ const Home = ({ navBar, setNavBar }) => {
   return (
 
     <div id="home" className="">
+
       <div className="flex-col flex home pt-56">
         <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
 
@@ -52,6 +53,7 @@ const Home = ({ navBar, setNavBar }) => {
           </div>
         </div>
       </div>
+
       <div className="flex flex-col justify-center items-center mr-auto ml-auto mt-10 bg-white w-full">
         <h2 className="text-[#002159] text-4xl mt-16 font-bold w-1/2 text-center p-2 mb-4">
           We're building a property investment platform with a difference
@@ -61,6 +63,7 @@ const Home = ({ navBar, setNavBar }) => {
           simple and easy to use platform.
         </p>
       </div>
+
       <div className="flex-col flex home pt-20 mt-20 pb-20">
         <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
           <div className="w-11/12 h-fit flex flex-row">
@@ -85,6 +88,7 @@ const Home = ({ navBar, setNavBar }) => {
           </div>
         </div>
       </div>
+
       <div className="flex-col flex pt-20 mt-20 pb-20">
         <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
           <div className="w-11/12 h-fit flex flex-row space-x-10">
@@ -108,6 +112,7 @@ const Home = ({ navBar, setNavBar }) => {
           </div>
         </div>
       </div>
+
       <div className="flex-col flex home pt-20 mt-20 pb-20">
         <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
           <div className="w-11/12 h-fit flex flex-row">
@@ -135,6 +140,7 @@ const Home = ({ navBar, setNavBar }) => {
           </div>
         </div>
       </div>
+
       <div className="flex-col flex pt-20 pb-20">
         <h1 className="text-4xl font-bold text-[#002159] text-center pb-12">
           BRICKS Token
@@ -175,6 +181,7 @@ const Home = ({ navBar, setNavBar }) => {
           </div>
         </div>
       </div>
+
       <div className="flex-col flex pt-20 pb-20">
         <h1 className="text-4xl font-bold text-[#002159] text-center pb-12">
         Our Recent Property Purchases
@@ -247,9 +254,11 @@ const Home = ({ navBar, setNavBar }) => {
           </div>
         </div>
       </div> 
+
       <div id="learn">
         
       </div>
+
       <div className="flex-col flex pt-10 pb-20 home">
         <h1 className="text-4xl font-semibold text-[#002159] text-center  pb-2">
         All the benefit with zero hassle
@@ -285,32 +294,40 @@ const Home = ({ navBar, setNavBar }) => {
           </div>
         </div>
       </div> 
+
       <div className="flex-col flex pt-20 pb-20">
         <h1 className="text-4xl font-semibold text-[#002159] text-center  pb-2">
-        Get started in a few minutes
+          Get started in a few minutes
         </h1>
         <div className="flex items-center justify-center w-full pb-12">
-          <p className="w-2/5 text-center text-lg">
-          Creating your MyBricks account is quick and free. Simply sign up below and get access to your MyBricks wallet address.
+          <p className="w-[640px] text-center text-lg">
+            Creating your MyBricks account is quick and free. Simply sign up below and get access to your MyBricks wallet address.
           </p>
         </div>
 
-        <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
-          <div className="w-full h-[100%] flex flex-row ">
-              <div className="w-1/3  flex flex-col items-center justify-center ">
-                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/create_account.svg"></img>
-                <h2 className="text-[#002159] text-lg font-semibold " >Create your account</h2>               
-              </div>
+        <div className="flex justify-center items-center w-full px-[21%]">
 
-              <div className="w-1/3  flex flex-col items-center justify-center ">
-                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/buy_bricks.svg"></img>
-                <h2 className="text-[#002159] text-lg font-semibold " >Buy BRICKS tokens</h2>
-               
-              </div>
-              <div className="w-1/3  flex flex-col items-center justify-center ">
-                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/participate.svg"></img>
-                <h2 className="text-[#002159] text-lg font-semibold" >Participate in NFT launches</h2>               
-              </div>
+          <div className="w-full h-[100%] flex justify-center text-center">
+
+            <div className="w-1/3 flex flex-col items-center justify-center ">
+              <img className="w-[50px] sm:w-[105px] h-[42px] sm:h-[80px] mb-4" src="https://mybricksfinance.com/assets/images/create_account.svg"></img>
+              <h2 className="text-[#002159] text-lg font-semibold " >Create your account</h2>               
+            </div>
+
+            <div className="w-[165px] h-[1px] mt-12 bg-[#bcccdc]" />
+
+            <div className="w-1/3 flex flex-col items-center justify-center ">
+              <img className="w-[105px] h-[80px] mb-4" src="https://mybricksfinance.com/assets/images/buy_bricks.svg"></img>
+              <h2 className="text-[#002159] text-lg font-semibold " >Buy BRICKS tokens</h2>
+              
+            </div>
+
+            <div className="w-[165px] h-[1px] mt-12 bg-[#bcccdc]" />
+
+            <div className="w-1/3 flex flex-col items-center justify-center ">
+              <img className="w-[105px] h-[80px] mb-4" src="https://mybricksfinance.com/assets/images/participate.svg"></img>
+              <h2 className="text-[#002159] text-lg font-semibold" >Participate in NFT launches</h2>               
+            </div>
 
           </div>
         </div>
