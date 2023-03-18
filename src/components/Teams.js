@@ -193,7 +193,7 @@ const Teams = ({ navBar, setNavBar }) => {
                         <img
                           src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
                           alt=""
-                          className="mb-3 rounded-full lg:w-[112px] lg:h-[112px] w-[80px] h-[80px] object-cover teamAvatar mx-auto "
+                          className="mb-3 rounded-full lg:w-[112px] lg:h-[112px] object-cover teamAvatar mx-auto "
                         />
                         <h3 className="font-bold lg:text-lg text-sm text-[#002159]">
                           Adam Callow
@@ -206,7 +206,7 @@ const Teams = ({ navBar, setNavBar }) => {
                         <img
                           src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
                           alt=""
-                          className="mb-3 rounded-full lg:w-[112px] lg:h-[112px] w-[80px] h-[80px] object-cover teamAvatar mx-auto "
+                          className="mb-3 rounded-full lg:w-[112px] lg:h-[112px]  object-cover teamAvatar mx-auto "
                         />
                         <h3 className="font-bold lg:text-lg text-sm text-[#002159]">
                           Adam Callow
@@ -247,7 +247,7 @@ const Teams = ({ navBar, setNavBar }) => {
                         <img
                           src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
                           alt=""
-                          className="mb-3 rounded-full lg:w-[112px] lg:h-[112px] w-[80px] h-[80px]  object-cover teamAvatar mx-auto "
+                          className="mb-3 rounded-full lg:w-[112px] lg:h-[112px]  object-cover teamAvatar mx-auto "
                         />
                         <h3 className="font-bold lg:text-lg text-sm text-[#002159]">
                           Adam Callow
