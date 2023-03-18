@@ -10,7 +10,7 @@ const Home = ({ navBar, setNavBar }) => {
   }, []);
   return (
 
-    <div id="home" className="">
+    <div id="home" className="w-screen">
 
       <div className="flex-col flex home pt-56">
         <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
@@ -295,8 +295,8 @@ const Home = ({ navBar, setNavBar }) => {
         </div>
       </div> 
 
-      <div className="flex-col flex pt-20 pb-20">
-        <h1 className="text-4xl font-semibold text-[#002159] text-center  pb-2">
+      <div className="flex-col flex pt-20 pb-20 w-full">
+        <h1 className="text-4xl font-semibold text-[#002159] text-center pb-2">
           Get started in a few minutes
         </h1>
         <div className="flex items-center justify-center w-full pb-12">
@@ -305,20 +305,20 @@ const Home = ({ navBar, setNavBar }) => {
           </p>
         </div>
 
-        <div className="flex justify-center items-center w-full px-[21%]">
+        <div className="flex justify-center items-center w-full px-[10%] lg:px-[21%]">
 
           <div className="w-full h-[100%] flex justify-center text-center">
 
             <div className="w-1/3 flex flex-col items-center justify-center ">
               <img className="w-[50px] sm:w-[105px] h-[42px] sm:h-[80px] mb-4" src="https://mybricksfinance.com/assets/images/create_account.svg"></img>
-              <h2 className="text-[#002159] text-lg font-semibold " >Create your account</h2>               
+              <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]" >Create your account</h2>               
             </div>
 
             <div className="w-[165px] h-[1px] mt-12 bg-[#bcccdc]" />
 
             <div className="w-1/3 flex flex-col items-center justify-center ">
               <img className="w-[105px] h-[80px] mb-4" src="https://mybricksfinance.com/assets/images/buy_bricks.svg"></img>
-              <h2 className="text-[#002159] text-lg font-semibold " >Buy BRICKS tokens</h2>
+              <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]" >Buy BRICKS tokens</h2>
               
             </div>
 
@@ -326,7 +326,7 @@ const Home = ({ navBar, setNavBar }) => {
 
             <div className="w-1/3 flex flex-col items-center justify-center ">
               <img className="w-[105px] h-[80px] mb-4" src="https://mybricksfinance.com/assets/images/participate.svg"></img>
-              <h2 className="text-[#002159] text-lg font-semibold" >Participate in NFT launches</h2>               
+              <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]" >Participate in NFT launches</h2>               
             </div>
 
           </div>
