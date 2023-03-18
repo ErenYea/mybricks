@@ -43,7 +43,7 @@ const Home = ({ navBar, setNavBar }) => {
               <div className="lg:scale-[70%] w-full lg:w-9/12 h-64">
                 <video
                   className="rounded-lg relative z-40"
-                  poster="https://mybricksfinance.com/assets/images/temp.jpg"
+                  poster="https://drive.google.com/uc?export=view&id=1QlRFwpeS_ifLbeqjTILOYsm0mkKPii16"
                   preload="auto"
                   controls
                   crossOrigin
@@ -189,7 +189,9 @@ const Home = ({ navBar, setNavBar }) => {
                 We have additional plans to add even more utility to the token
                 in the future. These plans include:
               </p>
-              <span className="font-bold w-full text-left pb-2">2023 Plans:</span>
+              <span className="font-bold w-full text-left pb-2">
+                2023 Plans:
+              </span>
               <ul className="text-lg text-left text-gray-600 font-medium flex flex-col w-11/12">
                 <li>Launch MyBricks 2.0 Dashboard & Referral System</li>
                 <li>Add 24 new units to Portfolio</li>
@@ -199,7 +201,9 @@ const Home = ({ navBar, setNavBar }) => {
                 <li>Launch NFT Marketplace with Buy Back & Burn program</li>
                 <li>Launch MyDebitCard with Airport Lounge Access</li>
               </ul>
-              <span className="font-bold w-full text-left pb-2 pt-2">2024 Plans:</span>
+              <span className="font-bold w-full text-left pb-2 pt-2">
+                2024 Plans:
+              </span>
               <ul className="text-lg text-left text-gray-600 font-medium flex flex-col w-11/12">
                 <li>Launch MyMetaverse & NFT Accessories</li>
                 <li>Launch MyCasino - Games and Sports Betting</li>
