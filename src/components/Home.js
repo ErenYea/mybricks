@@ -9,12 +9,12 @@ const Home = ({ navBar, setNavBar }) => {
   }, []);
   return (
     <div id="home" className="">
-      <div className="flex-col flex home w-full pt-56 px-1 lg:px-80">
-        <div className="flex justify-center items-center w-full ">
+      <div className="flex-col flex home w-full pt-56 pb-20 px-1 lg:px-4">
+        <div className="flex justify-center items-center w-full container mr-auto ml-auto ">
           <div className="w-full h-fit flex flex-col lg:flex-row items-center lg:space-x-10 space-y-10 lg:space-y-0">
             <div className="w-full md:w-1/2 flex flex-col text-center md:text-start ">
               <div className="mb-4">
-                <span className="text-4xl font-bold text-[#002159] ">
+                <span className="text-4xl font-[700] text-[#002159]  ">
                   ROCKS - a new era of ownership accessible for everyone
                 </span>
               </div>
@@ -23,15 +23,15 @@ const Home = ({ navBar, setNavBar }) => {
                 property market through NFT-based Timeshare Ownership, powered
                 by the Binance Smart Chain (BSC) network.
               </p>
-              <p className="w-full lg:text-lg text-sm mb-4 text-gray-600">
-                ROCKS Contract Address:{" "}
+              <p className="w-full lg:text-base text-sm mb-4 text-gray-600">
+                ROCKS Contract Address: <br />
                 <span className="underline max-w-full">
                   {" "}
                   0xc2F121d1a0B2d2bEAd8f6C5d274E568b868d4913
                 </span>
               </p>
-              <p className="w-full lg:text-lg text-sm mb-4 text-gray-600">
-                MyUSD Contract Address:{" "}
+              <p className="w-full lg:text-base text-sm mb-4 text-gray-600">
+                MyUSD Contract Address: <br />
                 <span className="underline max-w-full">
                   {" "}
                   0xcf110164BF0e3Ed7859a6750b3326B861AEE028E
@@ -57,7 +57,7 @@ const Home = ({ navBar, setNavBar }) => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center mr-auto ml-auto mt-10 bg-white w-full lg:w-1/2 px-6 lg:px-1">
+      <div className="flex flex-col justify-center items-center mr-auto ml-auto  bg-white w-full lg:w-1/2 px-6 lg:px-1">
         <h2 className="text-[#002159] text-4xl mt-16 font-bold w-full text-center p-2 mb-4">
           We're building a property investment platform with a difference
         </h2>
