@@ -15,7 +15,7 @@ const Portfolio = ({ navBar, setNavBar }) => {
                     </h1>
                 </div>
                 <div className="w-1/3 h-[400px] ">
-                    <img className="scale-75" src="https://mybricksfinance.com/assets/images/portfolio/no_portfolio.png"></img>
+                    <img className="scale-110" src="https://mybricksfinance.com/assets/images/portfolio/no_portfolio.png"></img>
                 </div>
 
             </div>
