@@ -62,9 +62,9 @@ const Teams = ({ navBar, setNavBar }) => {
             <div className="flex flex-wrap justify-center ml-20 mr-20">
               <div className="flex flex-col mb-4 cursor-pointer m-2 lg:m-10 md:m-10 items-center">
                 <img
-                  src="https://airbrick.finance/wp-content/uploads/2021/08/Hugo-540x654.png"
+                  src="https://drive.google.com/uc?export=view&id=16VzHduUmuPoiGWj6Ta368f1UMVhSSms5"
                   alt=""
-                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-contain teamAvatar mx-auto special"
+                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px] object-contain  teamAvatar mx-auto special"
                 />
                 <h3 className="font-bold md:text-lg lg:text-lg text-sm text-[#002159]">
                   Hugo
@@ -75,7 +75,7 @@ const Teams = ({ navBar, setNavBar }) => {
               </div>
               <div className="flex flex-col mb-4 cursor-pointer m-2 lg:m-10 md:m-10 items-center">
                 <img
-                  src="https://airbrick.finance/wp-content/uploads/2021/08/Chris-540x654.png"
+                  src="https://drive.google.com/uc?export=view&id=17nMsIJPUn9R1uVcPluOh9xr3gcLdzO41"
                   alt=""
                   className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px] object-contain teamAvatar mx-auto special"
                 />
@@ -88,7 +88,7 @@ const Teams = ({ navBar, setNavBar }) => {
               </div>
               <div className="flex flex-col mb-4 cursor-pointer m-2  lg:m-10 md:m-10 justify-center items-center">
                 <img
-                  src="https://airbrick.finance/wp-content/uploads/2021/08/Valeria-540x654.png"
+                  src="https://drive.google.com/uc?export=view&id=1dSg_jxBr0GiLTvNfIGr7dtwWZz6Mkzxm"
                   alt=""
                   className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-contain teamAvatar mx-auto special"
                 />
@@ -102,7 +102,7 @@ const Teams = ({ navBar, setNavBar }) => {
 
               <div className="flex flex-col mb-4 cursor-pointer  m-2 lg:m-10 md:m-10 items-center">
                 <img
-                  src="https://airbrick.finance/wp-content/uploads/2021/08/Ismar-540x654.png"
+                  src="https://drive.google.com/uc?export=view&id=1VJn7wvNWfnnL0Z7AxsoxmtRvQgyo-yL6"
                   alt=""
                   className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-contain teamAvatar mx-auto special"
                 />
@@ -115,7 +115,7 @@ const Teams = ({ navBar, setNavBar }) => {
               </div>
               <div className="flex flex-col mb-4 cursor-pointer m-2 lg:m-10 md:m-10 items-center">
                 <img
-                  src="https://airbrick.finance/wp-content/uploads/2021/07/NFT-Artist-540x654.png"
+                  src="https://drive.google.com/uc?export=view&id=1-WluSvoGm995DT_LtBIRp1sE6Un9g7mC"
                   alt=""
                   className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-contain teamAvatar mx-auto special"
                 />
@@ -128,7 +128,7 @@ const Teams = ({ navBar, setNavBar }) => {
               </div>
               <div className="flex flex-col mb-4 cursor-pointer m-2 lg:m-10 md:m-10 items-center">
                 <img
-                  src="https://airbrick.finance/wp-content/uploads/2021/07/Legal-Adviser-540x654.png"
+                  src="https://drive.google.com/uc?export=view&id=1-W02XYHiJj6lFJrr6O-fT2XjJ6DRX1ta"
                   alt=""
                   className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-contain teamAvatar mx-auto special"
                 />
@@ -141,7 +141,7 @@ const Teams = ({ navBar, setNavBar }) => {
               </div>
               <div className="flex flex-col mb-4 cursor-pointer  m-2 lg:m-10 md:m-10 items-center">
                 <img
-                  src="https://airbrick.finance/wp-content/uploads/2021/07/Abdullah-540x654.png"
+                  src="https://drive.google.com/uc?export=view&id=17XeDf614w3SnUFscgA514S_1ce2dWZBq"
                   alt=""
                   className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-contain teamAvatar mx-auto special"
                 />
@@ -191,120 +191,155 @@ const Teams = ({ navBar, setNavBar }) => {
                     <div className="flex ">
                       <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 items-center">
                         <img
-                          src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                          src="https://mybricksfinance.com/assets/images/ta-arjun.jpg"
                           alt=""
                           className="mb-3 rounded-full lg:w-[112px] lg:h-[112px] object-cover teamAvatar mx-auto "
                         />
                         <h3 className="font-bold lg:text-lg text-sm text-[#002159]">
-                          Adam Callow
+                          Arjun Shankar
                         </h3>
                         <p className="lg:text-lg text-sm text-gray-600 mb-0 font-medium ">
-                          CEO
+                          Co-Founder
                         </p>
                       </div>
                       <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 items-center">
                         <img
-                          src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                          src="https://mybricksfinance.com/assets/images/ta-soham.jpg"
                           alt=""
                           className="mb-3 rounded-full lg:w-[112px] lg:h-[112px]  object-cover teamAvatar mx-auto "
                         />
                         <h3 className="font-bold lg:text-lg text-sm text-[#002159]">
-                          Adam Callow
+                          Soham Trivedi
                         </h3>
                         <p className="lg:text-lg text-sm  text-gray-600 mb-0 font-medium ">
-                          CEO
+                          Co-Founder
                         </p>
                       </div>
                     </div>
                   </div>
                   <div className=" flex justify-evenly bg-[#F0F4F8] rounded-b-3xl h-full mt-auto py-3 lg:px-3 flex-wrap text-[#002159] font-semibold lg:text-lg text-sm">
-                    <a href="">Website</a>
-                    <a href="">LinkedIn</a>
-                    <a href="">Dribble</a>
-                    <a href="">Review</a>
+                    <a
+                      href="https://www.techalchemy.co/?ref=mybricksfinance.com"
+                      target="_blank"
+                    >
+                      Website
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/company/tech-alchemy-ltd/"
+                      target="_blank"
+                    >
+                      LinkedIn
+                    </a>
+                    <a href="https://dribbble.com/techalchemy" target="_blank">
+                      Dribble
+                    </a>
+                    <a
+                      href="https://clutch.co/profile/tech-alchemy"
+                      target="_blank"
+                    >
+                      Review
+                    </a>
                   </div>
                 </div>
                 <div className="flex flex-col  border rounded-3xl ml-3 ">
-                  <div className="h-full flex flex-col justify-center items-center mb-4 p-9">
+                  <div className="h-full flex flex-col justify-center items-center mb-6 lg:mb-14 md:mb-14 p-9">
                     <div className="flex mt-7 ">
-                      <div className="md:w-[90px] lg:w-[90px] w-[50px]">
+                      {/* <div className="md:w-[90px] lg:w-[90px] w-[50px]">
                         <img
                           src="https://mybricksfinance.com/assets/images/ta-logo.svg"
                           alt=""
                         />
-                      </div>
+                      </div> */}
                       <div className="flex flex-col">
-                        <span className="lg:text-xl text-sm  font-semibold mb-1 text-[#486581]">
-                          Tech Partner
-                        </span>
-                        <span className="lg:text-2xl text-md font-bold text-[#002159]">
-                          Tech Alchemy
+                        <span className="lg:text-2xl text-md  font-semibold mb-1 text-[#486581]">
+                          Property expert & Influencer
                         </span>
                       </div>
                     </div>
                     <div className="flex ">
                       <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 items-center w-full">
                         <img
-                          src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                          src="https://mybricksfinance.com/assets/images/avatar-03.jpg"
                           alt=""
                           className="mb-3 rounded-full lg:w-[112px] lg:h-[112px]  object-cover teamAvatar mx-auto "
                         />
                         <h3 className="font-bold lg:text-lg text-sm text-[#002159]">
-                          Adam Callow
+                          Anna Pearce
                         </h3>
                         <p className="lg:text-lg text-sm  text-gray-600 mb-0 font-medium ">
-                          CEO
+                          Property Investor and Mentor
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className=" flex justify-evenly bg-[#F0F4F8] rounded-b-3xl h-full mt-auto py-3 px-3 flex-wrap text-[#002159] font-semibold lg:text-lg text-sm">
-                    <a href="">Website</a>
-                    <a href="">LinkedIn</a>
-                    <a href="">Dribble</a>
-                    <a href="">Review</a>
+                  <div className=" flex justify-evenly bg-[#F0F4F8] rounded-b-3xl h-full mt-auto py-3 px-3 flex-wrap text-[#002159] font-semibold lg:text-lg text-xs">
+                    <a href="https://annapearce.com/" target="_blank">
+                      Website
+                    </a>
+                    <a
+                      href="https://open.spotify.com/show/1ZWXvOh8SF1jsC7RpxBkvO"
+                      target="_blank"
+                    >
+                      LinkedIn
+                    </a>
+                    <a
+                      href="https://www.tiktok.com/@propertyempress?lang=en"
+                      target="_blank"
+                    >
+                      Dribble
+                    </a>
+                    <a
+                      href="https://www.youtube.com/channel/UCAG2mX_5CKIIhqo4GZeDNaQ"
+                      target="_blank"
+                    >
+                      Review
+                    </a>
                   </div>
                 </div>
               </div>
               <div className="flex justify-center h-full flex-wrap lg:p-3 w-full lg:mt-0 mt-2 p-0">
                 <div className="flex flex-col border rounded-3xl lg:mb-0 md:mb-0 mb-2">
                   <div className=" h-full flex flex-col justify-center items-center mb-4 p-9">
-                    <div className="flex mt-7 ">
-                      <div className="md:w-[90px] lg:w-[90px] w-[50px]">
+                    <div className="flex mt-7 flex-col">
+                      <div className="flex flex-col">
+                        <span className="lg:text-2xl text-sm font-semibold mb-1 text-[#486581] text-center">
+                          MoonPay
+                        </span>
+                      </div>
+                      <div className="md:w-[225px] lg:w-[225px] w-[50px] lg:m-6">
                         <img
-                          src="https://mybricksfinance.com/assets/images/ta-logo.svg"
+                          src="https://mybricksfinance.com/assets/images/moonpay.png"
                           alt=""
                         />
                       </div>
-                      <div className="flex flex-col">
-                        <span className="lg:text-lg text-sm font-semibold mb-1 text-[#486581]">
-                          Tech Partner
-                        </span>
-                        <span className="lg:text-2xl text-md font-bold text-[#002159]">
-                          Tech Alchemy
-                        </span>
-                      </div>
                     </div>
+                  </div>
+                  <div className=" flex justify-evenly bg-[#F0F4F8] rounded-b-3xl h-full mt-auto py-3 px-3 flex-wrap text-[#002159] font-semibold lg:text-lg text-xs">
+                    <a href="https://www.moonpay.com/" target="_blank">
+                      Website
+                    </a>
                   </div>
                 </div>
                 <div className="flex flex-col  border rounded-3xl lg:ml-4 ml-2">
                   <div className="h-full flex flex-col justify-center items-center mb-4 p-9">
-                    <div className="flex mt-7 ">
-                      <div className="md:w-[90px] lg:w-[90px] w-[50px]">
+                    <div className="flex mt-7 flex-col">
+                      <div className="flex flex-col">
+                        <span className="lg:text-2xl text-sm font-semibold mb-1 text-[#486581] text-center">
+                          Persona
+                        </span>
+                      </div>
+                      <div className="md:w-[225px] lg:w-[225px] w-[50px] lg:m-6">
                         <img
-                          src="https://mybricksfinance.com/assets/images/ta-logo.svg"
+                          src="https://mybricksfinance.com/assets/images/persona.svg"
                           alt=""
                         />
                       </div>
-                      <div className="flex flex-col">
-                        <span className="lg:text-lg text-sm font-semibold mb-1 text-[#486581]">
-                          Tech Partner
-                        </span>
-                        <span className="lg:text-2xl text-md font-bold text-[#002159]">
-                          Tech Alchemy
-                        </span>
-                      </div>
                     </div>
+                  </div>
+                  <div className=" flex justify-evenly bg-[#F0F4F8] rounded-b-3xl h-full mt-auto py-3 px-3 flex-wrap text-[#002159] font-semibold lg:text-lg text-xs">
+                    <a href="https://withpersona.com/" target="_blank">
+                      Website
+                    </a>
                   </div>
                 </div>
               </div>
