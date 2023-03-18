@@ -1,16 +1,15 @@
 import React, { useEffect } from "react";
-import OwlCarousel from 'react-owl-carousel';  
-import 'owl.carousel/dist/assets/owl.carousel.css';  
-import 'owl.carousel/dist/assets/owl.theme.default.css';  
-// import './owl.css';  
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+// import './owl.css';
 const Home = ({ navBar, setNavBar }) => {
   useEffect(() => {
-    
     setNavBar([1, 0, 0, 0, 0, 0]);
   }, []);
   return (
-
     <div id="home" className="">
+
 
       <div className="flex-col flex home w-full pt-56 px-1 lg:px-80">
         <div className="flex justify-center items-center w-full ml-8">
@@ -18,6 +17,7 @@ const Home = ({ navBar, setNavBar }) => {
           <div className="w-full h-fit flex flex-col-reverse lg:flex-row items-center lg:space-x-10 space-y-10 lg:space-y-0">
 
             <div className="w-full md:w-1/2 flex flex-col text-center md:text-start ">
+
               <div className="mb-4">
                 <span className="text-4xl font-bold text-[#002159] ">
                 ROCKS - a new era of ownership accessible for everyone
@@ -50,7 +50,7 @@ const Home = ({ navBar, setNavBar }) => {
                   preload="auto"
                   controls
                   crossOrigin
-                  src="https://devmybricks.s3.eu-west-2.amazonaws.com/61fbbb10c1c29f00124ca8eb.mp4"
+                  src="video.mp4"
                 />
 
                 <div className="hidden xl:block ml-6 -mt-[48%] rounded-lg w-full h-full absolute z-20 bg-orange-200"></div>
@@ -191,7 +191,9 @@ const Home = ({ navBar, setNavBar }) => {
 
       <div className="flex-col flex pt-20 pb-20 px-1 lg:px-80">
         <h1 className="text-4xl font-bold text-[#002159] text-center pb-12">
+
         Our Recent Timeshare Portfolio Additions.
+
         </h1>
         <div className="flex justify-center items-center">
 
@@ -199,17 +201,21 @@ const Home = ({ navBar, setNavBar }) => {
 
             <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
+
                 <span className="text-4xl pl-4 pb-8 font-bold text-[#002159]">The Crown Hotel</span>
+
               </div>
-              <OwlCarousel items={2}  
-                className="owl-theme mt-4 pl-4 "  
-                loop  
+              <OwlCarousel
+                items={2}
+                className="owl-theme mt-4 pl-4 "
+                loop
                 animateOut={true}
-                nav  
+                nav
                 center={true}
                 margin={8}
                 autoplay
                 autoplaySpeed={12}
+
                 responsiveRefreshRate={100} >  
                 <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-843446839011977175/original/7a25c84f-4d87-4b0a-9e19-5ee54d66c49c.png'/></div>  
                 <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-843446839011977175/original/e82347cc-b7eb-4792-9f40-8caac430ee63.png'/></div>  
@@ -229,20 +235,34 @@ const Home = ({ navBar, setNavBar }) => {
                   </button>
                 </a>
 
+
+              <a
+                className="w-1/2 h-full"
+                target="_blank"
+                href="https://www.airbnb.co.uk/rooms/54272872?guests=1&adults=2&s=67&unique_share_id=48045487-53a5-4e32-a3ca-71908a0a51e8&source_impression_id=p3_1648716536_I0xmGl71xz5NQHUw"
+              >
+                <button className="text-white bg-[#ff6a5a] w-full rounded-lg h-[40px] mt-10">
+                  View on AirBnB
+                </button>
+              </a>
             </div>
             <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
 
               <div className="flex flex-row items-start justify-start w-full ">
+
                 <span className="text-4xl pl-4 pb-8 font-bold text-[#002159]">Manchester Comfy City Stay</span>
+
               </div>
-              <OwlCarousel items={2}  
-                className="owl-theme mt-4 pl-4"  
-                loop  
+              <OwlCarousel
+                items={2}
+                className="owl-theme mt-4 pl-4"
+                loop
                 animateOut={true}
                 center={true}
-                nav  
-                margin={12} 
+                nav
+                margin={12}
                 autoplay
+
                 autoplaySpeed={12}>  
                 <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-730189889692276194/original/a887b1ee-f417-4394-8d34-2834cfccd251.jpeg'/></div>  
                 <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-730189889692276194/original/3b63c3ad-9b0f-4f8d-8956-9c6fa0c72f67.jpeg'/></div>  
@@ -274,6 +294,7 @@ Explore the city's vibrant nightlife, shopping, and dining options, all just mom
         {/* <div className="flex items-center justify-center w-full pb-12">
           <p className="w-full lg:w-2/5 text-center text-lg">
               By owning portfolio NFT contracts you will legally own the rights to the value and yield that the portfolio generates without all the paperwork and headaches involved with having your name on the deeds.
+
           </p>
         </div> */}
 
@@ -301,9 +322,11 @@ Explore the city's vibrant nightlife, shopping, and dining options, all just mom
               <p className="text-sm text-center">Convert rewards into the currency of your choice and have it in your bank account with only a few clicks.</p>
             </div>
 
+
+
           </div>
         </div>
-      </div> 
+      </div>
 
       <div className="flex-col flex pt-20 pb-20 w-full">
         <h1 className="text-4xl font-semibold text-[#002159] text-center pb-2">
@@ -311,6 +334,7 @@ Explore the city's vibrant nightlife, shopping, and dining options, all just mom
         </h1>
         <div className="flex items-center justify-center w-full pb-12">
           <p className="w-[640px] text-center text-lg">
+
           Creating your MyBricks 2.0 account is quick and free. Simply sign up below and get access to your dashboard. <br/>
 Create your account
 
@@ -319,34 +343,37 @@ Create your account
 
         <div className="flex justify-center items-center w-full px-[10%] lg:px-[21%]">
 
-          <div className="w-full h-[100%] flex justify-center text-center">
 
+          <div className="w-full h-[100%] flex justify-center text-center">
             <div className="w-1/3 flex flex-col items-center justify-center ">
+
               <img className="w-[50px] sm:w-[105px] h-[42px] sm:h-[80px] mb-4" src="https://mybricksfinance.com/assets/images/create_account.svg"></img>
               <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]" >Create your account</h2>               
+
             </div>
 
             <div className="w-[165px] h-[1px] mt-12 bg-[#bcccdc]" />
 
             <div className="w-1/3 flex flex-col items-center justify-center ">
+
               <img className="w-[105px] h-[80px] mb-4" src="https://mybricksfinance.com/assets/images/buy_bricks.svg"></img>
               <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]" >Buy ROCKS (NFT)</h2>
               
+
             </div>
 
             <div className="w-[165px] h-[1px] mt-12 bg-[#bcccdc]" />
 
             <div className="w-1/3 flex flex-col items-center justify-center ">
+
               <img className="w-[105px] h-[80px] mb-4" src="https://mybricksfinance.com/assets/images/participate.svg"></img>
               <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]" >Join the New World Economy</h2>               
-            </div>
 
+            </div>
           </div>
         </div>
-      </div> 
-
+      </div>
     </div>
-
   );
 };
 

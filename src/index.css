@@ -33,7 +33,6 @@
   transform: scale(1.15, 1.15);
 }
 
-
 ul {
   list-style: none; /* Remove default bullets */
 }
@@ -41,7 +40,7 @@ body {
   color: #486581;
 }
 ul li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #ff775a; /* Change the color */
   font-weight: 900; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
@@ -49,4 +48,9 @@ ul li::before {
   width: 1rem; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
-
+.MuiSvgIcon-root {
+  width: 50px !important;
+  height: 30px !important;
+  color: #002159;
+  cursor: pointer;
+}
