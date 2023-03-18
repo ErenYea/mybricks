@@ -264,7 +264,6 @@ Explore the city's vibrant nightlife, shopping, and dining options, all just mom
                 </a>
             </div>
           </div>
-
         </div>
       </div> 
 

@@ -15,7 +15,11 @@
     rgba(255, 153, 111, 0.4)
   );
 }
-
+.portfolio-background {
+  background-blend-mode: soft-light;
+  background-image: url(https://mybricksfinance.com/background.629fca192f455118.jpg) !important;
+  background-color: #eaeaea!important;
+}
 .gradiant-button {
   background: linear-gradient(97.69deg, #ff8b5b 1.32%, #ff655a 96.3%);
   color: #fff;
