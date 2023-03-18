@@ -70,7 +70,7 @@ const NavBar = ({ navBar, setNavBar }) => {
 
             <a href="https://docs.airbrick.finance/">Docs</a>
 
-            <a href="http://app.mybricksfinance.com/">Login</a>
+            <a href="http://app.mybricksfinance.com/">Dashboard (beta)</a>
           </div>
           <div className="lg:hidden md:hidden xl:hidden flex right-0 w-full justify-end">
             {openMenu ? (
