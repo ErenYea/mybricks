@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import { useState } from "react";
 import Teams from "./components/Teams";
+import Footer from "./components/Footer"
 
 function App() {
   const [navBar, setNavBar] = useState([1, 0, 0, 0, 0, 0]);
@@ -36,6 +37,9 @@ function App() {
           }
         />
       </Routes>
+
+      <Footer />
+
     </div>
   );
 }
