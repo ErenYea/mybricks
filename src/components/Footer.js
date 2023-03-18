@@ -21,7 +21,7 @@ const Footer = () => {
                         <p> <a href='https://docs.mybricksfinance.com/knowledge-base/start-here/faqs' target='_blank'>FAQ's</a> </p>
                         <p> <a href='https://mybricksfinance.com/token-agreement' target='_blank'>BRICKS Token Agreement</a> </p>
                         <p> <a href='https://docs.mybricksfinance.com/knowledge-base/learning-resources/amas' target='_blank'>AMA Videos</a> </p>
-                        <p> <a href='#learn'>Learning Materials</a> </p>
+                        <p> <a href=''>Learning Materials</a> </p>
                     </div>
 
                     <div className='mb-2 space-y-4'>
