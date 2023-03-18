@@ -20,8 +20,8 @@ const NavBar = ({ navBar, setNavBar }) => {
       <div
         className={
           colorChange
-            ? "h-[80px]   pt-[20px] z-10 fixed  top-0 right-0 left-0  flex flex-col teamAvatar bg-white"
-            : "h-[80px]   pt-[54px] z-10 fixed  top-0 right-0 left-0  flex flex-col teamAvatar"
+            ? "h-[80px] w-screen pt-[20px] z-10 fixed  top-0 right-0 left-0  flex flex-col teamAvatar bg-white"
+            : "h-[80px] w-screen pt-[54px] z-10 fixed  top-0 right-0 left-0  flex flex-col teamAvatar"
         }
       >
 

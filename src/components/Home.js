@@ -12,32 +12,33 @@ const Home = ({ navBar, setNavBar }) => {
 
     <div id="home" className="w-screen">
 
-      <div className="flex-col flex home pt-56">
-        <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
+      <div className="flex-col flex home w-full pt-56 px-1 lg:px-80">
+        <div className="flex justify-center items-center w-full ml-8">
 
-          <div className="max-w-7xl h-fit flex flex-row">
-            <div className="w-1/2 flex flex-col">
+          <div className="w-full h-fit flex flex-col-reverse lg:flex-row items-center lg:space-x-10 space-y-10 lg:space-y-0">
+
+            <div className="w-full md:w-1/2 flex flex-col text-center">
               <div className="mb-4">
                 <span className="text-4xl font-bold text-[#002159] ">
                   Making Property Investing Accessible For Everyone
                 </span>
               </div>
-              <p className="text-lg mb-8 text-gray-600 w-11/12">
+              <p className="text-lg mb-8 text-gray-600 w-full xl:w-11/12">
                 We’re revolutionising property investment by using blockchain
                 technology and NFTs to provide ownership rights to property
                 portfolios.
               </p>
-              <p className="text-lg mb-4 text-gray-600 ">
+              <p className="w-full text-lg mb-4 text-gray-600">
                 BRICKS Contract Address:{" "}
-                <span className="underline">
+                <span className="underline max-w-full">
                   {" "}
                   0x13e1070e3a388e53ec35480ff494538f9ffc5b8d
                 </span>
               </p>
             </div>
 
-            <div className="w-1/2 h-full flex flex-col items-start justify-start">
-              <div className="scale-[70%] w-9/12 h-64">
+            <div className="w-full md:w-1/2 h-full flex flex-col lg:items-start lg:justify-start">
+              <div className="scale-[70%] w-full lg:w-9/12 h-64">
                 <video
                   className="rounded-lg relative z-40"
                   poster="https://mybricksfinance.com/assets/images/temp.jpg"
@@ -47,29 +48,31 @@ const Home = ({ navBar, setNavBar }) => {
                   src="https://devmybricks.s3.eu-west-2.amazonaws.com/61fbbb10c1c29f00124ca8eb.mp4"
                 />
 
-                <div className="ml-6 -mt-[48%] rounded-lg w-full h-full absolute z-20 bg-orange-200"></div>
+                <div className="hidden xl:block ml-6 -mt-[48%] rounded-lg w-full h-full absolute z-20 bg-orange-200"></div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center mr-auto ml-auto mt-10 bg-white w-full">
-        <h2 className="text-[#002159] text-4xl mt-16 font-bold w-1/2 text-center p-2 mb-4">
+      <div className="flex flex-col justify-center items-center mr-auto ml-auto mt-10 bg-white w-full lg:w-1/2 px-6 lg:px-1">
+        <h2 className="text-[#002159] text-4xl mt-16 font-bold w-full text-center p-2 mb-4">
           We're building a property investment platform with a difference
         </h2>
-        <p className="text-center text-gray-600 text-lg w-1/3">
+        <p className="text-center text-gray-600 text-lg w-full px-8">
           Bringing property investment to the blockchain via an incredibly
           simple and easy to use platform.
         </p>
       </div>
 
-      <div className="flex-col flex home pt-20 mt-20 pb-20">
-        <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
-          <div className="w-11/12 h-fit flex flex-row">
-            <div className="w-1/2 flex flex-col justify-end">
+      <div className="flex-col flex home w-full pt-20 mt-20 pb-20 px-1 lg:px-80">
+        <div className="flex justify-center items-center">
+          <div className="w-full h-fit flex flex-col-reverse lg:flex-row items-center lg:space-x-10">
+
+            <div className="w-full md:w-1/2 flex flex-col items-center text-center lg:text-left justify-center lg:justify-end">
               <div className="mb-4">
-                <span className="text-4xl font-bold text-[#002159] ">
+                <span className="text-4xl font-bold text-[#002159]">
                   Guaranteed ownership
                 </span>
               </div>
@@ -81,22 +84,24 @@ const Home = ({ navBar, setNavBar }) => {
                 ownership and can start earning within 30 days.
               </p>
             </div>
-            <div className="w-1/2 h-full flex flex-col items-start justify-start pb-4">
+
+            <div className="w-full md:w-1/2 h-full flex flex-col items-start justify-start pb-4">
               <img src="https://mybricksfinance.com/assets/images/guranteed_ownership.svg"></img>
               {/* <div className="rounded-lg scale-[70%] w-1/2 h-full border-black border-2 z-1"></div>               */}
             </div>
+
           </div>
         </div>
       </div>
 
-      <div className="flex-col flex pt-20 mt-20 pb-20">
-        <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
-          <div className="w-11/12 h-fit flex flex-row space-x-10">
-            <div className="w-1/2 h-full flex flex-col items-start justify-start pb-4">
+      <div className="flex-col flex pt-20 mt-20 pb-20 px-1 sm:px-10 lg:px-80">
+        <div className="flex justify-center items-center">
+          <div className="w-full h-fit flex flex-col lg:flex-row items-center lg:space-x-20">
+            <div className="w-full h-full flex flex-col items-start justify-start pb-4">
               <img src="https://mybricksfinance.com/assets/images/higher_than_rental.svg"></img>
               {/* <div className="rounded-lg scale-[70%] w-1/2 h-full border-black border-2 z-1"></div>               */}
             </div>
-            <div className="w-1/2 flex flex-col justify-end">
+            <div className="w-full flex flex-col justify-end text-center lg:text-left">
               <div className="mb-4">
                 <span className="text-4xl font-bold text-[#002159] ">
                   Higher than average rental yield
@@ -113,9 +118,9 @@ const Home = ({ navBar, setNavBar }) => {
         </div>
       </div>
 
-      <div className="flex-col flex home pt-20 mt-20 pb-20">
-        <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
-          <div className="w-11/12 h-fit flex flex-row">
+      <div className="flex-col flex home pt-20 mt-20 pb-20 px-1 lg:px-80">
+        <div className="flex justify-center items-center">
+          <div className="w-full h-fit flex flex-col-reverse lg:flex-row items-center lg:space-x-10">
             <div className="w-1/2 flex flex-col justify-end">
               <div className="mb-4">
                 <span className="text-4xl font-bold text-[#002159] ">
@@ -141,13 +146,14 @@ const Home = ({ navBar, setNavBar }) => {
         </div>
       </div>
 
-      <div className="flex-col flex pt-20 pb-20">
+      <div className="flex-col flex pt-20 pb-20 px-1 lg:px-80">
         <h1 className="text-4xl font-bold text-[#002159] text-center pb-12">
           BRICKS Token
         </h1>
-        <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
-          <div className="w-11/12 h-[100%] flex flex-row space-x-10">
-            <div className="w-1/2 h-full flex flex-col items-center justify-start pb-4">
+        <div className="flex justify-center items-center">
+          <div className="w-full h-[100%] flex flex-col lg:flex-row lg:space-x-10 items-center px-2 text-center lg:text-left">
+
+            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-start pb-4">
               <div className="h-[260px] flex justify-end items-end">
                 <img src="https://mybricksfinance.com/assets/images/idea_flow.svg"></img>
               </div>
@@ -163,7 +169,7 @@ const Home = ({ navBar, setNavBar }) => {
                 <li>Accessing exclusive community content</li>
               </ul>
             </div>
-            <div className="w-1/2 h-full flex flex-col items-center justify-end pb-4">
+            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-end pb-4">
               <div className="h-[260px] flex justify-end items-end">
                 <img src="https://mybricksfinance.com/assets/images/discount.svg"></img>
               </div>
@@ -178,6 +184,7 @@ const Home = ({ navBar, setNavBar }) => {
               </ul>
 
             </div>
+
           </div>
         </div>
       </div>
@@ -186,7 +193,7 @@ const Home = ({ navBar, setNavBar }) => {
         <h1 className="text-4xl font-bold text-[#002159] text-center pb-12">
         Our Recent Property Purchases
         </h1>
-        <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
+        <div className="flex justify-center items-center">
           <div className="w-full h-[100%] flex flex-row space-x-10 ">
             <div className="w-1/2 h-full flex flex-col items-center justify-start pb-4 rounded-xl  overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
@@ -254,6 +261,7 @@ const Home = ({ navBar, setNavBar }) => {
           </div>
         </div>
       </div> 
+
       <section id="learn">
         <div>
 
@@ -262,7 +270,7 @@ const Home = ({ navBar, setNavBar }) => {
 
 
       <div className="flex-col flex pt-10 pb-20 home">
-        <h1 className="text-4xl font-semibold text-[#002159] text-center  pb-2">
+        <h1 className="text-4xl font-semibold text-[#002159] text-center pb-2">
         All the benefit with zero hassle
         </h1>
         <div className="flex items-center justify-center w-full pb-12">
@@ -271,7 +279,7 @@ const Home = ({ navBar, setNavBar }) => {
           </p>
         </div>
 
-        <div className="flex justify-center items-center mr-[20rem] ml-[20rem]">
+        <div className="flex justify-center items-center">
           <div className="w-full h-[100%] flex flex-row ">
               <div className="w-1/4  flex flex-col items-center justify-center ">
                 <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/asset_value.svg"></img>
