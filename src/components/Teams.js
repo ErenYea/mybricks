@@ -9,12 +9,13 @@ const Teams = ({ navBar, setNavBar }) => {
     <div id="temas" className="">
       <div className="w-full home lg:pt-56 pt-40 pb-16 text-center mr-auto ml-auto flex flex-col items-center">
         <h1 className="lg:text-4xl  text-xl font-semibold mb-[16px] leading-5 text-[#002159]">
-          Meet the team
+          Introducing our team!
         </h1>
         <p className=" max-w-[720px] leading-5 text-[#486581] lg:text-lg text-sm mb-0 mt-[10px]">
-          We’ve built a world class team with expertise in various disciplines
-          to build MyBricks Finance Limited into a sustainable and successful
-          business.
+          The team is a diverse group of individuals working together towards a
+          common goal. They value open communication, impartiality, and
+          data-driven decision-making. They strive for fairness, respect, and
+          continuous improvement.
         </p>
       </div>
 
@@ -54,65 +55,102 @@ const Teams = ({ navBar, setNavBar }) => {
                 Founding team
               </h2>
               <p className="lg:text-lg text-sm text-center text-[#486581]">
-                The founding team are responsible for the growth of MyBricks.
+                The People Behind MyBricks 2.0's Growth We're driven by a
+                passion for both technology and real estate
               </p>
             </div>
             <div className="flex flex-wrap justify-center ml-20 mr-20">
-              <div className="flex flex-col mb-4 cursor-pointer p-5 m-5 lg:m-10 md:m-10 items-center">
+              <div className="flex flex-col mb-4 cursor-pointer m-2 lg:m-10 md:m-10 items-center">
                 <img
-                  src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                  src="https://airbrick.finance/wp-content/uploads/2021/08/Hugo-540x654.png"
                   alt=""
-                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-cover teamAvatar mx-auto special"
+                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-contain teamAvatar mx-auto special"
                 />
                 <h3 className="font-bold md:text-lg lg:text-lg text-sm text-[#002159]">
-                  Adam Callow
+                  Hugo
                 </h3>
-                <p className="text-lg  text-gray-600 mb-0 font-medium ">CEO</p>
+                <p className="md:text-lg lg:text-lg text-sm  text-gray-600 mb-0 font-medium ">
+                  Co-Founder
+                </p>
               </div>
-              <div className="flex flex-col mb-4 cursor-pointer p-5 m-5 lg:m-10 md:m-10 items-center">
+              <div className="flex flex-col mb-4 cursor-pointer m-2 lg:m-10 md:m-10 items-center">
                 <img
-                  src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                  src="https://airbrick.finance/wp-content/uploads/2021/08/Chris-540x654.png"
                   alt=""
-                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px] object-cover teamAvatar mx-auto special"
+                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px] object-contain teamAvatar mx-auto special"
                 />
                 <h3 className="font-bold md:text-lg lg:text-lg text-sm text-[#002159]">
-                  Adam Callow
+                  Chris
                 </h3>
-                <p className="text-lg  text-gray-600 mb-0 font-medium ">CEO</p>
+                <p className="md:text-lg lg:text-lg text-sm text-gray-600 mb-0 font-medium ">
+                  Co-Founder
+                </p>
               </div>
-              <div className="flex flex-col mb-4 cursor-pointer p-5 m-5 lg:m-10 md:m-10 justify-center items-center">
+              <div className="flex flex-col mb-4 cursor-pointer m-2  lg:m-10 md:m-10 justify-center items-center">
                 <img
-                  src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                  src="https://airbrick.finance/wp-content/uploads/2021/08/Valeria-540x654.png"
                   alt=""
-                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-cover teamAvatar mx-auto special"
+                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-contain teamAvatar mx-auto special"
                 />
                 <h3 className="font-bold md:text-lg lg:text-lg text-sm text-[#002159]">
-                  Adam Callow
+                  Valeria
                 </h3>
-                <p className="text-lg  text-gray-600 mb-0 font-medium ">CEO</p>
+                <p className="md:text-lg lg:text-lg text-sm text-gray-600 mb-0 font-medium ">
+                  General Manager
+                </p>
               </div>
 
-              <div className="flex flex-col mb-4 cursor-pointer p-5 m-5 lg:m-10 md:m-10 items-center">
+              <div className="flex flex-col mb-4 cursor-pointer  m-2 lg:m-10 md:m-10 items-center">
                 <img
-                  src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                  src="https://airbrick.finance/wp-content/uploads/2021/08/Ismar-540x654.png"
                   alt=""
-                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-cover teamAvatar mx-auto special"
+                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-contain teamAvatar mx-auto special"
                 />
                 <h3 className="font-bold md:text-lg lg:text-lg text-sm text-[#002159]">
-                  Adam Callow
+                  Ismar
                 </h3>
-                <p className="text-lg  text-gray-600 mb-0 font-medium ">CEO</p>
+                <p className="md:text-lg lg:text-lg text-sm text-gray-600 mb-0 font-medium ">
+                  Advisor
+                </p>
               </div>
-              <div className="flex flex-col mb-4 cursor-pointer p-5 m-5 lg:m-10 md:m-10 items-center">
+              <div className="flex flex-col mb-4 cursor-pointer m-2 lg:m-10 md:m-10 items-center">
                 <img
-                  src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                  src="https://airbrick.finance/wp-content/uploads/2021/07/NFT-Artist-540x654.png"
                   alt=""
-                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-cover teamAvatar mx-auto special"
+                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-contain teamAvatar mx-auto special"
                 />
                 <h3 className="font-bold md:text-lg lg:text-lg text-sm text-[#002159]">
-                  Adam Callow
+                  Neranjan Chameera
                 </h3>
-                <p className="text-lg  text-gray-600 mb-0 font-medium ">CEO</p>
+                <p className="md:text-lg lg:text-lg text-sm text-gray-600 mb-0 font-medium ">
+                  NFT Artist
+                </p>
+              </div>
+              <div className="flex flex-col mb-4 cursor-pointer m-2 lg:m-10 md:m-10 items-center">
+                <img
+                  src="https://airbrick.finance/wp-content/uploads/2021/07/Legal-Adviser-540x654.png"
+                  alt=""
+                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-contain teamAvatar mx-auto special"
+                />
+                <h3 className="font-bold md:text-lg lg:text-lg text-sm text-[#002159]">
+                  Frederik Lund
+                </h3>
+                <p className="md:text-lg lg:text-lg text-sm text-gray-600 mb-0 font-medium ">
+                  Legal Adviser
+                </p>
+              </div>
+              <div className="flex flex-col mb-4 cursor-pointer  m-2 lg:m-10 md:m-10 items-center">
+                <img
+                  src="https://airbrick.finance/wp-content/uploads/2021/07/Abdullah-540x654.png"
+                  alt=""
+                  className="mb-3 rounded-full sm:w-[160px] sm:h-[160px] lg:w-[160px] lg:h-[160px] w-[100px] h-[100px]  object-contain teamAvatar mx-auto special"
+                />
+                <h3 className="font-bold md:text-lg lg:text-lg text-sm text-[#002159]">
+                  Abdulah
+                </h3>
+                <p className="md:text-lg lg:text-lg text-sm text-gray-600 mb-0 font-medium ">
+                  Web Developer
+                </p>
               </div>
             </div>
           </div>
@@ -122,7 +160,7 @@ const Teams = ({ navBar, setNavBar }) => {
               <h2 className="lg:text-3xl text-lg font-bold text-[#002159] mb-2">
                 MyBricks Partners
               </h2>
-              <p className="lg:text-lg text-sm text-center text-[#486581]">
+              <p className="lg:text-lg max-w-[720px] text-sm text-center text-[#486581]  w-[320px] md:w-full lg:w-full">
                 We’re commited to working with long term partners that believe
                 in the vision for the MyBricks platform. Our partners are
                 carefully selected to not only help with growing the MyBricks
@@ -130,7 +168,7 @@ const Teams = ({ navBar, setNavBar }) => {
                 the project for long term success.
               </p>
             </div>
-            <div className="flex flex-wrap justify-center ml-20 mr-20 p-10 w-full">
+            <div className="flex flex-wrap justify-center ml-20 mr-20 p-10 w-[200px] md:w-full lg:w-full">
               <div className="flex justify-center lg:p-3 w-full flex-wrap">
                 <div className="flex flex-col border rounded-3xl lg:mb-0 md:mb-0 mb-2">
                   <div className=" h-full flex flex-col justify-center items-center mb-4 lg:p-9">
@@ -179,7 +217,7 @@ const Teams = ({ navBar, setNavBar }) => {
                       </div>
                     </div>
                   </div>
-                  <div className=" flex justify-evenly bg-[#F0F4F8] h-full mt-auto py-3 lg:px-3 flex-wrap text-[#002159] font-semibold lg:text-lg text-sm">
+                  <div className=" flex justify-evenly bg-[#F0F4F8] rounded-b-3xl h-full mt-auto py-3 lg:px-3 flex-wrap text-[#002159] font-semibold lg:text-lg text-sm">
                     <a href="">Website</a>
                     <a href="">LinkedIn</a>
                     <a href="">Dribble</a>
@@ -205,11 +243,11 @@ const Teams = ({ navBar, setNavBar }) => {
                       </div>
                     </div>
                     <div className="flex ">
-                      <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 items-center">
+                      <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 items-center w-full">
                         <img
                           src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
                           alt=""
-                          className="mb-3 rounded-fulllg:w-[112px] lg:h-[112px] w-[80px] h-[80px]  object-cover teamAvatar mx-auto "
+                          className="mb-3 rounded-full lg:w-[112px] lg:h-[112px] w-[80px] h-[80px]  object-cover teamAvatar mx-auto "
                         />
                         <h3 className="font-bold lg:text-lg text-sm text-[#002159]">
                           Adam Callow
@@ -220,7 +258,7 @@ const Teams = ({ navBar, setNavBar }) => {
                       </div>
                     </div>
                   </div>
-                  <div className=" flex justify-evenly bg-[#F0F4F8] h-full mt-auto py-3 px-3 flex-wrap text-[#002159] font-semibold lg:text-lg text-sm">
+                  <div className=" flex justify-evenly bg-[#F0F4F8] rounded-b-3xl h-full mt-auto py-3 px-3 flex-wrap text-[#002159] font-semibold lg:text-lg text-sm">
                     <a href="">Website</a>
                     <a href="">LinkedIn</a>
                     <a href="">Dribble</a>
