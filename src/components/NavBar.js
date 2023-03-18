@@ -68,12 +68,6 @@ const NavBar = ({ navBar, setNavBar }) => {
           </p>
         </div>
       </div>
-
-    </div>
-    <div className="w-full h-fit bg-[#ff8b5b] mt-4 flex flex-col items-center justify-center text-white font-medium p-2 ">
-      <p className="text-sm">As part of the MyBricks 2.0 Launch, we're temporarily pausing new platform signups</p>
-    </div>
-
     </>
   );
 };
