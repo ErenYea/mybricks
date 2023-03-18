@@ -7,7 +7,7 @@ import Teams from "./components/Teams";
 function App() {
   const [navBar, setNavBar] = useState([1, 0, 0, 0, 0, 0]);
   return (
-    <div className="App home ">
+    <div className="App">
       <NavBar navBar={navBar} setNavBar={setNavBar} />
 
       <Routes>
