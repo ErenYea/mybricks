@@ -7,8 +7,8 @@ import Teams from "./components/Teams";
 import Footer from "./components/Footer"
 
 import NotFOund from "./components/NotFOund";
-
-
+import Portfolio from "./components/Portfolio";
+import Learn from "./components/Learn";
 function App() {
   const [navBar, setNavBar] = useState([1, 0, 0, 0, 0, 0]);
   return (
@@ -21,6 +21,22 @@ function App() {
           element={
             <>
               <Home navBar={navBar} setNavBar={setNavBar} />
+            </>
+          }
+        />
+        <Route
+          path="/learn"
+          element={
+            <>
+              <Learn navBar={navBar} setNavBar={setNavBar} />
+            </>
+          }
+        />
+        <Route
+          path="/portfolio"
+          element={
+            <>
+              <Portfolio navBar={navBar} setNavBar={setNavBar} />
             </>
           }
         />
