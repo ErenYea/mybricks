@@ -71,7 +71,7 @@ const NavBar = ({ navBar, setNavBar }) => {
 
             <a href="https://docs.airbrick.finance/">Docs</a>
 
-            <a href="https://mybricksinvestment.co.uk/">Dashboard (beta)</a>
+            <a href="https://mybricksinvest.co.uk/">Dashboard (beta)</a>
           </div>
           <div className="lg:hidden md:hidden xl:hidden flex right-0 w-full justify-end">
             {openMenu ? (
@@ -146,7 +146,7 @@ const NavBar = ({ navBar, setNavBar }) => {
               <a href="https://docs.airbrick.finance/">Docs</a>
             </div>
             <div className={"mt-4 cursor-pointer"}>
-              <a href="https://mybricksinvestment.co.uk/">Dashboard (beta)</a>
+              <a href="https://mybricksinvest.co.uk/">Dashboard (beta)</a>
             </div>
           </div>
         ) : (
