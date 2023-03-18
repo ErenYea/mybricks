@@ -247,9 +247,11 @@ const Home = ({ navBar, setNavBar }) => {
           </div>
         </div>
       </div> 
-      <div id="learn">
-        
-      </div>
+      <section id="learn">
+        <div>
+
+        </div>
+      </section>
       <div className="flex-col flex pt-10 pb-20 home">
         <h1 className="text-4xl font-semibold text-[#002159] text-center  pb-2">
         All the benefit with zero hassle
