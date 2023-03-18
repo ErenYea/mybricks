@@ -3,7 +3,6 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-
 .home {
   background-image: linear-gradient(
     to top right,
@@ -16,3 +15,34 @@
     rgba(255, 153, 111, 0.4)
   );
 }
+
+.gradiant-button {
+  background: linear-gradient(97.69deg, #ff8b5b 1.32%, #ff655a 96.3%);
+  color: #fff;
+  height: 45px;
+  border-radius: 8px !important;
+}
+.teamAvatar {
+  transition: all 0.25s ease-in-out;
+}
+.special:hover {
+  transform: scale(1.15, 1.15);
+}
+
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+body {
+  color: #486581;
+}
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #ff775a; /* Change the color */
+  font-weight: 900; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  font-size: 22px;
+  width: 1rem; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+

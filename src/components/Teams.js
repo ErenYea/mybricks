@@ -1,10 +1,281 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 const Teams = ({ navBar, setNavBar }) => {
+  const [select, setSelect] = useState(true);
   useEffect(() => {
     setNavBar([0, 0, 0, 1, 0, 0]);
-  });
-  return <div>Teams</div>;
+  }, []);
+  return (
+    <div id="temas" className="">
+      <div className="w-full home pt-56 pb-16 text-center mr-auto ml-auto flex flex-col items-center">
+        <h1 className="text-4xl font-semibold mb-[16px] leading-5 text-[#002159]">
+          Meet the team
+        </h1>
+        <p className=" max-w-[720px] leading-5 text-[#486581] text-lg mb-0 mt-[10px]">
+          We’ve built a world class team with expertise in various disciplines
+          to build MyBricks Finance Limited into a sustainable and successful
+          business.
+        </p>
+      </div>
+
+      <div className="flex flex-col items-center mt-5 mr-auto ml-auto">
+        <div className="flex mb-12 justify-center items-center">
+          <button
+            onClick={() => setSelect(true)}
+            className={
+              select
+                ? " text-[#fff] h-[45px] mr-8 gradiant-button pl-2 pr-2 border-2 border-[#ff996f] rounded-md"
+                : "mr-8 border-2 h-[45px] pl-2 pr-2  border-[#ff996f] text-[#ea4600] rounded-md"
+            }
+          >
+            Founding Team
+          </button>
+          {/* <button className="mr-8 border-2 h-[45px] pl-2 pr-2  border-[#ff996f] text-[#ea4600] rounded-md">
+            Property Development Team
+          </button> */}
+          <button
+            onClick={() => setSelect(false)}
+            className={
+              select
+                ? "mr-8 border-2 h-[45px] pl-2 pr-2  border-[#ff996f] text-[#ea4600] rounded-md"
+                : " text-[#fff] h-[45px] mr-8 gradiant-button pl-2 pr-2 border-2 border-[#ff996f] rounded-md"
+            }
+          >
+            MyBricks Partners
+          </button>
+          {/* <button className="mr-8 border-2 h-[45px] pl-2 pr-2  border-[#ff996f] text-[#ea4600] rounded-md">
+            Build Team
+          </button> */}
+        </div>
+        {select ? (
+          <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center">
+              <h2 className="text-3xl font-bold text-[#002159] mb-2">
+                Founding team
+              </h2>
+              <p className="text-lg text-[#486581]">
+                The founding team are responsible for the growth of MyBricks.
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center ml-20 mr-20">
+              <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 items-center">
+                <img
+                  src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                  alt=""
+                  className="mb-3 rounded-full w-[160px] h-[160px] object-cover teamAvatar mx-auto special"
+                />
+                <h3 className="font-bold text-lg text-[#002159]">
+                  Adam Callow
+                </h3>
+                <p className="text-lg  text-gray-600 mb-0 font-medium ">CEO</p>
+              </div>
+              <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 items-center">
+                <img
+                  src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                  alt=""
+                  className="mb-3 rounded-full w-[160px] h-[160px] object-cover teamAvatar mx-auto special"
+                />
+                <h3 className="font-bold text-lg text-[#002159]">
+                  Adam Callow
+                </h3>
+                <p className="text-lg  text-gray-600 mb-0 font-medium ">CEO</p>
+              </div>
+              <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 justify-center items-center">
+                <img
+                  src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                  alt=""
+                  className="mb-3 rounded-full w-[160px] h-[160px] object-cover teamAvatar mx-auto special"
+                />
+                <h3 className="font-bold text-lg text-[#002159]">
+                  Adam Callow
+                </h3>
+                <p className="text-lg  text-gray-600 mb-0 font-medium ">CEO</p>
+              </div>
+
+              <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 items-center">
+                <img
+                  src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                  alt=""
+                  className="mb-3 rounded-full w-[160px] h-[160px] object-cover teamAvatar mx-auto special"
+                />
+                <h3 className="font-bold text-lg text-[#002159]">
+                  Adam Callow
+                </h3>
+                <p className="text-lg  text-gray-600 mb-0 font-medium ">CEO</p>
+              </div>
+              <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 items-center">
+                <img
+                  src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                  alt=""
+                  className="mb-3 rounded-full w-[160px] h-[160px] object-cover teamAvatar mx-auto special"
+                />
+                <h3 className="font-bold text-lg text-[#002159]">
+                  Adam Callow
+                </h3>
+                <p className="text-lg  text-gray-600 mb-0 font-medium ">CEO</p>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center text-center px-0 mx-auto max-w-[700px]">
+              <h2 className="text-3xl font-bold text-[#002159] mb-2">
+                MyBricks Partners
+              </h2>
+              <p className="text-lg text-[#486581]">
+                We’re commited to working with long term partners that believe
+                in the vision for the MyBricks platform. Our partners are
+                carefully selected to not only help with growing the MyBricks
+                brand reputation, but to bring their unique set of expertise to
+                the project for long term success.
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center ml-20 mr-20 p-10 w-full">
+              <div className="flex justify-center p-3 w-full">
+                <div className="flex flex-col border rounded-3xl">
+                  <div className=" h-full flex flex-col justify-center items-center mb-4 p-9">
+                    <div className="flex mt-7 ">
+                      <div className="w-[90px]">
+                        <img
+                          src="https://mybricksfinance.com/assets/images/ta-logo.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="flex flex-col">
+                        <span className="text-xl font-semibold mb-1 text-[#486581]">
+                          Tech Partner
+                        </span>
+                        <span className="text-2xl font-bold text-[#002159]">
+                          Tech Alchemy
+                        </span>
+                      </div>
+                    </div>
+                    <div className="flex ">
+                      <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 items-center">
+                        <img
+                          src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                          alt=""
+                          className="mb-3 rounded-full w-[112px] h-[112px] object-cover teamAvatar mx-auto "
+                        />
+                        <h3 className="font-bold text-lg text-[#002159]">
+                          Adam Callow
+                        </h3>
+                        <p className="text-lg  text-gray-600 mb-0 font-medium ">
+                          CEO
+                        </p>
+                      </div>
+                      <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 items-center">
+                        <img
+                          src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                          alt=""
+                          className="mb-3 rounded-full w-[112px] h-[112px] object-cover teamAvatar mx-auto "
+                        />
+                        <h3 className="font-bold text-lg text-[#002159]">
+                          Adam Callow
+                        </h3>
+                        <p className="text-lg  text-gray-600 mb-0 font-medium ">
+                          CEO
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className=" flex justify-evenly bg-[#F0F4F8] h-full mt-auto py-3 px-3 flex-wrap text-[#002159] font-semibold text-lg">
+                    <a href="">Website</a>
+                    <a href="">LinkedIn</a>
+                    <a href="">Dribble</a>
+                    <a href="">Review</a>
+                  </div>
+                </div>
+                <div className="flex flex-col  border rounded-3xl ml-3">
+                  <div className="h-full flex flex-col justify-center items-center mb-4 p-9">
+                    <div className="flex mt-7 ">
+                      <div className="w-[90px]">
+                        <img
+                          src="https://mybricksfinance.com/assets/images/ta-logo.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="flex flex-col">
+                        <span className="text-xl font-semibold mb-1 text-[#486581]">
+                          Tech Partner
+                        </span>
+                        <span className="text-2xl font-bold text-[#002159]">
+                          Tech Alchemy
+                        </span>
+                      </div>
+                    </div>
+                    <div className="flex ">
+                      <div className="flex flex-col mb-4 cursor-pointer p-5 m-10 items-center">
+                        <img
+                          src="https://mybricksfinance.com/assets/images/team-images/Adam.png"
+                          alt=""
+                          className="mb-3 rounded-full w-[112px] h-[112px] object-cover teamAvatar mx-auto "
+                        />
+                        <h3 className="font-bold text-lg text-[#002159]">
+                          Adam Callow
+                        </h3>
+                        <p className="text-lg  text-gray-600 mb-0 font-medium ">
+                          CEO
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className=" flex justify-evenly bg-[#F0F4F8] h-full mt-auto py-3 px-3 flex-wrap text-[#002159] font-semibold text-lg">
+                    <a href="">Website</a>
+                    <a href="">LinkedIn</a>
+                    <a href="">Dribble</a>
+                    <a href="">Review</a>
+                  </div>
+                </div>
+              </div>
+              <div className="flex justify-center p-3 w-full">
+                <div className="flex flex-col border rounded-3xl">
+                  <div className=" h-full flex flex-col justify-center items-center mb-4 p-9">
+                    <div className="flex mt-7 ">
+                      <div className="w-[90px]">
+                        <img
+                          src="https://mybricksfinance.com/assets/images/ta-logo.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="flex flex-col">
+                        <span className="text-xl font-semibold mb-1 text-[#486581]">
+                          Tech Partner
+                        </span>
+                        <span className="text-2xl font-bold text-[#002159]">
+                          Tech Alchemy
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col  border rounded-3xl ml-4">
+                  <div className="h-full flex flex-col justify-center items-center mb-4 p-9">
+                    <div className="flex mt-7 ">
+                      <div className="w-[90px]">
+                        <img
+                          src="https://mybricksfinance.com/assets/images/ta-logo.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="flex flex-col">
+                        <span className="text-xl font-semibold mb-1 text-[#486581]">
+                          Tech Partner
+                        </span>
+                        <span className="text-2xl font-bold text-[#002159]">
+                          Tech Alchemy
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
 };
 
 export default Teams;
