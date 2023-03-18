@@ -16,6 +16,7 @@ const NavBar = ({ navBar, setNavBar }) => {
   // })
   return (
     <>
+
       <div
         className={
           colorChange
@@ -23,6 +24,7 @@ const NavBar = ({ navBar, setNavBar }) => {
             : "h-[80px]   pt-[54px] z-10 fixed  top-0 right-0 left-0  flex flex-col teamAvatar"
         }
       >
+
         <div className="flex  pr-[52px] pl-[52px] flex-row items-end justify-start">
           <div id="logo " className="w-fit  h-full flex items-end ">
             <Link to="/">
