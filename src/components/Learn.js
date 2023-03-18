@@ -9,7 +9,7 @@ const Learn = ({ navBar, setNavBar }) => {
     setNavBar([0, 1, 0, 0, 0, 0, 0]);
   }, []);
   return (
-    <section id="learn" className="flex-col home pb-10 pt-56">
+    <section id="learn" className="flex-col home pb-10 pt-10">
       <div className="flex flex-col justify-center items-center mb-40 mt-40">
         <div className="flex flex-col md:flex-row w-full md:w-5/6 p-8 md:p-0">
           <div className="flex flex-col w-full md:w-1/2">

@@ -40,7 +40,7 @@ const Home = ({ navBar, setNavBar }) => {
             </div>
 
             <div className="w-full md:w-1/2 h-full flex flex-col lg:items-start lg:justify-start">
-              <div className="lg:scale-[70%] w-full lg:w-9/12 h-64">
+              <div className="lg:scale-[100%] w-full lg:w-9/12 h-64">
                 <video
                   className="rounded-lg relative z-40"
                   poster="https://drive.google.com/uc?export=view&id=1QlRFwpeS_ifLbeqjTILOYsm0mkKPii16"
