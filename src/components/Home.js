@@ -189,13 +189,15 @@ const Home = ({ navBar, setNavBar }) => {
         </div>
       </div>
 
-      <div className="flex-col flex pt-20 pb-20">
+      <div className="flex-col flex pt-20 pb-20 px-1 lg:px-80">
         <h1 className="text-4xl font-bold text-[#002159] text-center pb-12">
         Our Recent Property Purchases
         </h1>
         <div className="flex justify-center items-center">
-          <div className="w-full h-[100%] flex flex-row space-x-10 ">
-            <div className="w-1/2 h-full flex flex-col items-center justify-start pb-4 rounded-xl  overflow-hidden shadow-2xl m-2 p-4">
+
+          <div className="w-full h-[100%] flex flex-col lg:flex-row p-4 lg:space-x-10">
+
+            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
                 <span className="text-4xl pl-4 pb-8 font-bold text-[#002159]">MyBricks Callington</span>
               </div>
@@ -216,7 +218,7 @@ const Home = ({ navBar, setNavBar }) => {
                 <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/callington/c3.jpg'/></div>  
                 <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/callington/c2.jpg'/></div>  
 
-            </OwlCarousel>  
+              </OwlCarousel>  
               <p className="text-md pl-4 pt-2">
               Callington is a small beautiful town situated in South East Cornwall. Once a busy mining area, Callington's main industries are now farming and tourism, making it an ideal short-term rental opportunity. Only 6 miles from Tamar Valley AONB (Area of outstanding natural beauty), 14 miles north the naval city of Plymouth, and a handy base for those tackling Bodmin Moor and Dartmoor, Callington has a lot to offer.
               </p>
@@ -228,7 +230,8 @@ const Home = ({ navBar, setNavBar }) => {
                 </a>
 
             </div>
-            <div className="w-1/2 h-full flex flex-col items-center justify-start pb-4 rounded-xl  overflow-hidden shadow-2xl m-2 p-4">
+            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
+
               <div className="flex flex-row items-start justify-start w-full ">
                 <span className="text-4xl pl-4 pb-8 font-bold text-[#002159]">MyBricks Redruth</span>
               </div>
@@ -248,7 +251,7 @@ const Home = ({ navBar, setNavBar }) => {
                 <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/redruth/s4.jpg'/></div>  
                 <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/redruth/s3.jpg'/></div>  
 
-            </OwlCarousel>  
+              </OwlCarousel>  
               <p className="text-md pl-4 pt-2">
               Redruth is a town situated in the heart of Cornwall. Cornwall is a hugely popular staycation destination in the UK with a variety of activities and destinations to visit. Redruth sits in a prime location for those wanting a central base in Cornwall allowing them to travel south and visit the most southernly point of Cornwall, Lizard point, in just 40 minutes or head north to Padstow and be there in only 45 minutes.
               </p>
@@ -259,123 +262,51 @@ const Home = ({ navBar, setNavBar }) => {
                 </a>
             </div>
           </div>
+
         </div>
       </div> 
 
       <section id="learn">
-        <div className="flex flex-col  justify-center items-center mb-40 mt-40">
-          <div className="flex flex-row w-5/6">
-            <div className="flex flex-col w-1/2">
-              <h1 className="text-[#002159] text-3xl font-semibold pb-4">
-              Crypto & NFT Learning Centre
-              </h1>
-              <p className="text-md text-gray-600">
-              New to MyBricks? Get to know the fundamentals of the MyBricks ecosystem with our beginner guides and practical tips on everything property investing, cryptocurrency & NFTs.
-              </p>
-            </div>
-            <div className="ml-48  w-1/2 flex flex-row justify-start items-start">
-              <a className="w-1/2" href="https://docs.mybricksfinance.com/knowledge-base/learning-resources/amas" target="_blank">
-                <div className="w-1/3 h-[110px] pl-4">
-                  <img className="h-[105px]" src="https://mybricksfinance.com/assets/images/ama_videos.svg"></img>
-                </div>
-                <h1 className="text-lg text-[#002159]">AMA Videos <span className="text-2xl ">➔</span></h1>
-              </a>
-              <a className="w-1/2" href="https://docs.mybricksfinance.com/knowledge-base/the-bricks-token/tokenomics" target="_blank">
-                <div className="w-1/3 h-[110px] pl-4">
-                  <img className="h-[100px]" src="https://mybricksfinance.com/assets/images/brick_playlist.svg"></img>
-                </div>
-                <h1 className="text-lg text-[#002159]">BRICKS Basics <span className="text-2xl">➔</span></h1>
-              </a>
-            </div>
+        <div>
 
-          </div>
-          <div className="flex flex-row w-5/6 pt-8">
-            <div className="w-1/2 flex flex-col justify-start items-start  ">
-              <div className="w-1/2 pb-4">
-                <video className="rounded-xl" controls poster="https://devmybricks.s3.eu-west-2.amazonaws.com/62096e38cd9093001ad95fb4.jpeg" src="https://devmybricks.s3.eu-west-2.amazonaws.com/62096e67cd9093001ad95fb8.mp4"></video>
-              </div>
-              <h2 className="text-lg text-gray-600 font-semibold">MyBricks Wallet</h2>
-              <h1 className="text-2xl text-[#002159] font-semibold" >How to create your MyBricks Wallet</h1>
-              <p className="text-sm w-[65%]">Learn everything you need to know about the MyBricks Wallet. The MyBricks Wallet will be launched once FCA authorisation is obtained.</p>
-
-            </div>
-            <div className="w-1/2 flex flex-col justify-start items-start ">
-                <div className="w-1/2  pb-4">
-                <video className="rounded-xl" controls poster="https://devmybricks.s3.eu-west-2.amazonaws.com/62096ebf7c5f480014f8fc61.jpeg" src="https://devmybricks.s3.eu-west-2.amazonaws.com/62096ecc7c5f480014f8fc63.mp4"></video>
-                </div>
-                <h2 className="text-lg text-gray-600 font-semibold">What is BNB?</h2>
-                <h1 className="text-2xl text-[#002159] font-semibold" >What is BNB and why do you need it?</h1>
-                <p className="text-sm w-[65%]">BNB is a fundamental part of the MyBricks ecosystem. Find out what it is and why we use it here at MyBricks.</p>
-
-            </div>
-          </div>
-          <div className="flex justify-center items-center w-[75%] h-[40%] mt-20">
-          <OwlCarousel items={4}  
-                
-                className="owl-theme mt-4 pl-4 space-x-10 w-full"  
-                loop  
-                animateOut={true}
-                nav  
-                center={true}
-                margin={16}
-                autoplay
-                autoplaySpeed={12}
-                responsiveRefreshRate={100} >  
-                <a href="https://www.youtube.com/watch?v=JuSeAwGPFCw&t" target="_blank" ><img  className="img rounded-xl scale-[65%] hover:scale-[70%] duration-200" src= 'https://devmybricks.s3.eu-west-2.amazonaws.com/620a6af477e8990015a3d825.png'/>
-                  <h2 className="text-lg">Article</h2>
-                  <h1 className="text-2xl font-semibold text-[#002159] w-[70%] hover:text-[#ff675c] duration-200">How to Keep Your Crypto Wallet Safe</h1>
-                </a>  
-                <a href="https://www.youtube.com/watch?v=v98KDmhYq5E&t " target="_blank"><img  className="img rounded-xl scale-[65%] hover:scale-[70%] duration-200" src= 'https://devmybricks.s3.eu-west-2.amazonaws.com/620a6aef583b4800149e258a.png'/>
-                  <h2 className="text-lg">Article</h2>
-                  <h1 className="text-2xl font-semibold text-[#002159] w-[70%] hover:text-[#ff675c] duration-200">25 Crypto Terms You Need to Know</h1>
-                </a>  
-                <a href="https://mybricksfinance.medium.com/what-are-nfts-a-complete-beginners-guide-to-non-fungible-tokens-84ae547802a1" target="_blank"><img  className="img rounded-xl scale-[65%] hover:scale-[70%] duration-200" src= 'https://devmybricks.s3.eu-west-2.amazonaws.com/620a6aea583b4800149e2588.png'/>
-                  <h2 className="text-lg">Article</h2>
-                  <h1 className="text-2xl font-semibold text-[#002159] w-[70%] hover:text-[#ff675c] duration-200">Beginners Guide to NFTs</h1>
-                </a>  
-                <a href="https://mybricksfinance.medium.com/what-is-cryptocurrency-a-complete-beginners-guide-to-crypto-cryptocurrencies-730e754dcbfa" target="_blank"><img  className="img rounded-xl scale-[65%] hover:scale-[70%] duration-200" src= 'https://devmybricks.s3.eu-west-2.amazonaws.com/620a6ae4583b4800149e2587.png'/>
-                  <h2 className="text-lg">Article</h2>
-                  <h1 className="text-2xl font-semibold text-[#002159] w-[70%] hover:text-[#ff675c] duration-200">Beginners Guide to Crypto</h1>
-                </a>  
-
-            </OwlCarousel>  
-          </div>
         </div>
       </section>
 
 
-      <div className="flex-col flex pt-10 pb-20 home">
+      <div className="flex-col flex pt-10 pb-20 home px-1 lg:px-80">
         <h1 className="text-4xl font-semibold text-[#002159] text-center pb-2">
         All the benefit with zero hassle
         </h1>
         <div className="flex items-center justify-center w-full pb-12">
-          <p className="w-2/5 text-center text-lg">
+          <p className="w-full lg:w-2/5 text-center text-lg">
               By owning portfolio NFT contracts you will legally own the rights to the value and yield that the portfolio generates without all the paperwork and headaches involved with having your name on the deeds.
           </p>
         </div>
 
         <div className="flex justify-center items-center">
-          <div className="w-full h-[100%] flex flex-row ">
-              <div className="w-1/4  flex flex-col items-center justify-center ">
-                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/asset_value.svg"></img>
-                <h2 className="text-[#002159] text-lg font-semibold " >Asset appreciation value</h2>
-                <p className="text-sm text-center">The value of your NFTs increase as the market value of the assets increase.</p>
-              </div>
-              <div className="w-1/4  flex flex-col items-center justify-center ">
-                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/stable_yeild.svg"></img>
-                <h2 className="text-[#002159] text-lg font-semibold " >Stable yield generation</h2>
-                <p className="text-sm text-center">Generate passive income with rental yield paid to all wallets that hold NFTs.</p>
-              </div>
-              <div className="w-1/4  flex flex-col items-center justify-center ">
-                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/ownership_perk.svg"></img>
-                <h2 className="text-[#002159] text-lg font-semibold " >Ownership perks</h2>
-                <p className="text-sm text-center">Get additional perks like early access to portfolio launches and discounted nights accommodation.</p>
-              </div>
-              <div className="w-1/4  flex flex-col items-center justify-center ">
-                <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/zero_hassle.svg"></img>
-                <h2 className="text-[#002159] text-lg font-semibold " >Zero hassle and minimal fees</h2>
-                <p className="text-sm text-center">Avoid all the headaches associated with ownership and gain all the value after our management fees.</p>
-              </div>
+          <div className="w-full h-[100%] flex flex-col space-y-6 lg:flex-row ">
+
+            <div className="lg:w-1/4 flex flex-col items-center justify-center ">
+              <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/asset_value.svg"></img>
+              <h2 className="text-[#002159] text-lg font-semibold " >Asset appreciation value</h2>
+              <p className="text-sm text-center">The value of your NFTs increase as the market value of the assets increase.</p>
+            </div>
+            <div className="lg:w-1/4 flex flex-col items-center justify-center ">
+              <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/stable_yeild.svg"></img>
+              <h2 className="text-[#002159] text-lg font-semibold " >Stable yield generation</h2>
+              <p className="text-sm text-center">Generate passive income with rental yield paid to all wallets that hold NFTs.</p>
+            </div>
+            <div className="lg:w-1/4 flex flex-col items-center justify-center ">
+              <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/ownership_perk.svg"></img>
+              <h2 className="text-[#002159] text-lg font-semibold " >Ownership perks</h2>
+              <p className="text-sm text-center">Get additional perks like early access to portfolio launches and discounted nights accommodation.</p>
+            </div>
+            <div className="lg:w-1/4 flex flex-col items-center justify-center ">
+              <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/zero_hassle.svg"></img>
+              <h2 className="text-[#002159] text-lg font-semibold " >Zero hassle and minimal fees</h2>
+              <p className="text-sm text-center">Avoid all the headaches associated with ownership and gain all the value after our management fees.</p>
+            </div>
+
           </div>
         </div>
       </div> 
