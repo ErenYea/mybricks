@@ -10,7 +10,7 @@ const Home = ({ navBar, setNavBar }) => {
   }, []);
   return (
 
-    <div id="home" className="w-screen">
+    <div id="home" className="">
 
       <div className="flex-col flex home w-full pt-56 px-1 lg:px-80">
         <div className="flex justify-center items-center w-full ml-8">
