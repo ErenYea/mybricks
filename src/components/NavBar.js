@@ -38,10 +38,10 @@ const NavBar = ({ navBar, setNavBar }) => {
         <div className="flex  lg:pr-[52px] lg:pl-[52px] md:pr-[52px] md:pl-[52px] flex-row items-end justify-start">
           <div
             id="logo "
-            className="w-fit  h-full flex items-end lg:ml-0 ml-2 "
+            className="w-fit h-full flex items-end lg:ml-0 ml-2 "
           >
             <Link to="/">
-              <img src={logo} alt="" className="h-[50px] w-[182px]" />
+              <img src={logo} alt="" className="sm:h-[50px] sm:w-[182px] ml-[50%] sm:ml-0 mt-3 sm:mt-0" />
             </Link>
           </div>
           <div

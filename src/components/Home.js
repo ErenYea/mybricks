@@ -11,14 +11,14 @@ const Home = ({ navBar, setNavBar }) => {
     <div id="home" className="">
       <div className="flex-col flex home w-full pt-56 px-1 lg:px-80">
         <div className="flex justify-center items-center w-full ">
-          <div className="w-full h-fit flex flex-col-reverse lg:flex-row items-center lg:space-x-10 space-y-10 lg:space-y-0">
+          <div className="w-full h-fit flex flex-col lg:flex-row items-center lg:space-x-10 space-y-10 lg:space-y-0">
             <div className="w-full md:w-1/2 flex flex-col text-center md:text-start ">
               <div className="mb-4">
                 <span className="text-4xl font-bold text-[#002159] ">
                   ROCKS - a new era of ownership accessible for everyone
                 </span>
               </div>
-              <p className="text-lg mb-8 text-gray-600 w-full xl:w-11/12">
+              <p className="lg:text-lg mb-8 text-gray-600 w-full xl:w-11/12">
                 For the first time, investors worldwide can invest in the
                 property market through NFT-based Timeshare Ownership, powered
                 by the Binance Smart Chain (BSC) network.
@@ -40,7 +40,7 @@ const Home = ({ navBar, setNavBar }) => {
             </div>
 
             <div className="w-full md:w-1/2 h-full flex flex-col lg:items-start lg:justify-start">
-              <div className="scale-[70%] w-full lg:w-9/12 h-64">
+              <div className="lg:scale-[70%] w-full lg:w-9/12 h-64">
                 <video
                   className="rounded-lg relative z-40"
                   poster="https://mybricksfinance.com/assets/images/temp.jpg"
@@ -61,7 +61,7 @@ const Home = ({ navBar, setNavBar }) => {
         <h2 className="text-[#002159] text-4xl mt-16 font-bold w-full text-center p-2 mb-4">
           We're building a property investment platform with a difference
         </h2>
-        <p className="text-center text-gray-600 text-lg w-full px-8">
+        <p className="text-center text-gray-600 lg:text-lg w-full px-8">
           Bringing property Timeshare Ownership to the blockchain via an
           incredibly simple and easy to use platform.
         </p>
@@ -72,11 +72,11 @@ const Home = ({ navBar, setNavBar }) => {
           <div className="w-full h-fit flex flex-col-reverse lg:flex-row items-center lg:space-x-10">
             <div className="w-full md:w-1/2 flex flex-col items-center text-center lg:text-left justify-center lg:justify-end">
               <div className="mb-4">
-                <span className="text-4xl font-bold text-[#002159]">
+                <span className="text-2xl lg:text-4xl font-bold text-[#002159]">
                   Democratising the Airbnb investing experience.
                 </span>
               </div>
-              <p className="text-lg mb-4 text-gray-600 ">
+              <p className="lg:text-lg mb-4 text-gray-600 ">
                 Once you become a MyBricks 2.0 (ROCKS) NFT holder, you are now
                 part of a very select group of investors with some pretty
                 amazing perks. These include discounted stays in any property in
@@ -104,11 +104,11 @@ const Home = ({ navBar, setNavBar }) => {
             </div>
             <div className="w-full flex flex-col justify-end text-center lg:text-left">
               <div className="mb-4">
-                <span className="text-4xl font-bold text-[#002159] ">
+                <span className="text-2xl lg:text-4xl font-bold text-[#002159] ">
                   Higher than average rental yield
                 </span>
               </div>
-              <p className="text-lg mb-4 text-gray-600 ">
+              <p className="lg:text-lg mb-4 text-gray-600 ">
                 Despite the average rental income for properties in the UK being
                 3.63%, MyBricks 2.0 has managed to deliver a remarkable 65%
                 return to our investors in 2022. We are determined to maintain
@@ -124,13 +124,13 @@ const Home = ({ navBar, setNavBar }) => {
       <div className="flex-col flex home pt-20 mt-20 pb-20 px-1 lg:px-80">
         <div className="flex justify-center items-center">
           <div className="w-full h-fit flex flex-col-reverse lg:flex-row items-center lg:space-x-10">
-            <div className="w-1/2 flex flex-col justify-end">
+            <div className="md:w-1/2 flex flex-col justify-center text-center md:justify-end">
               <div className="mb-4">
-                <span className="text-4xl font-bold text-[#002159] ">
+                <span className="text-xl lg:text-4xl font-bold text-[#002159] ">
                   Contract Audit by Cyberscope
                 </span>
               </div>
-              <p className="text-lg mb-4 text-gray-600 ">
+              <p className="lg:text-lg mb-4 text-gray-600 ">
                 Cyberscope is a top auditing firm in the crypto space for smart
                 contract audits, having audited over 1200+ blockchain projects
                 and NFTs. Their services are well recognized as one of the
@@ -140,7 +140,7 @@ const Home = ({ navBar, setNavBar }) => {
             <div className="w-1/2 h-fit flex flex-col items-start justify-end pb-4">
               <div className="w-full flex items-end justify-end">
                 <img
-                  className=" w-3/4"
+                  className="md:w-3/4 scale-125 mb-4"
                   src="https://mybricksfinance.com/assets/images/autonomy_over_investment.svg"
                 ></img>
               </div>
@@ -154,18 +154,18 @@ const Home = ({ navBar, setNavBar }) => {
           ROCKS (NFT)
         </h1>
         <div className="flex justify-center items-center">
-          <div className="w-full h-[100%] flex flex-col lg:flex-row lg:space-x-10 items-center px-2 text-center lg:text-left">
+          <div className="w-full h-[100%] flex flex-col lg:flex-row lg:space-x-10 items-center px-2 text-center lg:text-left mx-4 sm:mx-0">
             <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-start pb-4">
               <div className="h-[260px] flex justify-end items-end">
                 <img src="https://mybricksfinance.com/assets/images/idea_flow.svg"></img>
               </div>
-              <p className="text-lg mb-4 text-gray-600 pt-12">
+              <p className="text-lg text-left mb-4 text-gray-600 pt-12">
                 Complete control of your investment. Download and set up your
                 Metamask wallet, connect your wallet to our app and keep track
                 of your investment and rewards. Talking about rewards, let's
                 compare some performances:
               </p>
-              <ul className="text-lg text-gray-600 font-medium flex flex-col w-11/12 ">
+              <ul className="text-lg text-gray-600 text-left font-medium flex flex-col w-11/12 ">
                 <li>
                   Average Annual Return on Investment for residential Real
                   Estate in the United States 10.6%
@@ -185,12 +185,12 @@ const Home = ({ navBar, setNavBar }) => {
                 <img src="https://mybricksfinance.com/assets/images/discount.svg"></img>
               </div>
 
-              <p className="text-lg mb-4 text-gray-600 pt-12">
+              <p className="text-lg mb-4 text-gray-600 pt-12 text-left">
                 We have additional plans to add even more utility to the token
                 in the future. These plans include:
               </p>
-              <span className="font-bold w-full pb-2">2023 Plans:</span>
-              <ul className="text-lg text-gray-600 font-medium flex flex-col w-11/12">
+              <span className="font-bold w-full text-left pb-2">2023 Plans:</span>
+              <ul className="text-lg text-left text-gray-600 font-medium flex flex-col w-11/12">
                 <li>Launch MyBricks 2.0 Dashboard & Referral System</li>
                 <li>Add 24 new units to Portfolio</li>
                 <li>Expand NFT-based Timeshare Worldwide</li>
@@ -199,8 +199,8 @@ const Home = ({ navBar, setNavBar }) => {
                 <li>Launch NFT Marketplace with Buy Back & Burn program</li>
                 <li>Launch MyDebitCard with Airport Lounge Access</li>
               </ul>
-              <span className="font-bold w-full pb-2 pt-2">2024 Plans:</span>
-              <ul className="text-lg text-gray-600 font-medium flex flex-col w-11/12">
+              <span className="font-bold w-full text-left pb-2 pt-2">2024 Plans:</span>
+              <ul className="text-lg text-left text-gray-600 font-medium flex flex-col w-11/12">
                 <li>Launch MyMetaverse & NFT Accessories</li>
                 <li>Launch MyCasino - Games and Sports Betting</li>
               </ul>
@@ -210,14 +210,14 @@ const Home = ({ navBar, setNavBar }) => {
       </div>
 
       <div className="flex-col flex pt-20 pb-20 px-1 lg:px-80">
-        <h1 className="text-4xl font-bold text-[#002159] text-center pb-12">
+        <h1 className="text-2xl lg:text-4xl font-bold text-[#002159] text-center pb-12">
           Our Recent Timeshare Portfolio Additions.
         </h1>
         <div className="flex justify-center items-center">
           <div className="w-full h-[100%] flex flex-col lg:flex-row p-4 lg:space-x-10">
             <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
-                <span className="text-4xl pl-4 pb-8 font-bold text-[#002159]">
+                <span className="text-2xl lg:text-4xl pl-4 pb-8 font-bold text-[#002159]">
                   The Crown Hotel
                 </span>
               </div>
@@ -293,7 +293,7 @@ const Home = ({ navBar, setNavBar }) => {
             </div>
             <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
-                <span className="text-4xl pl-4 pb-8 font-bold text-[#002159]">
+                <span className="text-2xl lg:text-4xl pl-4 pb-8 font-bold text-[#002159]">
                   Manchester Comfy City Stay
                 </span>
               </div>
@@ -371,7 +371,7 @@ const Home = ({ navBar, setNavBar }) => {
       </div>
 
       <div className="flex-col flex pt-10 pb-20 home px-1 lg:px-80">
-        <h1 className="text-4xl font-semibold text-[#002159] text-center pb-2">
+        <h1 className="text-2xl lg:text-4xl font-semibold text-[#002159] text-center pb-2">
           Introducing NFTs, Timeshare Ownership, and a Decentralized Stablecoin.
         </h1>
         {/* <div className="flex items-center justify-center w-full pb-12">
@@ -381,7 +381,7 @@ const Home = ({ navBar, setNavBar }) => {
           </p>
         </div> */}
 
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center mx-4 sm:mx-0">
           <div className="w-full h-[100%] flex flex-col  lg:space-x-8 space-y-6 lg:space-y-0  lg:flex-row ">
             <div className="lg:w-1/4 flex flex-col items-center justify-center mt-4 ">
               <img
@@ -442,11 +442,11 @@ const Home = ({ navBar, setNavBar }) => {
       </div>
 
       <div className="flex-col flex pt-20 pb-20 w-full">
-        <h1 className="text-4xl font-semibold text-[#002159] text-center pb-2">
+        <h1 className="text-2xl lg:text-4xl font-semibold text-[#002159] text-center pb-2">
           Get started in a few minutes
         </h1>
         <div className="flex items-center justify-center w-full pb-12">
-          <p className="w-[640px] text-center text-lg">
+          <p className="w-[640px] text-center text-sm lg:text-lg mx-6 lg:mx-0">
             Creating your MyBricks 2.0 account is quick and free. Simply sign up
             below and get access to your dashboard. <br />
             Create your account
@@ -460,7 +460,7 @@ const Home = ({ navBar, setNavBar }) => {
                 className="w-[50px] sm:w-[105px] h-[42px] sm:h-[80px] mb-4"
                 src="https://mybricksfinance.com/assets/images/create_account.svg"
               ></img>
-              <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]">
+              <h2 className="text-[#002159] text-xs lg:text-lg font-semibold w-20 sm:w-[232px]">
                 Create your account
               </h2>
             </div>
@@ -469,10 +469,10 @@ const Home = ({ navBar, setNavBar }) => {
 
             <div className="w-1/3 flex flex-col items-center justify-center ">
               <img
-                className="w-[105px] h-[80px] mb-4"
+                className="w-[105px] h-[50px] md:h-[80px] mb-4"
                 src="https://mybricksfinance.com/assets/images/buy_bricks.svg"
               ></img>
-              <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]">
+              <h2 className="text-[#002159] text-xs lg:text-lg font-semibold w-20 sm:w-[232px]">
                 Buy ROCKS (NFT)
               </h2>
             </div>
@@ -481,10 +481,10 @@ const Home = ({ navBar, setNavBar }) => {
 
             <div className="w-1/3 flex flex-col items-center justify-center ">
               <img
-                className="w-[105px] h-[80px] mb-4"
+                className="w-[105px] h-[45px] md:h-[80px] mb-4"
                 src="https://mybricksfinance.com/assets/images/participate.svg"
               ></img>
-              <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]">
+              <h2 className="text-[#002159] text-xs lg:text-lg font-semibold w-24 sm:w-[232px]">
                 Join the New World Economy
               </h2>
             </div>

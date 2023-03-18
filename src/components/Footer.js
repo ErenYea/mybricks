@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='flex flex-col items-center justify-center w-full'>
 
                 <div className='w-full px-8 md:px-28 text-[#6c757d] text-sm pb-12'>
-                    Any investment made in connection with MyBricks 2.0 is solely at the Participant's own risk. The Company is not liable for any financial loss or other damages that may result from such investment. The Participant should carefully consider all risks before making any investment and should seek professional advice if necessary. The Company makes no representations or warranties, express or implied, regarding the value or potential value of the Tokens or the success of the Platform. The Participant is solely responsible for conducting their own due diligence and evaluating the potential risks and rewards associated with investing in Tokens. 
+                    Disclaimer: Any investment made in connection with MyBricks 2.0 is solely at the Participant's own risk. The Company is not liable for any financial loss or other damages that may result from such investment. The Participant should carefully consider all risks before making any investment and should seek professional advice if necessary. The Company makes no representations or warranties, express or implied, regarding the value or potential value of the Tokens or the success of the Platform. The Participant is solely responsible for conducting their own due diligence and evaluating the potential risks and rewards associated with investing in Tokens. 
                 </div>
 
                 <div className='flex flex-col md:flex-row justify-evenly text-xs text-[#6c757d] font-semibold w-full ml-10 md:-ml-[20%]'>
