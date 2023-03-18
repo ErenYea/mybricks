@@ -36,12 +36,13 @@ const NavBar = ({ navBar, setNavBar }) => {
         }
       >
         <div className="flex  lg:pr-[52px] lg:pl-[52px] md:pr-[52px] md:pl-[52px] flex-row items-end justify-start">
-          <div
-            id="logo "
-            className="w-fit  h-full flex items-end lg:ml-0 ml-2 "
-          >
+          <div id="logo " className="w-fit h-full flex items-end lg:ml-0 ml-2 ">
             <Link to="/">
-              <img src={logo} alt="" className="h-[50px] w-[182px]" />
+              <img
+                src={logo}
+                alt=""
+                className="sm:h-[50px] sm:w-[182px] ml-[50%] sm:ml-0 mt-3 sm:mt-0"
+              />
             </Link>
           </div>
           <div
@@ -112,6 +113,9 @@ const NavBar = ({ navBar, setNavBar }) => {
             >
               Learn
             </div>
+            <div className={"mt-4 cursor-pointer"}>
+              <a href="https://mybricksstays.com/">Holiday Rentals</a>
+            </div>
             <div
               className={
                 navBar[2] == 1
@@ -138,18 +142,11 @@ const NavBar = ({ navBar, setNavBar }) => {
             >
               Teams
             </div>
-            <div
-              className={
-                navBar[4] == 1
-                  ? "mt-4 cursor-pointer text-[#0552b5]"
-                  : "mt-4 cursor-pointer"
-              }
-              onClick={() => {
-                setOpenMenu(false);
-                navigate("/docs");
-              }}
-            >
-              Docs
+            <div className={"mt-4 cursor-pointer"}>
+              <a href="https://docs.airbrick.finance/">Docs</a>
+            </div>
+            <div className={"mt-4 cursor-pointer"}>
+              <a href="http://app.mybricksfinance.com/">Dashboard (beta)</a>
             </div>
           </div>
         ) : (

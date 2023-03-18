@@ -102,9 +102,76 @@ const Learn = ({ navBar, setNavBar }) => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center w-[75%] h-[40%] mt-20">
+        <div className="hidden sm:flex justify-center items-center w-[75%] h-[40%] mt-20">
           <OwlCarousel
             items={4}
+            className="owl-theme mt-4 pl-4 space-x-10 w-full"
+            loop
+            animateOut={true}
+            nav
+            center={true}
+            margin={16}
+            autoplay
+            autoplaySpeed={12}
+            responsiveRefreshRate={100}
+          >
+            <a
+              href="https://www.youtube.com/watch?v=JuSeAwGPFCw&t"
+              target="_blank"
+            >
+              <img
+                className="img rounded-xl scale-[65%] hover:scale-[70%] duration-200"
+                src="https://devmybricks.s3.eu-west-2.amazonaws.com/620a6af477e8990015a3d825.png"
+              />
+              <h2 className="text-sm md:text-lg">Article</h2>
+              <h1 className="text-xs md:text-2xl font-semibold text-[#002159] w-[70%] hover:text-[#ff675c] duration-200">
+                How to Keep Your Crypto Wallet Safe
+              </h1>
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=v98KDmhYq5E&t "
+              target="_blank"
+            >
+              <img
+                className="img rounded-xl scale-[65%] hover:scale-[70%] duration-200"
+                src="https://devmybricks.s3.eu-west-2.amazonaws.com/620a6aef583b4800149e258a.png"
+              />
+              <h2 className="text-sm md:text-lg">Article</h2>
+              <h1 className="text-xs md:text-2xl font-semibold text-[#002159] w-[70%] hover:text-[#ff675c] duration-200">
+                25 Crypto Terms You Need to Know
+              </h1>
+            </a>
+            <a
+              href="https://mybricksfinance.medium.com/what-are-nfts-a-complete-beginners-guide-to-non-fungible-tokens-84ae547802a1"
+              target="_blank"
+            >
+              <img
+                className="img rounded-xl scale-[65%] hover:scale-[70%] duration-200"
+                src="https://devmybricks.s3.eu-west-2.amazonaws.com/620a6aea583b4800149e2588.png"
+              />
+              <h2 className="text-sm md:text-lg">Article</h2>
+              <h1 className="text-xs md:text-2xl font-semibold text-[#002159] w-[70%] hover:text-[#ff675c] duration-200">
+                Beginners Guide to NFTs
+              </h1>
+            </a>
+            <a
+              href="https://mybricksfinance.medium.com/what-is-cryptocurrency-a-complete-beginners-guide-to-crypto-cryptocurrencies-730e754dcbfa"
+              target="_blank"
+            >
+              <img
+                className="img rounded-xl scale-[65%] hover:scale-[70%] duration-200"
+                src="https://devmybricks.s3.eu-west-2.amazonaws.com/620a6ae4583b4800149e2587.png"
+              />
+              <h2 className="text-sm md:text-lg">Article</h2>
+              <h1 className="text-xs md:text-2xl font-semibold text-[#002159] w-[70%] hover:text-[#ff675c] duration-200">
+                Beginners Guide to Crypto
+              </h1>
+            </a>
+          </OwlCarousel>
+        </div>
+        <div className="flex sm:hidden justify-center items-center w-[75%] h-[40%] mt-20">
+          <OwlCarousel
+            items={1}
             className="owl-theme mt-4 pl-4 space-x-10 w-full"
             loop
             animateOut={true}
