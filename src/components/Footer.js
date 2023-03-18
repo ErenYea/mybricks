@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from '../asset/logo.png'
 const Footer = () => {
   return (
     <div className='bottom-0 left-0 w-full bg-[#f0f4f8]'>
@@ -12,7 +12,12 @@ const Footer = () => {
                 <div className='flex justify-evenly text-xs text-[#6c757d] font-semibold w-full -ml-[20%]'>
 
                     <div className=''>
-                        <img className='w-[164px] h-[32px]' src='https://mybricksfinance.com/assets/images/logo_full.svg' alt='logo'/>
+                    <img
+                src={logo}
+                
+                alt=""
+                className="h-[50px] w-[182px]"
+              />
                     </div>
                     <div className='mb-2 space-y-4'>
                         <p>Navigate</p>

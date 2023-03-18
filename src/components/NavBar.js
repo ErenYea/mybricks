@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import logo from '../asset/logo.png'
 const NavBar = ({ navBar, setNavBar }) => {
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
@@ -29,9 +29,10 @@ const NavBar = ({ navBar, setNavBar }) => {
           <div id="logo " className="w-fit  h-full flex items-end ">
             <Link to="/">
               <img
-                src="https://mybricksfinance.com/assets/images/logo_full.svg"
+                src={logo}
+                
                 alt=""
-                className="h-[34px] w-[172px]"
+                className="h-[50px] w-[182px]"
               />
             </Link>
           </div>

@@ -17,22 +17,27 @@ const Home = ({ navBar, setNavBar }) => {
 
           <div className="w-full h-fit flex flex-col-reverse lg:flex-row items-center lg:space-x-10 space-y-10 lg:space-y-0">
 
-            <div className="w-full md:w-1/2 flex flex-col text-center">
+            <div className="w-full md:w-1/2 flex flex-col text-center md:text-start ">
               <div className="mb-4">
                 <span className="text-4xl font-bold text-[#002159] ">
-                  Making Property Investing Accessible For Everyone
+                ROCKS - a new era of ownership accessible for everyone
                 </span>
               </div>
               <p className="text-lg mb-8 text-gray-600 w-full xl:w-11/12">
-                We’re revolutionising property investment by using blockchain
-                technology and NFTs to provide ownership rights to property
-                portfolios.
+              For the first time, investors worldwide can invest in the property market through NFT-based Timeshare Ownership, powered by the Binance Smart Chain (BSC) network.
               </p>
               <p className="w-full text-lg mb-4 text-gray-600">
-                BRICKS Contract Address:{" "}
+              ROCKS Contract Address:{" "}
                 <span className="underline max-w-full">
                   {" "}
-                  0x13e1070e3a388e53ec35480ff494538f9ffc5b8d
+                  0xc2F121d1a0B2d2bEAd8f6C5d274E568b868d4913
+                </span>
+              </p>
+              <p className="w-full text-lg mb-4 text-gray-600">
+              MyUSD Contract Address:{" "}
+                <span className="underline max-w-full">
+                  {" "}
+                  0xcf110164BF0e3Ed7859a6750b3326B861AEE028E
                 </span>
               </p>
             </div>
@@ -61,8 +66,7 @@ const Home = ({ navBar, setNavBar }) => {
           We're building a property investment platform with a difference
         </h2>
         <p className="text-center text-gray-600 text-lg w-full px-8">
-          Bringing property investment to the blockchain via an incredibly
-          simple and easy to use platform.
+        Bringing property Timeshare Ownership to the blockchain via an incredibly simple and easy to use platform.
         </p>
       </div>
 
@@ -73,15 +77,11 @@ const Home = ({ navBar, setNavBar }) => {
             <div className="w-full md:w-1/2 flex flex-col items-center text-center lg:text-left justify-center lg:justify-end">
               <div className="mb-4">
                 <span className="text-4xl font-bold text-[#002159]">
-                  Guaranteed ownership
+                Democratising the Airbnb investing experience.
                 </span>
               </div>
               <p className="text-lg mb-4 text-gray-600 ">
-                With traditional crowdfunding property investments you never
-                know if the project you are funding will come to fruition. With
-                MyBricks, we already fully own the properties. This means that
-                when you purchase a Portfolio NFT, you can be certain of your
-                ownership and can start earning within 30 days.
+              Once you become a MyBricks 2.0 (ROCKS) NFT holder, you are now part of a very select group of investors with some pretty amazing perks. These include discounted stays in any property in our portfolio, returns of up to 60% APR through our protocol, no locking period, the option to exit your investment by selling your ROCKS in the open market, and many more features, which are outlined in our roadmap.
               </p>
             </div>
 
@@ -104,14 +104,11 @@ const Home = ({ navBar, setNavBar }) => {
             <div className="w-full flex flex-col justify-end text-center lg:text-left">
               <div className="mb-4">
                 <span className="text-4xl font-bold text-[#002159] ">
-                  Higher than average rental yield
+                Higher than average rental yield
                 </span>
               </div>
               <p className="text-lg mb-4 text-gray-600 ">
-                The average rental income for properties in the UK is 3.63%. At
-                MyBricks, we're purchasing attractive short term let properties
-                that look to generate at least 7% returns for Portfolio NFT
-                owners.
+              Despite the average rental income for properties in the UK being 3.63%, MyBricks 2.0 has managed to deliver a remarkable 65% return to our investors in 2022. We are determined to maintain this level of success and our track record speaks for itself. We welcome you to join our community on Telegram and  learn more about our NFT-based timeshare ownership opportunity.
               </p>
             </div>
           </div>
@@ -124,14 +121,11 @@ const Home = ({ navBar, setNavBar }) => {
             <div className="w-1/2 flex flex-col justify-end">
               <div className="mb-4">
                 <span className="text-4xl font-bold text-[#002159] ">
-                  Autonomy over your investments
+                Contract Audit by Cyberscope
                 </span>
               </div>
               <p className="text-lg mb-4 text-gray-600 ">
-                With REITs and bonds you can invest your capital, but in most
-                cases you have no say in where that capital goes. With MyBricks,
-                you choose what Portfolio NFTs you purchase based on our
-                historical data and forecasting.
+              Cyberscope is a top auditing firm in the crypto space for smart contract audits, having audited over 1200+ blockchain projects and NFTs. Their services are well recognized as one of the leading authorities in the industry.
               </p>
             </div>
             <div className="w-1/2 h-fit flex flex-col items-start justify-end pb-4">
@@ -148,7 +142,7 @@ const Home = ({ navBar, setNavBar }) => {
 
       <div className="flex-col flex pt-20 pb-20 px-1 lg:px-80">
         <h1 className="text-4xl font-bold text-[#002159] text-center pb-12">
-          BRICKS Token
+        ROCKS (NFT)
         </h1>
         <div className="flex justify-center items-center">
           <div className="w-full h-[100%] flex flex-col lg:flex-row lg:space-x-10 items-center px-2 text-center lg:text-left">
@@ -158,15 +152,12 @@ const Home = ({ navBar, setNavBar }) => {
                 <img src="https://mybricksfinance.com/assets/images/idea_flow.svg"></img>
               </div>
               <p className="text-lg mb-4 text-gray-600 pt-12">
-                The BRICKS utility token is a key part of the MyBricks ecosystem
-                and is used to unlock all of the features that are built into
-                the MyBricks platform. The tokens need to be held to perform
-                multiple functions like:
+              Complete control of your investment. Download and set up your Metamask wallet, connect your wallet to our app and keep track of your investment and rewards. Talking about rewards, let's compare some performances:
               </p>
               <ul className="text-lg text-gray-600 font-medium flex flex-col w-11/12 ">
-                <li>Accessing your MyBricks Wallet</li>
-                <li>Unlocking MyBricks Portfolios</li>
-                <li>Accessing exclusive community content</li>
+                <li>Average Annual Return on Investment for residential Real Estate in the United States 10.6%</li>
+                <li>Average Rate of Return for the S&P 500 for the last 10 years 16.4%</li>
+                <li>Average Rate of Return for the Airbrick's Portfolio in 2022 is 66.09%</li>
               </ul>
             </div>
             <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-end pb-4">
@@ -175,14 +166,23 @@ const Home = ({ navBar, setNavBar }) => {
               </div>
 
               <p className="text-lg mb-4 text-gray-600 pt-12">
-                We have additional plans to add even more utility to the BRICKS
-                token in the future. These plans include using BRICKS tokens to:
+              We have additional plans to add even more utility to the token in the future. These plans include:
               </p>
+              <span className="font-bold w-full pb-2">2023 Plans:</span>
               <ul className="text-lg text-gray-600 font-medium flex flex-col w-11/12">
-                <li>Unlock staking features on the MyBricks platform</li>
-                <li>Get discounted night stays at MyBricks properties</li>
+                <li>Launch MyBricks 2.0 Dashboard & Referral System</li>
+                <li>Add 24 new units to Portfolio</li>
+                <li>Expand NFT-based Timeshare Worldwide</li>
+                <li>Add Booking System to MyBricks Dashboard</li>
+                <li>Access to exclusive Members Club & Restaurants</li>
+                <li>Launch NFT Marketplace with Buy Back & Burn program</li>
+                <li>Launch MyDebitCard with Airport Lounge Access</li>
               </ul>
-
+              <span className="font-bold w-full pb-2 pt-2">2024 Plans:</span>
+              <ul className="text-lg text-gray-600 font-medium flex flex-col w-11/12">
+                <li>Launch MyMetaverse & NFT Accessories</li>
+                <li>Launch MyCasino - Games and Sports Betting</li>
+              </ul>
             </div>
 
           </div>
@@ -191,7 +191,7 @@ const Home = ({ navBar, setNavBar }) => {
 
       <div className="flex-col flex pt-20 pb-20 px-1 lg:px-80">
         <h1 className="text-4xl font-bold text-[#002159] text-center pb-12">
-        Our Recent Property Purchases
+        Our Recent Timeshare Portfolio Additions.
         </h1>
         <div className="flex justify-center items-center">
 
@@ -199,7 +199,7 @@ const Home = ({ navBar, setNavBar }) => {
 
             <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
-                <span className="text-4xl pl-4 pb-8 font-bold text-[#002159]">MyBricks Callington</span>
+                <span className="text-4xl pl-4 pb-8 font-bold text-[#002159]">The Crown Hotel</span>
               </div>
               <OwlCarousel items={2}  
                 className="owl-theme mt-4 pl-4 "  
@@ -211,19 +211,19 @@ const Home = ({ navBar, setNavBar }) => {
                 autoplay
                 autoplaySpeed={12}
                 responsiveRefreshRate={100} >  
-                <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/callington/c4.jpg'/></div>  
-                <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/callington/c5.jpg'/></div>  
-                <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/callington/c6.jpg'/></div>  
-                <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/callington/c1.jpg'/></div>  
-                <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/callington/c3.jpg'/></div>  
-                <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/callington/c2.jpg'/></div>  
+                <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-843446839011977175/original/7a25c84f-4d87-4b0a-9e19-5ee54d66c49c.png'/></div>  
+                <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-843446839011977175/original/e82347cc-b7eb-4792-9f40-8caac430ee63.png'/></div>  
+                <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-843446839011977175/original/ba4f1649-9da3-4f81-a2f4-711a61eb09bf.png'/></div>  
+                <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-843446839011977175/original/c21c8629-79c8-48fb-a7b7-a59a08ebeec6.png'/></div>  
+                <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-843446839011977175/original/3502a0f2-5efd-424b-abaf-d8e750d561cb.png'/></div>  
+                <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-843446839011977175/original/c015e189-ca3a-4ddc-b1a7-2c23e8d95543.png'/></div>  
 
               </OwlCarousel>  
               <p className="text-md pl-4 pt-2">
-              Callington is a small beautiful town situated in South East Cornwall. Once a busy mining area, Callington's main industries are now farming and tourism, making it an ideal short-term rental opportunity. Only 6 miles from Tamar Valley AONB (Area of outstanding natural beauty), 14 miles north the naval city of Plymouth, and a handy base for those tackling Bodmin Moor and Dartmoor, Callington has a lot to offer.
+              Discover our charming hotel blocks in Liverpool's heart! Our six furnished and fully equipped apartments each have a unique style and character, ideal for families or groups of four. With our central location, exploring Liverpool's iconic Beatles landmarks, museums, and docks has never been easier. Enjoy doorstep access to restaurants, shops, and entertainment options. Whether you're here for leisure or business, experience Liverpool like a true local. Book now for an unforgettable stay!
               </p>
               
-                <a className="w-1/2 h-full" target="_blank" href="https://www.airbnb.co.uk/rooms/54272872?guests=1&adults=2&s=67&unique_share_id=48045487-53a5-4e32-a3ca-71908a0a51e8&source_impression_id=p3_1648716536_I0xmGl71xz5NQHUw">
+                <a className="w-1/2 h-full" target="_blank" href="https://www.airbnb.co.uk/p/bricks">
                   <button className="text-white bg-[#ff6a5a] w-full rounded-lg h-[40px] mt-10">
                     View on AirBnB
                   </button>
@@ -233,7 +233,7 @@ const Home = ({ navBar, setNavBar }) => {
             <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
 
               <div className="flex flex-row items-start justify-start w-full ">
-                <span className="text-4xl pl-4 pb-8 font-bold text-[#002159]">MyBricks Redruth</span>
+                <span className="text-4xl pl-4 pb-8 font-bold text-[#002159]">Manchester Comfy City Stay</span>
               </div>
               <OwlCarousel items={2}  
                 className="owl-theme mt-4 pl-4"  
@@ -244,18 +244,20 @@ const Home = ({ navBar, setNavBar }) => {
                 margin={12} 
                 autoplay
                 autoplaySpeed={12}>  
-                <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/redruth/s8.jpg'/></div>  
-                <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/redruth/s7.jpg'/></div>  
-                <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/redruth/s6.jpg'/></div>  
-                <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/redruth/s5.jpg'/></div>  
-                <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/redruth/s4.jpg'/></div>  
-                <div ><img  className="img rounded-xl" src= 'https://mybricksfinance.com/assets/images/homepage/redruth/s3.jpg'/></div>  
+                <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-730189889692276194/original/a887b1ee-f417-4394-8d34-2834cfccd251.jpeg'/></div>  
+                <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-730189889692276194/original/3b63c3ad-9b0f-4f8d-8956-9c6fa0c72f67.jpeg'/></div>  
+                <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-730189889692276194/original/0411bef5-2e47-4ac2-bf0d-1cd9bcfc4994.jpeg'/></div>  
+                <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-730189889692276194/original/fc84d597-428e-4b16-9029-c3ac257a890d.jpeg'/></div>  
+                <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-730189889692276194/original/bebc174f-162a-4ad2-b6e0-8cfc408e5fe5.jpeg'/></div>  
+                <div ><img  className="img rounded-xl" src= 'https://a0.muscache.com/im/pictures/miso/Hosting-730189889692276194/original/df78d8d0-e580-406b-be57-6e27eb654aa0.jpeg'/></div>  
 
               </OwlCarousel>  
               <p className="text-md pl-4 pt-2">
-              Redruth is a town situated in the heart of Cornwall. Cornwall is a hugely popular staycation destination in the UK with a variety of activities and destinations to visit. Redruth sits in a prime location for those wanting a central base in Cornwall allowing them to travel south and visit the most southernly point of Cornwall, Lizard point, in just 40 minutes or head north to Padstow and be there in only 45 minutes.
+              Experience chic city living in our 1-bed flat located in the heart of Manchester. This modern and stylish apartment is perfect for solo travelers or couples looking for a comfortable and convenient stay.
+Featuring a comfortable double bed, fully equipped kitchen, and tasteful furnishings throughout, this flat offers all the amenities you need for a relaxing and enjoyable stay.
+Explore the city's vibrant nightlife, shopping, and dining options, all just moments from your doorstep. Book your stay today and experience the best of urban living in Manchester. 
               </p>
-              <a className="w-1/2 h-full" target="_blank" href="https://www.airbnb.co.uk/rooms/619416483981866067">
+              <a className="w-1/2 h-full" target="_blank" href="https://www.airbnb.co.uk/p/bricks">
                   <button className="text-white bg-[#ff6a5a] w-full rounded-lg h-[40px] mt-10">
                     View on AirBnB
                   </button>
@@ -266,45 +268,38 @@ const Home = ({ navBar, setNavBar }) => {
         </div>
       </div> 
 
-      <section id="learn">
-        <div>
-
-        </div>
-      </section>
-
-
       <div className="flex-col flex pt-10 pb-20 home px-1 lg:px-80">
         <h1 className="text-4xl font-semibold text-[#002159] text-center pb-2">
-        All the benefit with zero hassle
+        Introducing NFTs, Timeshare Ownership, and a Decentralized Stablecoin.
         </h1>
-        <div className="flex items-center justify-center w-full pb-12">
+        {/* <div className="flex items-center justify-center w-full pb-12">
           <p className="w-full lg:w-2/5 text-center text-lg">
               By owning portfolio NFT contracts you will legally own the rights to the value and yield that the portfolio generates without all the paperwork and headaches involved with having your name on the deeds.
           </p>
-        </div>
+        </div> */}
 
         <div className="flex justify-center items-center">
-          <div className="w-full h-[100%] flex flex-col space-y-6 lg:flex-row ">
+          <div className="w-full h-[100%] flex flex-col  lg:space-x-8 space-y-6 lg:space-y-0  lg:flex-row ">
 
-            <div className="lg:w-1/4 flex flex-col items-center justify-center ">
+            <div className="lg:w-1/4 flex flex-col items-center justify-center mt-4 ">
               <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/asset_value.svg"></img>
-              <h2 className="text-[#002159] text-lg font-semibold " >Asset appreciation value</h2>
-              <p className="text-sm text-center">The value of your NFTs increase as the market value of the assets increase.</p>
+              <h2 className="text-[#002159] text-lg font-semibold " >Mint NFTs</h2>
+              <p className="text-sm text-center">Invest in our protocol by buying ROCKS (NFTs). The ROCKS represent your portfolio in the Boardroom. You will be asked to connect your Metamask wallet so you can approve any action.</p>
             </div>
             <div className="lg:w-1/4 flex flex-col items-center justify-center ">
               <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/stable_yeild.svg"></img>
-              <h2 className="text-[#002159] text-lg font-semibold " >Stable yield generation</h2>
-              <p className="text-sm text-center">Generate passive income with rental yield paid to all wallets that hold NFTs.</p>
+              <h2 className="text-[#002159] text-lg font-semibold " >Daily Income</h2>
+              <p className="text-sm text-center">Receive MyUSD rewards every 8 hours. The profits generated are beyond any traditional real estate investment, thanks to MyBricks 2.0's Protocol.</p>
             </div>
             <div className="lg:w-1/4 flex flex-col items-center justify-center ">
               <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/ownership_perk.svg"></img>
-              <h2 className="text-[#002159] text-lg font-semibold " >Ownership perks</h2>
-              <p className="text-sm text-center">Get additional perks like early access to portfolio launches and discounted nights accommodation.</p>
+              <h2 className="text-[#002159] text-lg font-semibold " >Reinvest</h2>
+              <p className="text-sm text-center">Use your MyUSD rewards and compound your gains by providing liquidity in our Liquidity Pool (LP).</p>
             </div>
             <div className="lg:w-1/4 flex flex-col items-center justify-center ">
               <img className="w-1/4 mb-4" src="https://mybricksfinance.com/assets/images/icons/zero_hassle.svg"></img>
-              <h2 className="text-[#002159] text-lg font-semibold " >Zero hassle and minimal fees</h2>
-              <p className="text-sm text-center">Avoid all the headaches associated with ownership and gain all the value after our management fees.</p>
+              <h2 className="text-[#002159] text-lg font-semibold " >Cash out</h2>
+              <p className="text-sm text-center">Convert rewards into the currency of your choice and have it in your bank account with only a few clicks.</p>
             </div>
 
           </div>
@@ -317,7 +312,9 @@ const Home = ({ navBar, setNavBar }) => {
         </h1>
         <div className="flex items-center justify-center w-full pb-12">
           <p className="w-[640px] text-center text-lg">
-            Creating your MyBricks account is quick and free. Simply sign up below and get access to your MyBricks wallet address.
+          Creating your MyBricks 2.0 account is quick and free. Simply sign up below and get access to your dashboard. <br/>
+Create your account
+
           </p>
         </div>
 
@@ -334,7 +331,7 @@ const Home = ({ navBar, setNavBar }) => {
 
             <div className="w-1/3 flex flex-col items-center justify-center ">
               <img className="w-[105px] h-[80px] mb-4" src="https://mybricksfinance.com/assets/images/buy_bricks.svg"></img>
-              <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]" >Buy BRICKS tokens</h2>
+              <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]" >Buy ROCKS (NFT)</h2>
               
             </div>
 
@@ -342,7 +339,7 @@ const Home = ({ navBar, setNavBar }) => {
 
             <div className="w-1/3 flex flex-col items-center justify-center ">
               <img className="w-[105px] h-[80px] mb-4" src="https://mybricksfinance.com/assets/images/participate.svg"></img>
-              <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]" >Participate in NFT launches</h2>               
+              <h2 className="text-[#002159] text-lg font-semibold w-12 sm:w-[232px]" >Join the New World Economy</h2>               
             </div>
 
           </div>
