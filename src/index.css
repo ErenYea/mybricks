@@ -15,6 +15,25 @@
     rgba(255, 153, 111, 0.4)
   );
 }
+
+.vidBg {
+  content: "";
+  position: absolute;
+  border-radius: 0.5rem;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: calc(100% - 1.25rem);
+  height: 100%;
+  background-image: linear-gradient(to top right,rgba(140,203,252,.6),#ffffff,rgba(255,153,111,.6));
+  --bs-gutter-x: -9%;
+  --bs-gutter-y: -1%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
 .portfolio-background {
   background-blend-mode: soft-light;
   background-image: url(https://mybricksfinance.com/background.629fca192f455118.jpg) !important;

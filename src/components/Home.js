@@ -9,10 +9,10 @@ const Home = ({ navBar, setNavBar }) => {
   }, []);
   return (
     <div id="home" className="">
-      <div className="flex-col flex home w-full pt-56 pb-20 px-1 lg:px-4">
-        <div className="flex justify-center items-center w-full container mr-auto ml-auto ">
+      <div className="flex-col flex home w-full pt-40 pb-20 px-1 lg:px-4">
+        <div className="flex justify-center items-center w-full container mr-auto ml-[7%]">
           <div className="w-full h-fit flex flex-col lg:flex-row items-center lg:space-x-10 space-y-10 lg:space-y-0">
-            <div className="w-full md:w-1/2 flex flex-col text-center md:text-start ">
+            <div className="w-full md:w-1/2 flex flex-col text-center md:text-start">
               <div className="mb-4">
                 <span className="text-4xl font-[700] text-[#002159]  ">
                   ROCKS - a new era of ownership accessible for everyone
@@ -40,9 +40,9 @@ const Home = ({ navBar, setNavBar }) => {
             </div>
 
             <div className="w-full md:w-1/2 h-full flex flex-col lg:items-start lg:justify-start">
-              <div className="lg:scale-[100%] w-full lg:w-9/12 h-64">
+              <div className="scale-[75%] w-9/12 h-64">
                 <video
-                  className="rounded-lg relative z-40"
+                  className="rounded-lg absolute z-40"
                   poster="https://drive.google.com/uc?export=view&id=1QlRFwpeS_ifLbeqjTILOYsm0mkKPii16"
                   preload="auto"
                   controls
@@ -50,7 +50,7 @@ const Home = ({ navBar, setNavBar }) => {
                   src="video.mp4"
                 />
 
-                <div className="hidden xl:block ml-6 -mt-[48%] rounded-lg w-full h-full absolute z-20 bg-orange-200"></div>
+                <div className="hidden xl:block ml-6 -mt-[48%] rounded-lg w-full h-full absolute z-20 vidBg"></div>
               </div>
             </div>
           </div>

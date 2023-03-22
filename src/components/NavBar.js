@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import logo from "../asset/logo.png";
 
@@ -35,15 +35,18 @@ const NavBar = ({ navBar, setNavBar }) => {
             : "h-[80px] w-screen pt-[54px]  z-10 fixed  top-0 right-0 left-0  flex flex-col teamAvatar"
         }
       >
-        <div className="flex  lg:pr-[52px] lg:pl-[52px] md:pr-[52px] md:pl-[52px] flex-row items-end justify-start">
-          <div id="logo " className="w-fit h-full flex items-end lg:ml-0 ml-2 ">
+        <div className="flex lg:pr-[52px] lg:pl-[52px] md:pr-[52px] md:pl-[52px] flex-row items-end justify-start">
+          {/* <div id="logo " className="w-fit h-full flex items-end lg:ml-0 ml-2 ">
             <Link to="/">
               <img
                 src={logo}
                 alt=""
-                className="sm:h-[50px] sm:w-[182px] ml-[50%] sm:ml-0 mt-3 sm:mt-0"
+                className="h-[50px] w-[182px] mt-3 sm:mt-0"
               />
             </Link>
+          </div>  */}
+          <div id="logo" className="w-full h-full flex items-end lg:-ml-4 ml-2" >
+            <img src={logo} alt="" className="h-[50px] w-[182px]" />
           </div>
           <div
             id="navbar"
