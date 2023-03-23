@@ -50,7 +50,7 @@ const NavBar = ({ navBar, setNavBar }) => {
           </div>
           <div
             id="navbar"
-            className="w-full space-x-8 hidden  h-full lg:flex md:flex xl:flex flex-row items-end justify-end  text-md text-[#627d98] mr-12"
+            className="w-full space-x-8 hidden h-full lg:flex md:flex xl:flex flex-row items-center justify-end text-md text-[#627d98] mr-12"
           >
             <Link to="/">
               <a className={navBar[0] == 1 ? "text-[#0552b5]" : ""}>Home</a>

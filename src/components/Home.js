@@ -8,50 +8,55 @@ const Home = ({ navBar, setNavBar }) => {
     setNavBar([1, 0, 0, 0, 0, 0]);
   }, []);
   return (
-    <div id="home" className="">
-      <div className="flex-col flex home w-full pt-40 pb-20 px-1 lg:px-4">
-        <div className="flex justify-center items-center w-full container mr-auto ml-[7%]">
-          <div className="w-full h-fit flex flex-col lg:flex-row items-center lg:space-x-10 space-y-10 lg:space-y-0">
-            <div className="w-full md:w-1/2 flex flex-col text-center md:text-start">
-              <div className="mb-4">
-                <span className="text-4xl font-[700] text-[#002159]  ">
-                  ROCKS - a new era of ownership accessible for everyone
-                </span>
-              </div>
-              <p className="lg:text-lg mb-8 text-gray-600 w-full xl:w-11/12">
-                For the first time, investors worldwide can invest in the
-                property market through NFT-based Timeshare Ownership, powered
-                by the Binance Smart Chain (BSC) network.
-              </p>
-              <p className="w-full lg:text-base text-sm mb-4 text-gray-600">
-                ROCKS Contract Address: <br />
-                <span className="underline max-w-full">
-                  {" "}
-                  0xc2F121d1a0B2d2bEAd8f6C5d274E568b868d4913
-                </span>
-              </p>
-              <p className="w-full lg:text-base text-sm mb-4 text-gray-600">
-                MyUSD Contract Address: <br />
-                <span className="underline max-w-full">
-                  {" "}
-                  0xcf110164BF0e3Ed7859a6750b3326B861AEE028E
-                </span>
-              </p>
-            </div>
+    <div id="home" className="w-screen">
+      <div className="flex-col flex justify-center items-center home w-full pt-40 pb-20 px-1 lg:px-4">
+        <div className="max-w-7xl flex items-center justify-center ">
 
-            <div className="w-full md:w-1/2 h-full flex flex-col lg:items-start lg:justify-start">
-              <div className="scale-[75%] w-9/12 h-64">
-                <video
-                  className="rounded-lg absolute z-40"
-                  poster="https://drive.google.com/uc?export=view&id=1QlRFwpeS_ifLbeqjTILOYsm0mkKPii16"
-                  preload="auto"
-                  controls
-                  crossOrigin
-                  src="video.mp4"
-                />
+          <div className="flex justify-center md:justify-between items-center w-full">
+            <div className="w-full h-fit flex flex-col md:flex-row items-start lg:space-x-10 space-y-10 lg:space-y-0">
 
-                <div className="hidden xl:block ml-6 -mt-[48%] rounded-lg w-full h-full absolute z-20 vidBg"></div>
+              <div className="w-full md:w-1/2 flex flex-col text-center md:text-start">
+                <div className="mb-4">
+                  <span className="text-4xl font-[700] text-[#002159]  ">
+                    ROCKS - a new era of ownership accessible for everyone
+                  </span>
+                </div>
+                <p className="lg:text-lg mb-8 text-gray-600 w-full xl:w-11/12">
+                  For the first time, investors worldwide can invest in the
+                  property market through NFT-based Timeshare Ownership, powered
+                  by the Binance Smart Chain (BSC) network.
+                </p>
+                <p className="w-full lg:text-base text-sm mb-4 text-gray-600">
+                  ROCKS Contract Address: <br />
+                  <span className="underline max-w-full">
+                    {" "}
+                    0xc2F121d1a0B2d2bEAd8f6C5d274E568b868d4913
+                  </span>
+                </p>
+                <p className="w-full lg:text-base text-sm mb-4 text-gray-600">
+                  MyUSD Contract Address: <br />
+                  <span className="underline max-w-full">
+                    {" "}
+                    0xcf110164BF0e3Ed7859a6750b3326B861AEE028E
+                  </span>
+                </p>
               </div>
+
+              <div className="w-full md:w-1/2 h-full flex flex-col items-center lg:justify-start">
+                <div className="scale-[100%] w-[367px] h-[250px]">
+                  <video
+                    className="rounded-lg absolute z-40"
+                    poster="https://drive.google.com/uc?export=view&id=1QlRFwpeS_ifLbeqjTILOYsm0mkKPii16"
+                    preload="auto"
+                    controls
+                    crossOrigin
+                    src="video.mp4"
+                  />
+
+                  <div className="ml-6 -mt-[48%] rounded-lg w-[77.5%] absolute z-20 vidBg"></div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
