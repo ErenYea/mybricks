@@ -45,12 +45,12 @@ const NavBar = ({ navBar, setNavBar }) => {
               />
             </Link>
           </div>  */}
-          <div id="logo" className="w-full h-full flex items-end lg:-ml-4 ml-2" >
+          <div id="logo" className="w-full h-full flex items-end md:-ml-8 ml-2" >
             <img src={logo} alt="" className="h-[50px] w-[182px]" />
           </div>
           <div
             id="navbar"
-            className="w-full space-x-8 hidden h-full lg:flex md:flex xl:flex flex-row items-center justify-end text-md text-[#627d98] mr-12"
+            className="w-full space-x-8 hidden h-full lg:flex md:flex xl:flex flex-row items-center justify-end text-md text-[#627d98] mr-12 md:-mr-8"
           >
             <Link to="/">
               <a className={navBar[0] == 1 ? "text-[#0552b5]" : ""}>Home</a>

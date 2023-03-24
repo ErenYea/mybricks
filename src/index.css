@@ -34,11 +34,11 @@
   margin-left: calc(-.5 * var(--bs-gutter-x));
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 240px) {
   .vidBg {
-    --bs-gutter-x: -11%;
-    --bs-gutter-y: -1%;
-    height: 60%;
+    --bs-gutter-x: -8%;
+    --bs-gutter-y: 0%;
+    height: 82.5%;
   }
 }
 
