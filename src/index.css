@@ -16,6 +16,11 @@
   );
 }
 
+.img {
+  width: 305;
+  height: 160px;
+}
+
 .vidBg {
   content: "";
   position: absolute;

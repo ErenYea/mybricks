@@ -1,9 +1,28 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 // import './owl.css';
 const Home = ({ navBar, setNavBar }) => {
+
+  const [itemsToShow, setItemsToShow] = useState(1);
+
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth >= 768) {
+        setItemsToShow(2);
+      } else {
+        setItemsToShow(1);
+      }
+    }
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   useEffect(() => {
     setNavBar([1, 0, 0, 0, 0, 0]);
   }, []);
@@ -221,22 +240,23 @@ const Home = ({ navBar, setNavBar }) => {
         <h1 className="text-2xl lg:text-4xl font-bold text-[#002159] text-center pb-12">
           Our Recent Timeshare Portfolio Additions.
         </h1>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center px-[2%]">
           <div className="w-full h-[100%] flex flex-col lg:flex-row p-4 lg:space-x-10">
             <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
-                <span className="text-2xl lg:text-4xl pl-4 pb-8 font-bold text-[#002159]">
+                <span className="text-2xl lg:text-3xl pl-4 pb-8 font-bold text-[#002159]">
                   The Crown Hotel
                 </span>
               </div>
               <OwlCarousel
-                items={2}
+                items={itemsToShow}
                 className="owl-theme mt-4 pl-4 "
                 loop
                 animateOut={true}
                 nav
-                center={true}
-                margin={8}
+                center={false}
+                margin={36}
+                stagePadding={32}
                 autoplay
                 autoplaySpeed={12}
                 responsiveRefreshRate={100}
@@ -278,6 +298,7 @@ const Home = ({ navBar, setNavBar }) => {
                   />
                 </div>
               </OwlCarousel>
+              
               <p className="text-md pl-4 pt-2">
                 Discover our charming hotel blocks in Liverpool's heart! Our six
                 furnished and fully equipped apartments each have a unique style
@@ -301,18 +322,19 @@ const Home = ({ navBar, setNavBar }) => {
             </div>
             <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
-                <span className="text-2xl lg:text-4xl pl-4 pb-8 font-bold text-[#002159]">
+                <span className="text-2xl lg:text-3xl pl-4 pb-8 font-bold text-[#002159]">
                   Manchester Comfy City Stay
                 </span>
               </div>
               <OwlCarousel
-                items={2}
+                items={itemsToShow}
                 className="owl-theme mt-4 pl-4"
                 loop
                 animateOut={true}
-                center={true}
+                center={false}
                 nav
-                margin={12}
+                margin={36}
+                stagePadding={32}
                 autoplay
                 autoplaySpeed={12}
               >
