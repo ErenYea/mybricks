@@ -20,13 +20,13 @@ const Footer = () => {
               Tokens.
             </div>
 
-            <div className="flex flex-col md:flex-row justify-evenly text-xs text-[#6c757d] font-semibold w-full">
+            <div className="flex flex-col md:flex-row justify-evenly text-xs text-[#6c757d] font-semibold w-full ml-1 md:ml-0">
               
-              <div className="w-1/3">
+              <div className="w-full md:w-1/3">
                 <img src={logo} alt="" className="h-[50px] w-[182px] ml-2 lg:ml-16" />
               </div>
 
-              <div className="grid grid-cols-2 md:flex md:justify-evenly md:w-full mt-4 md:-ml-[10%] lg:-ml-[25%]">
+              <div className="grid grid-cols-2 md:flex md:justify-evenly md:w-full mt-4 ml-6 md:-ml-[10%] lg:-ml-[25%]">
                 <div className="mb-2 space-y-4 pb-4 md:pb-0 md:mt-0 text-sm md:text-xs">
                   <p className="text-[#002159] font-bold">
                     {" "}

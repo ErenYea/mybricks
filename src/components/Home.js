@@ -163,13 +163,13 @@ const Home = ({ navBar, setNavBar }) => {
               <div className="h-[260px] flex justify-end items-end">
                 <img src="https://mybricksfinance.com/assets/images/idea_flow.svg"></img>
               </div>
-              <p className=" lg:text-lg text-left mb-4 text-gray-600 pt-12">
+              <p className="text-sm lg:text-lg text-left mb-4 text-gray-600 pt-12">
                 Complete control of your investment. Download and set up your
                 Metamask wallet, connect your wallet to our app and keep track
                 of your investment and rewards. Talking about rewards, let's
                 compare some performances:
               </p>
-              <ul className=" lg:text-lg text-gray-600 text-left font-medium flex flex-col w-11/12 ">
+              <ul className="text-sm lg:text-lg text-gray-600 text-left font-medium flex flex-col w-11/12 ">
                 <li>
                   Average Annual Return on Investment for residential Real
                   Estate in the United States 10.6%
@@ -189,14 +189,14 @@ const Home = ({ navBar, setNavBar }) => {
                 <img src="https://mybricksfinance.com/assets/images/discount.svg"></img>
               </div>
 
-              <p className="text-lg mb-4 text-gray-600 pt-12 text-left">
+              <p className="text-sm lg:text-lg mb-4 text-gray-600 pt-12 text-left">
                 We have additional plans to add even more utility to the token
                 in the future. These plans include:
               </p>
               <span className="font-bold w-full text-left pb-2">
                 2023 Plans:
               </span>
-              <ul className="text-lg text-left text-gray-600 font-medium flex flex-col w-11/12">
+              <ul className="text-sm lg:text-lg text-left text-gray-600 font-medium flex flex-col w-11/12">
                 <li>Launch MyBricks 2.0 Dashboard & Referral System</li>
                 <li>Add 24 new units to Portfolio</li>
                 <li>Expand NFT-based Timeshare Worldwide</li>
@@ -208,7 +208,7 @@ const Home = ({ navBar, setNavBar }) => {
               <span className="font-bold w-full text-left pb-2 pt-2">
                 2024 Plans:
               </span>
-              <ul className="text-lg text-left text-gray-600 font-medium flex flex-col w-11/12">
+              <ul className="text-sm lg:text-lg text-left text-gray-600 font-medium flex flex-col w-11/12">
                 <li>Launch MyMetaverse & NFT Accessories</li>
                 <li>Launch MyCasino - Games and Sports Betting</li>
               </ul>

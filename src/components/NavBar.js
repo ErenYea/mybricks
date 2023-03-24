@@ -29,22 +29,14 @@ const NavBar = ({ navBar, setNavBar }) => {
       <div
         className={
           colorChange
-            ? "h-[80px] w-screen pt-[20px]  z-10 fixed  top-0 right-0 left-0  flex flex-col teamAvatar bg-white"
+            ? "h-[80px] w-screen pt-[20px] z-10 fixed top-0 right-0 left-0 flex flex-col teamAvatar bg-white"
             : openMenu
-            ? "h-full w-screen pt-[54px]  z-10 fixed  top-0 right-0 left-0  flex flex-col teamAvatar bg-white pb-0"
-            : "h-[80px] w-screen pt-[54px]  z-10 fixed  top-0 right-0 left-0  flex flex-col teamAvatar"
+            ? "h-full w-screen pt-[54px] z-10 fixed top-0 right-0 left-0 flex flex-col teamAvatar bg-white pb-0"
+            : "h-[80px] w-screen pt-[54px] z-10 fixed top-0 right-0 left-0 flex flex-col teamAvatar"
         }
       >
-        <div className="flex lg:pr-[52px] lg:pl-[52px] md:pr-[52px] md:pl-[52px] flex-row items-end justify-start">
-          {/* <div id="logo " className="w-fit h-full flex items-end lg:ml-0 ml-2 ">
-            <Link to="/">
-              <img
-                src={logo}
-                alt=""
-                className="h-[50px] w-[182px] mt-3 sm:mt-0"
-              />
-            </Link>
-          </div>  */}
+        <div className="flex px-4 md:px-[5%] flex-row items-center justify-start">
+
           <div id="logo" className="w-full h-full flex items-end md:-ml-8 ml-2" >
             <img src={logo} alt="" className="h-[50px] w-[182px]" />
           </div>
@@ -76,7 +68,7 @@ const NavBar = ({ navBar, setNavBar }) => {
 
             <a href="https://mybricksinvest.co.uk/">Dashboard (beta)</a>
           </div>
-          <div className="lg:hidden md:hidden xl:hidden flex right-0 w-full justify-end">
+          <div className="lg:hidden md:hidden xl:hidden flex right-0 w-full items-center justify-end">
             {openMenu ? (
               <CloseIcon
                 onClick={() => {
