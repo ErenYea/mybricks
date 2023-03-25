@@ -242,7 +242,7 @@ const Home = ({ navBar, setNavBar }) => {
         </h1>
         <div className="flex justify-center items-center px-[2%]">
           <div className="w-full h-[100%] flex flex-col lg:flex-row p-4 lg:space-x-10">
-            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
+            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-full overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
                 <span className="text-2xl lg:text-3xl pl-4 pb-8 font-bold text-[#002159]">
                   The Crown Hotel
@@ -320,7 +320,7 @@ const Home = ({ navBar, setNavBar }) => {
                 </button>
               </a>
             </div>
-            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
+            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-full overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
                 <span className="text-2xl lg:text-3xl pl-4 pb-8 font-bold text-[#002159]">
                   Manchester Comfy City Stay
