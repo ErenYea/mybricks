@@ -33,7 +33,7 @@ const Home = ({ navBar, setNavBar }) => {
         <div className="max-w-7xl flex items-center justify-center ">
 
           <div className="flex justify-center md:justify-between items-center w-full">
-            <div className="w-full h-fit flex flex-col md:flex-row items-start lg:space-x-10 space-y-10 lg:space-y-0">
+            <div className="w-full h-fit flex flex-col md:flex-row items-start lg:items-center lg:space-x-10 space-y-10 lg:space-y-0">
 
               <div className="w-full md:w-1/2 flex flex-col text-start">
                 <div className="mb-4">
@@ -63,7 +63,7 @@ const Home = ({ navBar, setNavBar }) => {
               </div>
 
               <div className="w-full md:w-1/2 h-full flex flex-col items-center lg:justify-start">
-                <div className="scale-[100%] w-[367px] h-[250px]">
+                <div className="scale-[100%] lg:scale-[160%] lg:mt-20 w-[367px] h-[250px]">
                   <video
                     className="rounded-lg absolute z-40"
                     poster="https://drive.google.com/uc?export=view&id=1QlRFwpeS_ifLbeqjTILOYsm0mkKPii16"
@@ -242,7 +242,7 @@ const Home = ({ navBar, setNavBar }) => {
         </h1>
         <div className="flex justify-center items-center px-[2%]">
           <div className="w-full h-[100%] flex flex-col lg:flex-row p-4 lg:space-x-10">
-            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-full overflow-hidden shadow-2xl m-2 p-4">
+            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
                 <span className="text-2xl lg:text-3xl pl-4 pb-8 font-bold text-[#002159]">
                   The Crown Hotel
@@ -320,7 +320,7 @@ const Home = ({ navBar, setNavBar }) => {
                 </button>
               </a>
             </div>
-            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-full overflow-hidden shadow-2xl m-2 p-4">
+            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl m-2 p-4">
               <div className="flex flex-row items-start justify-start w-full ">
                 <span className="text-2xl lg:text-3xl pl-4 pb-8 font-bold text-[#002159]">
                   Manchester Comfy City Stay
