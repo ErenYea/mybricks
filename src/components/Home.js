@@ -1,12 +1,20 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import TravelDetailsView from "./LineChart.js";
+import GaugeChart from 'react-gauge-chart'
+
 // import './owl.css';
 const Home = ({ navBar, setNavBar }) => {
+  const [click, setClick] = useState(true);
   useEffect(() => {
     setNavBar([1, 0, 0, 0, 0, 0]);
   }, []);
+  const [dataLine, setdataLine] = useState([
+    4.5, 5, 6, 5, 7, 5.8, 5, 6, 5, 6, 4.8, 4.4,
+  ]);
+
   return (
     <div id="home" className="">
       <div className="flex-col flex home w-full pt-56 pb-20 px-1 lg:px-4">
@@ -66,7 +74,71 @@ const Home = ({ navBar, setNavBar }) => {
           incredibly simple and easy to use platform.
         </p>
       </div>
+      <div className="flex-col flex home w-full pt-20  pb-20 px-1 lg:px-4">
+        <div className="flex flex-col justify-center items-center mb-12">
+          <div className="bg-white w-full lg:w-[55%] border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center justify-center">
+            <h2 className="text-[#002159] text-4xl font-bold w-full text-center p-4 mb-4">
+              Monthly returns
+            </h2>
+            <div class="inline-flex rounded-md shadow-sm" role="group">
+              <button
+                id="clicked"
+                onClick={() =>{
+                  setClick(true)
+                  setdataLine([
+                    4.5, 5, 6, 5, 7, 5.8, 5, 6, 5, 6, 4.8, 4.4,
+                  ])}
+                }
+                type="button"
+                className={
+                  
+                  click?"px-4 py-2 text-sm font-medium bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 z-10 ring-2 ring-blue-700 text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:ring-blue-500 ":"px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700  dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white"}
 
+                
+              >
+                2022
+              </button>
+              <button
+                onClick={() =>{ 
+                  setClick(false)
+                  setdataLine([5.65, 5.2, 5.1])}}
+                type="button"
+                className={
+                  
+                  click?"px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700  dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white":"px-4 py-2 text-sm font-medium  bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700 ring-2 ring-blue-700 text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white"}
+              >
+                2023
+              </button>
+            </div>
+            <TravelDetailsView props={dataLine} className="w-full" />
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-center ">
+          <div className="bg-white w-full lg:w-[55%] border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center justify-center">
+            <h2 className="text-[#002159] text-4xl  font-bold w-full text-center p-4 mb-4">
+              APR
+            </h2>
+            <div className="w-full flex flex-col items-center justify-center">
+              <GaugeChart id="gauge-chart1"  
+                  className="font-semibold text-sm"
+                  arcPadding={0.05}
+                  nrOfLevels={20}
+                  percent={0.86}
+                  needleColor="#ff795a"
+                  needleBaseColor="#ff795a"
+                  textColor="#000000"
+                  fontSize="3vw"
+                  colors={["#FFC371","#FF5F6D"]} 
+                  cornerRadius="8"
+                  // previousValue={0.45}
+                
+              
+            />
+            </div>
+          </div>
+        </div>
+
+      </div>
       <div className="flex-col flex home w-full pt-20 mt-20 pb-20 px-1 lg:px-80">
         <div className="flex justify-center items-center">
           <div className="w-full h-fit flex flex-col-reverse lg:flex-row items-center lg:space-x-10">
