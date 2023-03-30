@@ -7,11 +7,11 @@ const Teams = ({ navBar, setNavBar }) => {
   }, []);
   return (
     <div id="temas" className="">
-      <div className="w-full home lg:pt-56 pt-40 pb-16 text-center mr-auto ml-auto flex flex-col items-center">
-        <h1 className="lg:text-4xl  text-xl font-semibold mb-[16px] leading-5 text-[#002159]">
+      <div className="w-full home pt-40 pb-16 mr-auto ml-auto flex flex-col items-start md:items-center">
+        <h1 className="md:text-4xl text-xl font-bold mb-[16px] text-left px-4 leading-5 text-[#002159]">
           Introducing our team!
         </h1>
-        <p className=" max-w-[720px] leading-5 text-[#486581] lg:text-lg text-sm mb-0 mt-[10px]">
+        <p className="max-w-[720px] leading-5 text-[#486581] md:text-center px-4 lg:text-lg text-sm md:text-lg mb-0 mt-[10px]">
           The team is a diverse group of individuals working together towards a
           common goal. They value open communication, impartiality, and
           data-driven decision-making. They strive for fairness, respect, and
@@ -20,43 +20,39 @@ const Teams = ({ navBar, setNavBar }) => {
       </div>
 
       <div className="flex flex-col items-center mt-5 mr-auto ml-auto">
-        <div className="flex mb-12 justify-center items-center">
+        <div className="flex mb-12 justify-center items-center space-x-4">
           <button
             onClick={() => setSelect(true)}
             className={
               select
-                ? " text-[#fff] h-[45px] mr-8 gradiant-button text-sm md:text-md lg:text-md pl-2 pr-2 border-2 border-[#ff996f] rounded-md"
-                : "mr-8 border-2 h-[45px] pl-2 pr-2 text-sm md:text-md lg:text-md   border-[#ff996f] text-[#ea4600] rounded-md"
+                ? "text-[#fff] h-[45px] gradiant-button text-sm md:text-md lg:text-md pl-2 pr-2 border-2 border-[#ff996f] rounded-md"
+                : "border-2 h-[45px] pl-2 pr-2 text-sm md:text-md lg:text-md border-[#ff996f] text-[#ea4600] rounded-md"
             }
           >
             Founding Team
           </button>
-          {/* <button className="mr-8 border-2 h-[45px] pl-2 pr-2  border-[#ff996f] text-[#ea4600] rounded-md">
-            Property Development Team
-          </button> */}
+
           <button
             onClick={() => setSelect(false)}
             className={
               select
-                ? "mr-8 border-2 h-[45px] pl-2 pr-2 text-sm md:text-md lg:text-md  border-[#ff996f] text-[#ea4600] rounded-md"
-                : " text-[#fff] h-[45px] mr-8 gradiant-button pl-2 pr-2 border-2 text-sm md:text-md lg:text-md  border-[#ff996f] rounded-md"
+                ? "border-2 h-[45px] pl-2 pr-2 text-sm md:text-md lg:text-md border-[#ff996f] text-[#ea4600] rounded-md"
+                : "text-[#fff] h-[45px] gradiant-button pl-2 pr-2 border-2 text-sm md:text-md lg:text-md border-[#ff996f] rounded-md"
             }
           >
             MyBricks Partners
           </button>
-          {/* <button className="mr-8 border-2 h-[45px] pl-2 pr-2  border-[#ff996f] text-[#ea4600] rounded-md">
-            Build Team
-          </button> */}
+          
         </div>
         {select ? (
           <div className="flex flex-col items-center justify-center">
-            <div className="flex flex-col items-center">
-              <h2 className="lg:text-3xl text-lg font-bold text-[#002159] mb-2">
+            <div className="flex flex-col items-start md:items-center px-4">
+              <h2 className="md:text-3xl text-left text-lg font-bold text-[#002159] mb-2">
                 Founding team
               </h2>
-              <p className="lg:text-lg text-sm text-center text-[#486581]">
+              <p className="lg:text-lg text-sm md:text-lg text-left md:text-center md:px-4 text-[#486581]">
                 The People Behind MyBricks 2.0's Growth We're driven by a
-                passion for both technology and real estate
+                passion for both technology and real estate.
               </p>
             </div>
             <div className="flex flex-wrap justify-center ml-20 mr-20">
