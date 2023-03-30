@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-center space-y-2 pb-2 pt-16">
         <div className="flex flex-col items-center justify-center w-full">
           <div className="flex flex-col items-center justify-center w-full">
-            <div className="w-full px-8 lg:px-28 text-[#6c757d] text-sm pb-12">
+            <div className="w-full px-12 lg:px-28 text-[#6c757d] text-sm pb-12">
               Disclaimer: Any investment made in connection with MyBricks 2.0 is
               solely at the Participant's own risk. The Company is not liable
               for any financial loss or other damages that may result from such
