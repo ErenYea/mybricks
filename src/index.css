@@ -112,3 +112,17 @@ ul li::before {
   color: #002159;
   cursor: pointer;
 }
+
+.owl-dot > span {
+  background-color: #869791 !important;
+  opacity: 20%;
+}
+
+.owl-dot.active > span {
+  background-color: #ff655a !important;
+  opacity: 100% !important;
+}
+
+.owl-nav > button > span {
+  display: none !important;
+}

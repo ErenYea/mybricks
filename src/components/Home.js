@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import TravelDetailsView from "./LineChart.js";
-import GaugeChart from 'react-gauge-chart'
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -8,9 +7,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 const Home = ({ navBar, setNavBar }) => {
 
   const [click, setClick] = useState(true);
-  useEffect(() => {
-    setNavBar([1, 0, 0, 0, 0, 0]);
-  }, []);
+
   const [dataLine, setdataLine] = useState([
     4.5, 5, 6, 5, 7, 5.8, 5, 6, 5, 6, 4.8, 4.4,
   ]);
@@ -47,7 +44,7 @@ const Home = ({ navBar, setNavBar }) => {
 
               <div className="w-full md:w-1/2 flex flex-col text-start">
                 <div className="mb-4">
-                  <span className="text-2xl font-[700] text-[#002159]  ">
+                  <span className="text-2xl lg:text-4xl font-[700] text-[#002159]">
                     ROCKS - a new era of ownership accessible for everyone
                   </span>
                 </div>
@@ -73,7 +70,7 @@ const Home = ({ navBar, setNavBar }) => {
               </div>
 
               <div className="w-full md:w-1/2 h-full flex flex-col items-center lg:justify-start">
-                <div className="scale-[100%] lg:scale-[160%] lg:mt-20 w-[367px] h-[250px]">
+                <div className="scale-[100%] xl:scale-[160%] xl:mt-20 w-[367px] h-[250px]">
                   <video
                     className="rounded-lg absolute z-40"
                     poster="https://drive.google.com/uc?export=view&id=1QlRFwpeS_ifLbeqjTILOYsm0mkKPii16"
@@ -137,40 +134,19 @@ const Home = ({ navBar, setNavBar }) => {
             <TravelDetailsView props={dataLine} className="w-full" />
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center ">
-          <div className="bg-white w-full lg:w-[55%] border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 flex flex-col items-center justify-center">
-            <h2 className="text-[#002159] text-4xl font-bold w-full text-center p-4 mb-4">
-              APR
-            </h2>
-            <div className="w-full flex flex-col items-center justify-center">
-              <GaugeChart id="gauge-chart1"  
-                  className="font-semibold text-sm"
-                  arcPadding={0.05}
-                  nrOfLevels={20}
-                  percent={0.86}
-                  needleColor="#ff795a"
-                  needleBaseColor="#ff795a"
-                  textColor="#000000"
-                  fontSize="3vw"
-                  colors={["#FFC371","#FF5F6D"]} 
-                  cornerRadius="8"
-              />
-            </div>
-          </div>
-        </div>
 
       </div>
 
-      <div className="flex-col flex home w-full pt-20 mt-20 pb-20 px-1 lg:px-80">
+      <div className="flex-col flex home w-full pt-20 mt-20 pb-20 px-1 xl:px-28 2xl:px-80">
         <div className="flex justify-center items-center">
           <div className="w-full h-fit flex flex-col-reverse md:flex-row items-center lg:space-x-10">
-            <div className="w-full md:w-1/2 flex flex-col items-center text-center md:text-left px-2 justify-center lg:justify-end">
+            <div className="w-full md:w-1/2 flex flex-col items-center text-center md:text-left px-4 justify-center lg:justify-end">
               <div className="mb-4">
-                <span className="text-lg md:text-3xl lg:text-4xl font-bold text-[#002159]">
+                <span className="text-lg md:text-3xl 2xl:text-4xl font-bold text-[#002159] ">
                   Democratising the Airbnb investing experience
                 </span>
               </div>
-              <p className="lg:text-lg mb-4 text-gray-600 mt-6 px-4 md:px-0 lg:-ml-4">
+              <p className="lg:text-lg mb-4 text-gray-600 mt-6 px-4 md:px-0 2xl:-ml-4">
                 Once you become a MyBricks 2.0 (ROCKS) NFT holder, you are now
                 part of a very select group of investors with some pretty
                 amazing perks. These include discounted stays in any property in
@@ -183,26 +159,24 @@ const Home = ({ navBar, setNavBar }) => {
 
             <div className="w-full md:w-1/2 h-full flex flex-col items-start justify-start pb-4 scale-[95%] md:scale-[85%]">
               <img src="https://mybricksfinance.com/assets/images/guranteed_ownership.svg"></img>
-              {/* <div className="rounded-lg scale-[70%] w-1/2 h-full border-black border-2 z-1"></div>               */}
             </div>
           </div>
         </div>
       </div>
 
-      <div className="flex-col flex md:pt-20 md:mt-20 md:pb-20 px-0.5 sm:px-10 lg:px-80">
+      <div className="flex-col flex md:pt-20 md:mt-20 md:pb-20 px-0.5 sm:px-10 xl:px-28 2xl:px-80">
         <div className="flex justify-center items-center">
-          <div className="w-full h-fit flex flex-col md:flex-row items-center lg:space-x-20">
-            <div className="w-full h-full flex flex-col items-start justify-start pb-4 scale-[95%] md:scale-[85%]">
+          <div className="w-full h-fit flex flex-col md:flex-row items-center lg:space-x-12">
+            <div className="w-full h-full flex flex-col items-start justify-start pb-4 scale-[95%] md:scale-[85%] lg:scale-[100%]">
               <img src="https://mybricksfinance.com/assets/images/higher_than_rental.svg"></img>
-              {/* <div className="rounded-lg scale-[70%] w-1/2 h-full border-black border-2 z-1"></div>               */}
             </div>
-            <div className="w-full flex flex-col justify-end text-center md:text-left">
+            <div className="w-full flex flex-col md:text-left">
               <div className="mb-4">
-                <span className="text-lg md:text-3xl lg:text-4xl font-bold text-[#002159]">
+                <span className="text-lg md:text-3xl 2xl:text-4xl font-bold text-[#002159]">
                   Higher than average rental yield
                 </span>
               </div>
-              <p className="text-sm md:text-lg mb-4 text-center md:text-left md:-ml-4 text-gray-600 px-4 md:mt-4">
+              <p className="text-sm md:text-lg mb-4 md:text-left md:-ml-4 text-gray-600 px-4 md:mt-4">
                 Despite the average rental income for properties in the UK being
                 3.63%, MyBricks 2.0 has managed to deliver a remarkable 65%
                 return to our investors in 2022. We are determined to maintain
@@ -215,12 +189,12 @@ const Home = ({ navBar, setNavBar }) => {
         </div>
       </div>
 
-      <div className="flex-col flex home pt-20 lg:mt-20 lg:pb-20 lg:px-80 text-sm lg:text-lg mb-4 text-center md:text-left lg:-ml-4 text-gray-600 px-4 md:mt-4">
+      <div className="flex-col flex home pt-20 lg:mt-20 lg:pb-20 lg:px-10 xl:px-28 2xl:px-80 text-sm lg:text-lg mb-4 text-center md:text-left lg:-ml-4 text-gray-600 px-4 md:mt-4">
         <div className="flex justify-center items-center">
           <div className="w-full h-fit flex flex-col-reverse md:flex-row items-center lg:space-x-10">
             <div className="md:w-1/2 flex flex-col justify-center md:justify-end">
               <div className="mb-2">
-                <span className="text-lg md:text-3xl text-left lg:text-4xl font-bold text-[#002159]">
+                <span className="text-lg md:text-3xl 2xl:text-4xl text-left lg:text-4xl font-bold text-[#002159]">
                   Contract Audit by Cyberscope
                 </span>
               </div>
@@ -232,7 +206,7 @@ const Home = ({ navBar, setNavBar }) => {
               </p>
             </div>
             <div className="w-1/2 h-fit flex flex-col items-start justify-end pb-4 mb-6 ">
-              <div className="w-full h-full flex flex-col items-start justify-start pb-4 scale-[175%] md:scale-[50%]">
+              <div className="w-full h-full flex flex-col items-start justify-start pb-4 scale-[175%] md:scale-[50%] lg:scale-75">
                 <img src="https://mybricksfinance.com/assets/images/autonomy_over_investment.svg"
                 ></img>
               </div>
@@ -241,7 +215,7 @@ const Home = ({ navBar, setNavBar }) => {
         </div>
       </div>
 
-      <div className="flex-col flex pt-2 lg:pt-20 pb-8 px-1 lg:px-80">
+      <div className="flex-col flex pt-2 lg:pt-20 pb-8 px-1 xl:px-28 2xl:px-80">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#002159] text-center pb-2">
           ROCKS (NFT)
         </h1>
@@ -305,17 +279,17 @@ const Home = ({ navBar, setNavBar }) => {
         </div>
       </div>
 
-      <div className="flex-col flex pt-1 lg:pt-20 pb-1 px-1 lg:px-80">
+      <div className="flex-col flex pt-1 lg:pt-20 pb-1 px-1 xl:px-28 2xl:px-80">
         <h1 className="text-lg lg:text-3xl font-bold text-[#002159] text-center pb-2 lg:pb-10">
           Our Recent Timeshare Portfolio Additions.
         </h1>
         <div className="flex justify-center items-center">
-          <div className="w-full h-[100%] flex flex-col lg:flex-row p-4 lg:space-x-10">
-            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl">
+          <div className="w-full h-[100%] flex flex-col xl:flex-row p-4 xl:space-x-10">
+            <div className="w-full xl:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl">
               
               <OwlCarousel
                 items={itemsToShow}
-                className="owl-theme mt-6 md:order-2"
+                className="owl-theme mt-6 md:order-2 md:px-8 lg:px-10"
                 loop
                 animateOut={true}
                 nav
@@ -365,12 +339,12 @@ const Home = ({ navBar, setNavBar }) => {
               </OwlCarousel>
 
               <div className="flex flex-row items-start justify-start w-full px-[7.5%] md:order-1 md:mt-6">
-                <span className="text-lg lg:text-3xl text-left pb-2 pt-2 font-bold text-[#002159]">
+                <span className="text-lg md:text-3xl text-left pb-2 pt-2 font-bold text-[#002159]">
                   The Crown Hotel
                 </span>
               </div>
 
-              <p className="text-sm text-left pt-2 px-[7.5%] order-3">
+              <p className="text-sm md:text-lg text-left pt-2 px-[7.5%] order-3">
                 Discover our charming hotel blocks in Liverpool's heart! Our six
                 furnished and fully equipped apartments each have a unique style
                 and character, ideal for families or groups of four. With our
@@ -382,17 +356,17 @@ const Home = ({ navBar, setNavBar }) => {
               </p>
 
               <a target="_blank" href="https://www.airbnb.co.uk/p/bricks" className="order-4">
-                <button className="text-white text-sm airbnbBtn w-[240px] rounded-[8px] h-[45px] mt-4 md:mt-14 mb-8">
+                <button className="text-white text-sm airbnbBtn w-[240px] rounded-[8px] h-[45px] mt-4 md:mt-[37.5%] mb-8">
                   View on AirBnB
                 </button>
               </a>
             </div>
 
-            <div className="w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl mt-10 md:mt-0">
+            <div className="w-full xl:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl mt-10 md:mt-0">
               
               <OwlCarousel
                 items={itemsToShow}
-                className="owl-theme mt-6 md:order-2"
+                className="owl-theme mt-6 md:order-2 md:px-8 lg:px-10"
                 loop
                 animateOut={true}
                 center={false}
@@ -440,11 +414,11 @@ const Home = ({ navBar, setNavBar }) => {
                 </div>
               </OwlCarousel>
               <div className="flex flex-row items-start justify-start w-full px-[7.5%] md:order-1">
-                <span className="text-lg lg:text-3xl text-left pb-2 pt-2 font-bold text-[#002159] md:mt-6">
+                <span className="text-lg md:text-3xl text-left pb-2 pt-2 font-bold text-[#002159] md:mt-6">
                   Manchester Comfy City Stay
                 </span>
               </div>
-              <p className="text-sm text-left pt-2 px-[7.5%] order-3">
+              <p className="text-sm md:text-lg text-left pt-2 px-[7.5%] order-3">
                 Experience chic city living in our 1-bed flat located in the
                 heart of Manchester. This modern and stylish apartment is
                 perfect for solo travelers or couples looking for a comfortable
@@ -465,63 +439,63 @@ const Home = ({ navBar, setNavBar }) => {
         </div>
       </div>
 
-      <div className="flex-col flex pt-10 lg:pt-20 pb-20 home px-1 lg:px-80">
-        <h1 className="text-xl md:text-3xl lg:text-4xl font-semibold text-[#002159] text-center pb-2">
+      <div className="flex-col flex pt-10 lg:pt-20 pb-20 home px-1 xl:px-28 2xl:px-80">
+        <h1 className="text-xl md:text-3xl xl:text-4xl font-semibold text-[#002159] text-center pb-2 md:px-20 xl:px-0">
           Introducing NFTs, Timeshare Ownership, and a Decentralized Stablecoin.
         </h1>
 
         <div className="flex justify-center items-start mx-4 sm:mx-0">
-          <div className="w-full h-[100%] grid grid-cols-1 md:grid-cols-2 lg:flex lg:space-x-8 space-y-6 lg:space-y-0">
-            <div className="lg:w-1/4 flex flex-col items-center justify-center mt-4 ">
+          <div className="w-full h-[100%] grid grid-cols-1 md:grid-cols-2 xl:flex xl:space-x-8 space-y-6 lg:space-y-0">
+            <div className="xl:w-1/4 flex flex-col items-center justify-center mt-4">
               <img
-                className="w-1/4 mb-4"
+                className="w-1/4 mb-4 md:mb-0 md:scale-[60%] xl:scale-100"
                 src="https://mybricksfinance.com/assets/images/icons/asset_value.svg"
               ></img>
               <h2 className="text-[#002159] text-lg font-semibold ">
                 Mint NFTs
               </h2>
-              <p className="text-xs text-center">
+              <p className="text-xs text-center px-4">
                 Invest in our protocol by buying ROCKS (NFTs). The ROCKS
                 represent your portfolio in the Boardroom. You will be asked to
                 connect your Metamask wallet so you can approve any action.
               </p>
             </div>
-            <div className="lg:w-1/4 flex flex-col items-center justify-center ">
+            <div className="xl:w-1/4 flex flex-col items-center justify-center">
               <img
-                className="w-1/4 mb-4"
+                className="w-1/4 mb-4 md:mb-0 md:scale-[60%] xl:scale-100"
                 src="https://mybricksfinance.com/assets/images/icons/stable_yeild.svg"
               ></img>
-              <h2 className="text-[#002159] text-lg font-semibold ">
+              <h2 className="text-[#002159] text-lg font-semibold">
                 Daily Income
               </h2>
-              <p className="text-xs text-center">
+              <p className="text-xs text-center px-4">
                 Receive MyUSD rewards every 8 hours. The profits generated are
                 beyond any traditional real estate investment, thanks to
                 MyBricks 2.0's Protocol.
               </p>
             </div>
-            <div className="lg:w-1/4 flex flex-col items-center justify-center ">
+            <div className="xl:w-1/4 flex flex-col items-center justify-center">
               <img
-                className="w-1/4 mb-4"
+                className="w-1/4 mb-4 md:mb-0 md:scale-[60%] xl:scale-100"
                 src="https://mybricksfinance.com/assets/images/icons/ownership_perk.svg"
               ></img>
               <h2 className="text-[#002159] text-lg font-semibold ">
                 Reinvest
               </h2>
-              <p className="text-xs text-center">
+              <p className="text-xs text-center px-4">
                 Use your MyUSD rewards and compound your gains by providing
                 liquidity in our Liquidity Pool (LP).
               </p>
             </div>
-            <div className="lg:w-1/4 flex flex-col items-center justify-center ">
+            <div className="xl:w-1/4 flex flex-col items-center justify-center ">
               <img
-                className="w-1/4 mb-4"
+                className="w-1/4 mb-4 md:mb-0 md:scale-[60%] xl:scale-100"
                 src="https://mybricksfinance.com/assets/images/icons/zero_hassle.svg"
               ></img>
               <h2 className="text-[#002159] text-lg font-semibold ">
                 Cash out
               </h2>
-              <p className="text-xs text-center">
+              <p className="text-xs text-center px-4">
                 Convert rewards into the currency of your choice and have it in
                 your bank account with only a few clicks.
               </p>
