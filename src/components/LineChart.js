@@ -3,10 +3,7 @@ import ReactApexChart from "react-apexcharts";
 import { ApexOptions } from 'apexcharts';
 
 const TravelDetailsView = (args) => {
-
-  
     const chartData = {
-
         chart: {
             
             type: "line",
@@ -44,7 +41,6 @@ const TravelDetailsView = (args) => {
               data: args.props
             },
           ],
-
           plotOptions: {
             bar: {
               columnWidth: "20%"
@@ -89,7 +85,6 @@ const TravelDetailsView = (args) => {
             }
           },
           yaxis: [
-            
             {
               tickAmount: 4,
               min: 0,
@@ -103,6 +98,9 @@ const TravelDetailsView = (args) => {
                 color: "#ff795a"
               },
               labels: {
+                formatter: function(val) {
+                  return val + '%'
+                },
                 align: 'left',
                 minWidth: 0,
                 maxWidth: 360,
@@ -140,6 +138,6 @@ const TravelDetailsView = (args) => {
           }
         };
   
-    return <ReactApexChart options={chartData} series={chartData.series} class='w-full h-fit lg:w-full'/>;
-  };
-  export default TravelDetailsView;
+  return <ReactApexChart options={chartData} series={chartData.series} class='w-full h-fit lg:w-full'/>;
+};
+export default TravelDetailsView;
