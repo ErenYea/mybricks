@@ -29,10 +29,10 @@ const NavBar = ({ navBar, setNavBar }) => {
       <div
         className={
           colorChange
-            ? "h-[80px] w-screen pt-[20px] z-10 fixed top-0 right-0 left-0 flex flex-col teamAvatar bg-white"
+            ? "h-[80px] w-screen pt-[20px] z-20 fixed top-0 right-0 left-0 flex flex-col teamAvatar bg-white"
             : openMenu
-            ? "h-full w-screen pt-[54px] z-10 fixed top-0 right-0 left-0 flex flex-col teamAvatar bg-white pb-0"
-            : "h-[80px] w-screen pt-[54px] z-10 fixed top-0 right-0 left-0 flex flex-col teamAvatar"
+            ? "h-full w-screen pt-[54px] z-20 fixed top-0 right-0 left-0 flex flex-col teamAvatar bg-white pb-0"
+            : "h-[80px] w-screen pt-[54px] z-20 fixed top-0 right-0 left-0 flex flex-col teamAvatar"
         }
       >
         <div className="flex px-4 md:px-[5%] flex-row items-center justify-start">

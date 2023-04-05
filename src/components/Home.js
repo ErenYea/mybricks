@@ -116,7 +116,7 @@ const Home = ({ navBar, setNavBar }) => {
                 }
                 type="button"
                 className={
-                  click?"px-4 py-2 text-sm font-medium bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 ring-2 ring-blue-700 text-blue-700 dark:text-whitedark:ring-blue-500 ":"px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700"}
+                  click?"px-4 py-2 text-sm font-medium bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 z-10 ring-2 ring-blue-700 text-blue-700 dark:text-whitedark:ring-blue-500 ":"px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700"}
                 >
                 2022
               </button>
