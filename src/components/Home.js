@@ -137,12 +137,12 @@ const Home = ({ navBar, setNavBar }) => {
 
       </div>
 
-      <div className="flex-col flex home w-full pt-20 mt-20 pb-2 md:pb-20 px-1 xl:px-28 2xl:px-80">
+      <div className="flex-col flex home w-full pt-20 mt-20 pb-2 md:pb-20 px-0 xl:px-28 2xl:px-80">
         <div className="flex justify-center items-center">
           <div className="w-full h-fit flex flex-col-reverse md:flex-row items-center lg:space-x-10">
             <div className="w-full md:w-1/2 flex flex-col items-center text-center md:text-left px-4 justify-center lg:justify-end">
               <div className="mb-2">
-                <span className="text-lg md:text-3xl 2xl:text-4xl font-bold text-[#002159] ">
+                <span className="text-lg md:text-3xl 2xl:text-4xl font-bold text-[#002159]">
                   Democratising the Airbnb investing experience
                 </span>
               </div>
