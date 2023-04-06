@@ -137,7 +137,7 @@ const Home = ({ navBar, setNavBar }) => {
 
       </div>
 
-      <div className="flex-col flex home w-full pt-20 mt-20 pb-2 md:pb-20 px-0 xl:px-28 2xl:px-80">
+      <div className="flex-col flex home w-full pt-20 mt-20 pb-6 md:pb-20 px-0 xl:px-28 2xl:px-80">
         <div className="flex justify-center items-center">
           <div className="w-full h-fit flex flex-col-reverse md:flex-row items-center lg:space-x-10">
             <div className="w-full md:w-1/2 flex flex-col items-center text-center md:text-left px-4 justify-center lg:justify-end">
@@ -146,7 +146,7 @@ const Home = ({ navBar, setNavBar }) => {
                   Democratising the Airbnb investing experience
                 </span>
               </div>
-              <p className="text-sm md:text-lg mb-2 text-gray-600 mt-0 md:mt-6 px-1 md:px-0 2xl:-ml-4">
+              <p className="text-sm md:text-lg mb-2 text-gray-600 mt-0 md:mt-6 px-1 md:px-4 2xl:-ml-4">
                 Once you become a MyBricks 2.0 (ROCKS) NFT holder, you are now
                 part of a very select group of investors with some pretty
                 amazing perks. These include discounted stays in any property in
@@ -164,7 +164,7 @@ const Home = ({ navBar, setNavBar }) => {
         </div>
       </div>
 
-      <div className="flex-col flex md:pt-20 md:mt-20 md:pb-20 px-0.5 sm:px-10 xl:px-28 2xl:px-80">
+      <div className="flex-col flex pt-4 md:pt-20 md:mt-20 md:pb-20 px-0.5 sm:px-10 xl:px-28 2xl:px-80">
         <div className="flex justify-center items-center">
           <div className="w-full h-fit flex flex-col md:flex-row items-center lg:space-x-12">
             <div className="w-full h-full flex flex-col items-start justify-start pb-4 scale-[95%] md:scale-[85%] lg:scale-[100%]">
@@ -176,7 +176,7 @@ const Home = ({ navBar, setNavBar }) => {
                   Higher than average rental yield
                 </span>
               </div>
-              <p className="text-sm md:text-lg mb-4 md:text-left md:-ml-4 text-gray-600 px-2 md:mt-4">
+              <p className="text-sm md:text-lg mb-4 md:text-left md:-ml-4 text-gray-600 px-2 md:px-4 md:mt-4">
                 Despite the average rental income for properties in the UK being
                 3.63%, MyBricks 2.0 has managed to deliver a remarkable 65%
                 return to our investors in 2022. We are determined to maintain
