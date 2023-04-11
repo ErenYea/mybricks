@@ -105,31 +105,40 @@ const Home = ({ navBar, setNavBar }) => {
             <h2 className="text-[#002159] text-4xl font-bold w-full text-center p-4 mb-4">
               Track Record
             </h2>
-            <div class="inline-flex rounded-md shadow-sm" role="group">
-              <button
-                id="clicked"
-                onClick={() =>{
-                  setClick(true)
-                  setdataLine([
-                    4.5, 5.10, 6.15, 5.55, 7.20, 5.8, 5.40, 6.25, 5.10, 6.10, 4.8, 4.4,
-                  ])}
-                }
-                type="button"
-                className={
-                  click?"px-4 py-2 text-sm font-medium bg-white border-b  border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 z-10 ring-2 ring-blue-700 text-blue-700 dark:text-whitedark:ring-blue-500 ":"px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700"}
-                >
-                2022
-              </button>
-              <button
-                onClick={() =>{ 
-                  setClick(false)
-                  setdataLine([5.65, 5.2, 5.1])}}
-                type="button"
-                className={
-                  click?"px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700  dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white":"px-4 py-2 text-sm font-medium bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700 ring-2 ring-blue-700 text-blue-700"}
-                >
-                2023
-              </button>
+            <div className="flex-col space-y-2">
+              <div class="inline-flex rounded-md shadow-sm" role="group">
+                <button
+                  id="clicked"
+                  onClick={() =>{
+                    setClick(true)
+                    setdataLine([
+                      4.5, 5.10, 6.15, 5.55, 7.20, 5.8, 5.40, 6.25, 5.10, 6.10, 4.8, 4.4,
+                    ])}
+                  }
+                  type="button"
+                  className={
+                    click?"px-4 py-2 text-sm font-medium bg-white border-b-2 border-blue-900 hover:bg-gray-100 hover:text-blue-700 z-10 text-blue-700" : "px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100"}
+                  >
+                  2022
+                </button>
+                <button
+                  onClick={() =>{ 
+                    setClick(false)
+                    setdataLine([5.65, 5.2, 5.1])}}
+                  type="button"
+                  className={
+                    !click?"px-4 py-2 text-sm font-medium bg-white border-b-2 border-blue-900 hover:bg-gray-100 hover:text-blue-700 z-10 text-blue-700" : "px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100"}
+                  >
+                  2023
+                </button>
+              </div>
+
+              { click &&
+                <div className="text-red-500 font-bold text-center">
+                  65% APR
+                </div>
+              }
+
             </div>
             <TravelDetailsView props={dataLine} className="w-full" />
           </div>

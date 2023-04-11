@@ -63,11 +63,11 @@ const TravelDetailsView = (args) => {
               ]
               , 
               axisBorder: {
-                show: true,
+                show: false,
                 color: "#ff795a"
               },
             title: {
-                text: "Months",
+                text: "",
                 style: {
                     fontFamily: 'Poppins,Helvetica, Arial, sans-serif',
                     fontSize:'14px',
@@ -94,7 +94,7 @@ const TravelDetailsView = (args) => {
                 show: true
               },
               axisBorder: {
-                show: true,
+                show: false,
                 color: "#ff795a"
               },
               labels: {
@@ -116,7 +116,7 @@ const TravelDetailsView = (args) => {
                 // rotate: 0,
               },
               title: {
-                text: "Track Record",
+                text: "",
                 style: {
                   fontFamily: 'Poppins,Helvetica, Arial, sans-serif',
                   fontSize:'14px',
@@ -135,6 +135,9 @@ const TravelDetailsView = (args) => {
           legend: {
             horizontalAlign: "left",
             offsetX: 40
+          },
+          markers: {
+            size: [4, 7]
           }
         };
   
