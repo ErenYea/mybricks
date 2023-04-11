@@ -103,7 +103,7 @@ const Home = ({ navBar, setNavBar }) => {
         <div className="flex flex-col justify-center items-center mb-12">
           <div className="bg-white w-full lg:w-[55%] border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 flex flex-col items-center justify-center">
             <h2 className="text-[#002159] text-4xl font-bold w-full text-center p-4 mb-4">
-              Monthly returns
+              Track Record
             </h2>
             <div class="inline-flex rounded-md shadow-sm" role="group">
               <button
@@ -111,12 +111,12 @@ const Home = ({ navBar, setNavBar }) => {
                 onClick={() =>{
                   setClick(true)
                   setdataLine([
-                    4.5, 5, 6, 5, 7, 5.8, 5, 6, 5, 6, 4.8, 4.4,
+                    4.5, 5.10, 6.15, 5.55, 7.20, 5.8, 5.40, 6.25, 5.10, 6.10, 4.8, 4.4,
                   ])}
                 }
                 type="button"
                 className={
-                  click?"px-4 py-2 text-sm font-medium bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 z-10 ring-2 ring-blue-700 text-blue-700 dark:text-whitedark:ring-blue-500 ":"px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700"}
+                  click?"px-4 py-2 text-sm font-medium bg-white border-b  border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 z-10 ring-2 ring-blue-700 text-blue-700 dark:text-whitedark:ring-blue-500 ":"px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700"}
                 >
                 2022
               </button>
@@ -134,19 +134,18 @@ const Home = ({ navBar, setNavBar }) => {
             <TravelDetailsView props={dataLine} className="w-full" />
           </div>
         </div>
-
       </div>
 
       <div className="flex-col flex home w-full pt-20 mt-20 pb-6 md:pb-20 px-0 xl:px-28 2xl:px-80">
         <div className="flex justify-center items-center">
           <div className="w-full h-fit flex flex-col-reverse md:flex-row items-center lg:space-x-10">
-            <div className="w-full md:w-1/2 flex flex-col items-center text-center md:text-left px-4 justify-center lg:justify-end">
+            <div className="w-full md:w-1/2 flex flex-col items-center xl:items-start text-center md:text-left px-4 justify-center lg:justify-end">
               <div className="mb-2">
                 <span className="text-lg md:text-3xl 2xl:text-4xl font-bold text-[#002159]">
                   Democratising the Airbnb investing experience
                 </span>
               </div>
-              <p className="text-sm md:text-lg mb-2 text-gray-600 mt-0 md:mt-6 px-1 md:px-4 2xl:-ml-4">
+              <p className="text-sm md:text-lg mb-2 text-gray-600 mt-0 md:mt-6 px-1 md:px-0">
                 Once you become a MyBricks 2.0 (ROCKS) NFT holder, you are now
                 part of a very select group of investors with some pretty
                 amazing perks. These include discounted stays in any property in
@@ -285,7 +284,7 @@ const Home = ({ navBar, setNavBar }) => {
         </h1>
         <div className="flex justify-center items-center">
           <div className="w-full h-[100%] flex flex-col xl:flex-row p-4 xl:space-x-10">
-            <div className="w-full xl:w-1/2 h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl">
+            <div className="w-full xl:w-1/2 min-h-full flex flex-col items-center justify-center lg:justify-start pb-4 rounded-xl overflow-hidden shadow-2xl">
               
               <OwlCarousel
                 items={itemsToShow}
@@ -344,7 +343,7 @@ const Home = ({ navBar, setNavBar }) => {
                 </span>
               </div>
 
-              <p className="text-sm md:text-lg text-left pt-2 px-[7.5%] order-3">
+              <p className="text-sm md:text-lg text-left pt-2 px-[7.5%] order-3 xl:h-[320px]">
                 Discover our charming hotel blocks in Liverpool's heart! Our six
                 furnished and fully equipped apartments each have a unique style
                 and character, ideal for families or groups of four. With our
@@ -356,7 +355,7 @@ const Home = ({ navBar, setNavBar }) => {
               </p>
 
               <a target="_blank" href="https://www.airbnb.co.uk/p/bricks" className="order-4">
-                <button className="text-white text-sm airbnbBtn w-[240px] rounded-[8px] h-[45px] mt-4 md:mt-[37.5%] mb-8">
+                <button className="text-white text-sm airbnbBtn w-[240px] rounded-[8px] h-[45px] mt-4 md:mt-9 mb-8">
                   View on AirBnB
                 </button>
               </a>
@@ -418,7 +417,7 @@ const Home = ({ navBar, setNavBar }) => {
                   Manchester Comfy City Stay
                 </span>
               </div>
-              <p className="text-sm md:text-lg text-left pt-2 px-[7.5%] order-3">
+              <p className="text-sm md:text-lg text-left pt-2 px-[7.5%] order-3 xl:h-[320px]">
                 Experience chic city living in our 1-bed flat located in the
                 heart of Manchester. This modern and stylish apartment is
                 perfect for solo travelers or couples looking for a comfortable

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-
 import logo from "../asset/logo.png";
-
 import { Link, useNavigate } from "react-router-dom";
 import ListIcon from "@mui/icons-material/List";
 import CloseIcon from "@mui/icons-material/Close";
@@ -21,9 +19,7 @@ const NavBar = ({ navBar, setNavBar }) => {
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
-  // useEffect(()=>{
 
-  // })
   return (
     <>
       <div
@@ -42,7 +38,7 @@ const NavBar = ({ navBar, setNavBar }) => {
           </div>
           <div
             id="navbar"
-            className="w-full space-x-8 hidden h-full lg:flex md:flex xl:flex flex-row items-center justify-end text-md text-[#627d98] mr-12 md:-mr-8"
+            className="w-full space-x-8 hidden h-full lg:flex flex-row items-center justify-end text-md text-[#627d98] mr-12 md:-mr-8"
           >
             <Link to="/">
               <a className={navBar[0] == 1 ? "text-[#0552b5]" : ""}>Home</a>
@@ -51,14 +47,14 @@ const NavBar = ({ navBar, setNavBar }) => {
               <a className={navBar[1] == 1 ? "text-[#0552b5]" : ""}>Learn</a>
             </Link>
 
-            <a href="https://mybricksstays.com/">Holiday Rentals</a>
+            <a href="https://mybricksstays.com/" className="w-[123px]">Holiday Rentals</a>
 
             <Link to="/portfolio">
               <a className={navBar[2] == 1 ? "text-[#0552b5]" : ""}>
                 Portfolio
               </a>
             </Link>
-            <Link to="/teams">
+            <Link  className="w-[151px]" to="/teams">
               <a className={navBar[3] == 1 ? "text-[#0552b5]" : ""}>
                 Team & Partners
               </a>
@@ -66,9 +62,9 @@ const NavBar = ({ navBar, setNavBar }) => {
 
             <a href="https://docs.airbrick.finance/">Docs</a>
 
-            <a href="https://mybricksinvest.co.uk/">Dashboard (beta)</a>
+            <a href="https://mybricksinvest.co.uk/" className="w-[146px]">Dashboard (beta)</a>
           </div>
-          <div className="lg:hidden md:hidden xl:hidden flex right-0 w-full items-center justify-end">
+          <div className="lg:hidden flex right-0 w-full items-center justify-end">
             {openMenu ? (
               <CloseIcon
                 onClick={() => {
@@ -81,7 +77,7 @@ const NavBar = ({ navBar, setNavBar }) => {
           </div>
         </div>
         {openMenu ? (
-          <div className="w-full h-fit bg-white lg:hidden md:hidden xl:hidden  flex flex-col  items-start  font-medium p-4 text-[#627d98] teamAvatar">
+          <div className="w-full h-fit bg-white lg:hidden flex flex-col items-start font-medium p-4 text-[#627d98] teamAvatar">
             <div
               className={
                 navBar[0] == 1
