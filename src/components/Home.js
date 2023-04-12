@@ -3,6 +3,11 @@ import TravelDetailsView from "./LineChart.js";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import airbnbLogo from '../asset/airbnb.svg'
+import bookingLogo from '../asset/booking.svg'
+import expediaLogo from '../asset/expedia.svg'
+import tripaLogo from '../asset/tripa.svg'
+import vrboLogo from '../asset/vrbo.svg'
 
 const Home = ({ navBar, setNavBar }) => {
 
@@ -80,7 +85,7 @@ const Home = ({ navBar, setNavBar }) => {
                     src="video.mp4"
                   />
 
-                  <div className="ml-6 -mt-[48%] rounded-lg w-[77.5%] absolute z-20 vidBg"></div>
+                  <div className="-mt-[48%] rounded-lg w-[77.5%] absolute z-20 vidBg"></div>
                 </div>
               </div>
 
@@ -89,19 +94,19 @@ const Home = ({ navBar, setNavBar }) => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center mr-auto ml-auto bg-white w-full lg:w-1/2 px-6 lg:px-1 pb-32 pt-16">
-        <h2 className="text-[#002159] text-2xl lg:text-4xl mt-16 font-bold w-full text-center p-2 mb-4">
-          We're building a property investment platform with a difference
-        </h2>
-        <p className="text-center text-gray-600 text-sm lg:text-lg w-full">
-          Bringing property Timeshare Ownership to the blockchain via an
-          incredibly simple and easy to use platform.
-        </p>
-      </div>
+      <div className="flex flex-col w-full px-1 xl:px-28 2xl:px-80 space-y-12 mt-20">
 
-      <div className="flex-col flex home w-full pt-20 pb-20 px-1 lg:px-4">
-        <div className="flex flex-col justify-center items-center mb-12">
-          <div className="bg-white w-full lg:w-[55%] border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 flex flex-col items-center justify-center">
+        <div className="flex items-center justify-center space-x-2 md:space-x-4 lg:space-x-10 w-full px-4 md:px-20">
+          <img className="w-1/5" src={bookingLogo} alt="" />
+          <img className="w-1/5" src={airbnbLogo} alt="" />
+          <img className="w-1/5" src={tripaLogo} alt="" />
+          <img className="w-1/5" src={vrboLogo} alt="" />
+          <img className="w-1/5" src={expediaLogo} alt="" />
+        </div>
+
+        <div className="flex flex-col lg:flex-row justify-center items-center space-x-10">
+
+          <div className="bg-white w-full lg:w-1/2 rounded-lg sm:p-6 md:p-8 flex flex-col items-center justify-center">
             <h2 className="text-[#002159] text-4xl font-bold w-full text-center p-4 mb-4">
               Track Record
             </h2>
@@ -142,7 +147,19 @@ const Home = ({ navBar, setNavBar }) => {
             </div>
             <TravelDetailsView props={dataLine} className="w-full" />
           </div>
+
+          <div className="w-[60%] lg:w-1/2 text-center lg:text-left">
+            <h2 className="text-[#002159] text-2xl lg:text-3xl mt-16 font-bold w-full mb-4">
+              We're building a property investment platform with a difference
+            </h2>
+            <p className="text-gray-600 text-sm lg:text-lg w-full">
+              Bringing property Timeshare Ownership to the blockchain via an
+              incredibly simple and easy to use platform.
+            </p>
+          </div>
+
         </div>
+
       </div>
 
       <div className="flex-col flex home w-full pt-20 mt-20 pb-6 md:pb-20 px-0 xl:px-28 2xl:px-80">
