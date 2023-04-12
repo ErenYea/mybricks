@@ -75,7 +75,7 @@ const Home = ({ navBar, setNavBar }) => {
               </div>
 
               <div className="w-full md:w-1/2 h-full flex flex-col items-center lg:justify-start">
-                <div className="scale-[100%] xl:scale-[160%] xl:mt-20 w-[367px] h-[250px]">
+                <div className="scale-[90%] xl:scale-[160%] xl:mt-20 w-[367px] h-[250px]">
                   <video
                     className="rounded-lg absolute z-40"
                     poster="https://drive.google.com/uc?export=view&id=1QlRFwpeS_ifLbeqjTILOYsm0mkKPii16"
