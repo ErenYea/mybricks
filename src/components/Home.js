@@ -104,7 +104,7 @@ const Home = ({ navBar, setNavBar }) => {
           <img className="w-1/5" src={expediaLogo} alt="" />
         </div>
 
-        <div className="flex flex-col lg:flex-row justify-center items-start lg:space-x-16">
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start lg:space-x-16">
 
           <div className="bg-white w-full lg:w-1/2 rounded-lg sm:p-6 md:p-8 flex flex-col items-center justify-center">
             <h2 className="text-[#002159] text-4xl font-bold w-full text-center p-4 mb-4">
