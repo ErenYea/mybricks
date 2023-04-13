@@ -97,11 +97,11 @@ const Home = ({ navBar, setNavBar }) => {
       <div className="flex flex-col w-full px-1 xl:px-28 2xl:px-80 space-y-12 mt-20">
 
         <div className="flex items-center justify-center space-x-2 md:space-x-4 lg:space-x-10 w-full px-4 md:px-20">
-          <img className="w-1/5" src={bookingLogo} alt="" />
-          <img className="w-1/5" src={airbnbLogo} alt="" />
-          <img className="w-1/5" src={tripaLogo} alt="" />
-          <img className="w-1/5" src={vrboLogo} alt="" />
-          <img className="w-1/5" src={expediaLogo} alt="" />
+          <img className="w-1/5 object-contain h-[35px] lg:h-[60px]" src={bookingLogo} alt="" />
+          <img className="w-1/5 object-contain h-[35px] lg:h-[60px]" src={airbnbLogo} alt="" />
+          <img className="w-1/5 object-contain h-[35px] lg:h-[60px]" src={tripaLogo} alt="" />
+          <img className="w-1/5 object-contain h-[35px] lg:h-[60px]" src={vrboLogo} alt="" />
+          <img className="w-1/5 object-contain h-[35px] lg:h-[60px]" src={expediaLogo} alt="" />
         </div>
 
         <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start lg:space-x-16">
