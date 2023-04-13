@@ -104,7 +104,7 @@ const Home = ({ navBar, setNavBar }) => {
           <img className="w-1/5" src={expediaLogo} alt="" />
         </div>
 
-        <div className="flex flex-col lg:flex-row justify-center items-center space-x-10">
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-16">
 
           <div className="bg-white w-full lg:w-1/2 rounded-lg sm:p-6 md:p-8 flex flex-col items-center justify-center">
             <h2 className="text-[#002159] text-4xl font-bold w-full text-center p-4 mb-4">
@@ -148,8 +148,8 @@ const Home = ({ navBar, setNavBar }) => {
             <TravelDetailsView props={dataLine} className="w-full" />
           </div>
 
-          <div className="w-[60%] lg:w-1/2 text-center lg:text-left">
-            <h2 className="text-[#002159] text-2xl lg:text-3xl mt-16 font-bold w-full mb-4">
+          <div className="w-11/12 lg:w-1/2 text-center lg:text-left">
+            <h2 className="text-black text-2xl lg:text-3xl mt-16 font-bold w-full mb-4 xl:mb-8">
               We're building a property investment platform with a difference
             </h2>
             <p className="text-gray-600 text-sm lg:text-lg w-full">
