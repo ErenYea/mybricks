@@ -110,6 +110,13 @@ const Home = ({ navBar, setNavBar }) => {
             <h2 className="text-[#002159] text-4xl font-bold w-full text-center p-4 mb-4">
               Track Record
             </h2>
+            {click ?
+              <div className="text-[#ff655a] font-bold text-3xl text-center">
+                65% APR
+              </div> :
+              <div className="text-transparent font-bold text-3xl text-center">-</div>
+            }
+            <TravelDetailsView props={dataLine} className="w-full" />
             <div className="flex-col space-y-2">
               <div class="inline-flex rounded-md shadow-sm" role="group">
                 <button
@@ -137,15 +144,7 @@ const Home = ({ navBar, setNavBar }) => {
                   2023
                 </button>
               </div>
-
-              { click &&
-                <div className="text-red-500 font-bold text-center">
-                  65% APR
-                </div>
-              }
-
             </div>
-            <TravelDetailsView props={dataLine} className="w-full" />
           </div>
 
           <div className="w-11/12 lg:w-1/2 text-center lg:text-left">
