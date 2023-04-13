@@ -111,10 +111,10 @@ const Home = ({ navBar, setNavBar }) => {
               Track Record
             </h2>
             {click ?
-              <div className="text-[#ff655a] font-bold text-3xl text-center">
+              <div className="text-[#ff655a] font-bold text-2xl text-center">
                 65% APR
               </div> :
-              <div className="text-transparent font-bold text-3xl text-center">-</div>
+              <div className="text-transparent font-bold text-2xl text-center">-</div>
             }
             <TravelDetailsView props={dataLine} className="w-full" />
             <div className="flex-col space-y-2">
