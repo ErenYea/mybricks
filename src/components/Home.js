@@ -4,10 +4,10 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import airbnbLogo from '../asset/airbnb.svg'
-import bookingLogo from '../asset/booking.svg'
+import bookingLogo from '../asset/booking.png'
 import expediaLogo from '../asset/expedia.svg'
 import tripaLogo from '../asset/tripa.svg'
-import vrboLogo from '../asset/vrbo.svg'
+import vrboLogo from '../asset/vrbo.png'
 
 const Home = ({ navBar, setNavBar }) => {
 
