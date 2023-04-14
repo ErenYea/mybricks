@@ -41,7 +41,7 @@ const Home = ({ navBar, setNavBar }) => {
   return (
     <div id="home" className="w-screen">
 
-      <div className="flex-col flex justify-center items-center home w-full pt-40 pb-20 px-3 lg:px-4">
+      <div className="flex-col flex justify-center items-center home w-full pt-40 pb-20 px-3 lg:px-4 space-y-32">
         <div className="max-w-7xl flex items-center justify-center ">
 
           <div className="flex justify-center md:justify-between items-center w-full">
@@ -92,22 +92,21 @@ const Home = ({ navBar, setNavBar }) => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="flex flex-col w-full px-1 xl:px-28 2xl:px-80 space-y-12 mt-20">
-
-        <div className="flex items-center justify-center space-x-2 md:space-x-4 lg:space-x-10 w-full px-4 md:px-20">
+        <div className="flex items-center justify-center space-x-2 md:space-x-4 lg:space-x-10 w-full px-4 md:px-20 xl:px-28 2xl:px-80">
           <img className="w-1/5 object-contain h-[35px] lg:h-[60px]" src={bookingLogo} alt="" />
           <img className="w-1/5 object-contain h-[35px] lg:h-[60px]" src={airbnbLogo} alt="" />
           <img className="w-1/5 object-contain h-[35px] lg:h-[60px]" src={tripaLogo} alt="" />
           <img className="w-1/5 object-contain h-[35px] lg:h-[60px]" src={vrboLogo} alt="" />
           <img className="w-1/5 object-contain h-[35px] lg:h-[60px]" src={expediaLogo} alt="" />
         </div>
+      </div>
 
-        <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start lg:space-x-16">
+      <div className="flex flex-col w-full px-1 xl:px-28 2xl:px-80 space-y-12 mt-20">
+
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start lg:space-x-16 space-y-10 lg:space-y-0">
 
           <div className="bg-white w-full lg:w-1/2 rounded-lg sm:p-6 md:p-8 flex flex-col items-center justify-center">
-            <h2 className="text-[#002159] text-4xl font-bold w-full text-center p-4 mb-4">
+            <h2 className="text-[#002159] text-4xl font-bold w-full text-center mb-4">
               Track Record
             </h2>
             {click ?
@@ -147,7 +146,7 @@ const Home = ({ navBar, setNavBar }) => {
             </div>
           </div>
 
-          <div className="w-11/12 lg:w-1/2 text-center lg:text-left">
+          <div className="w-11/12 lg:w-1/2 text-center lg:text-left sm:p-6 md:p-8">
             <h2 className="text-black text-2xl lg:text-3xl mt-16 font-bold w-full mb-4 xl:mb-8">
               We're building a property investment platform with a difference
             </h2>
