@@ -147,12 +147,11 @@ const Home = ({ navBar, setNavBar }) => {
           </div>
 
           <div className="w-11/12 lg:w-1/2 text-center lg:text-left sm:p-6 md:p-8">
-            <h2 className="text-black text-2xl lg:text-3xl mt-16 font-bold w-full mb-4 xl:mb-8">
+            <h2 className="text-[#002159] text-2xl lg:text-3xl font-bold w-full mb-4 xl:mb-8">
               We're building a property investment platform with a difference
             </h2>
             <p className="text-gray-600 text-sm lg:text-lg w-full">
-              Bringing property Timeshare Ownership to the blockchain via an
-              incredibly simple and easy to use platform.
+              We are bringing timeshare ownership to the blockchain through an incredibly simple and easy-to-use platform that is user-friendly and offers an interactive graph to track investments. With the potential for high returns, investors can also enjoy staying in the properties in our short-term portfolio.
             </p>
           </div>
 
