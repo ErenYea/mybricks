@@ -7,6 +7,10 @@
   background-image: linear-gradient(97.69deg,#ff8b5b 1.32%,#ff655a 96.3%);
 }
 
+.airbnbBtn:hover {
+  background-image: linear-gradient(97.69deg,#c75b2d 1.32%,#961f17 96.3%);
+}
+
 .home {
   background-image: linear-gradient(
     to top right,

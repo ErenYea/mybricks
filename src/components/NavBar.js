@@ -62,7 +62,7 @@ const NavBar = ({ navBar, setNavBar }) => {
 
             <a href="https://docs.airbrick.finance/">Docs</a>
 
-            <a href="https://mybricksinvest.co.uk/" className="w-[146px] bg-gradient-to-r from-[#17a0cd] to-[#1f546b] p-3 rounded-lg text-white text-center">Launch dApp</a>
+            <a href="https://mybricksinvest.co.uk/" className="w-[120px] airbnbBtn py-2 rounded-md text-white text-center">Launch dApp</a>
           </div>
           <div className="lg:hidden flex right-0 w-full items-center justify-end">
             {openMenu ? (

@@ -72,7 +72,6 @@ const Home = ({ navBar, setNavBar }) => {
                     0x6D635dc4a2A54664B54dF6a63e5ee31D5b29CF6e
                   </span>
                 </p>
-                
               </div>
 
               <div className="w-full md:w-1/2 h-full flex flex-col items-center lg:justify-start">
