@@ -50,7 +50,7 @@ const Home = ({ navBar, setNavBar }) => {
               <div className="w-full md:w-1/2 flex flex-col text-start">
                 <div className="mb-4">
                   <span className="text-2xl lg:text-4xl font-[700] text-[#002159]">
-                    ROCKS - a new era of ownership accessible for everyone
+                    Making Property Timeshare Investing Accessible For Everyone
                   </span>
                 </div>
                 <p className="lg:text-lg text-sm mb-8 text-gray-600 w-full xl:w-11/12">
