@@ -59,19 +59,20 @@ const Home = ({ navBar, setNavBar }) => {
                   by the Binance Smart Chain (BSC) network.
                 </p>
                 <p className="w-full lg:text-base text-sm mb-4 text-gray-600">
-                  ROCKS Contract Address: <br />
-                  <span className="underline max-w-full">
-                    {" "}
-                    0xc2F121d1a0B2d2bEAd8f6C5d274E568b868d4913
-                  </span>
-                </p>
-                <p className="w-full lg:text-base text-sm mb-4 text-gray-600">
                   MyUSD Contract Address: <br />
                   <span className="underline max-w-full">
                     {" "}
-                    0xcf110164BF0e3Ed7859a6750b3326B861AEE028E
+                    0xAD9317601872De47a92A175a94Feb18e72CB5bD5
                   </span>
                 </p>
+                <p className="w-full lg:text-base text-sm mb-4 text-gray-600">
+                  ROCKS Contract Address: <br />
+                  <span className="underline max-w-full">
+                    {" "}
+                    0x6D635dc4a2A54664B54dF6a63e5ee31D5b29CF6e
+                  </span>
+                </p>
+                
               </div>
 
               <div className="w-full md:w-1/2 h-full flex flex-col items-center lg:justify-start">
